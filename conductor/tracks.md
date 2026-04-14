@@ -10,5 +10,5 @@ This file is consumed by the Conductor extension. Each track section must be sep
 
 ---
 
-- [ ] **Track: Verification of 38 references in BMC Public Health submission package (manuscript.submission.md) to detect hallucinations and DOI mismatches.**
+- [x] **Track: Verification of 38 references in BMC Public Health submission package (manuscript.submission.md) to detect hallucinations and DOI mismatches.**
 *Link: [./conductor/tracks/ref_verification_20260414/](./conductor/tracks/ref_verification_20260414/)*
