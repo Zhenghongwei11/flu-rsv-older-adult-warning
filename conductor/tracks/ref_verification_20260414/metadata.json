@@ -1,0 +1,8 @@
+{
+  "track_id": "ref_verification_20260414",
+  "type": "audit",
+  "status": "new",
+  "created_at": "2026-04-14T10:00:00Z",
+  "updated_at": "2026-04-14T10:00:00Z",
+  "description": "Verification of 38 references in BMC Public Health submission package (manuscript.submission.md) to detect hallucinations and DOI mismatches."
+}
