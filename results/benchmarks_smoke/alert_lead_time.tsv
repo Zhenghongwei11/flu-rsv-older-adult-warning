@@ -1,0 +1,61 @@
+exclude_last_weeks	surveillance_network	age_group	site	threshold_rule	threshold_value	method	n_events	n_detected	detection_rate	detection_rate_ci_lo	detection_rate_ci_hi	median_lead_weeks	p25_lead_weeks	p75_lead_weeks	max_lead_weeks
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.075	ridge_univariate	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.075	ridge_with_ed	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.075	ridge_with_signals	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.075	ridge_with_signals_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.075	ridge_with_signals_plus_flu_pos	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.075	ridge_with_signals_plus_flu_pos_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.075	seasonal_naive	2	1	0.5	0.09453120573423074	0.9054687942657693	4.0	4.0	4.0	4.0
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.25	ridge_univariate	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.25	ridge_with_ed	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.25	ridge_with_signals	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.25	ridge_with_signals_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.25	ridge_with_signals_plus_flu_pos	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.25	ridge_with_signals_plus_flu_pos_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.25	seasonal_naive	2	1	0.5	0.09453120573423074	0.9054687942657693	4.0	4.0	4.0	4.0
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.150000000000002	ridge_univariate	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.150000000000002	ridge_with_ed	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.150000000000002	ridge_with_signals	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.150000000000002	ridge_with_signals_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.150000000000002	ridge_with_signals_plus_flu_pos	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.150000000000002	ridge_with_signals_plus_flu_pos_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+0	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.150000000000002	seasonal_naive	2	1	0.5	0.09453120573423074	0.9054687942657693	4.0	4.0	4.0	4.0
+0	RSV-NET	65+ yr	Overall	train_quantile_0.85	2.5	ridge_univariate	2	1	0.5	0.09453120573423074	0.9054687942657693	1.0	1.0	1.0	1.0
+0	RSV-NET	65+ yr	Overall	train_quantile_0.85	2.5	ridge_with_ed	2	1	0.5	0.09453120573423074	0.9054687942657693	1.0	1.0	1.0	1.0
+0	RSV-NET	65+ yr	Overall	train_quantile_0.85	2.5	seasonal_naive	2	2	1.0	0.34238022750665303	1.0	2.5	1.75	3.25	4.0
+0	RSV-NET	65+ yr	Overall	train_quantile_0.90	3.4	ridge_univariate	2	1	0.5	0.09453120573423074	0.9054687942657693	1.0	1.0	1.0	1.0
+0	RSV-NET	65+ yr	Overall	train_quantile_0.90	3.4	ridge_with_ed	2	1	0.5	0.09453120573423074	0.9054687942657693	1.0	1.0	1.0	1.0
+0	RSV-NET	65+ yr	Overall	train_quantile_0.90	3.4	seasonal_naive	2	2	1.0	0.34238022750665303	1.0	2.5	1.75	3.25	4.0
+0	RSV-NET	65+ yr	Overall	train_quantile_0.95	5.079999999999996	ridge_univariate	3	1	0.3333333333333333	0.06149194472039615	0.7923403991979523	1.0	1.0	1.0	1.0
+0	RSV-NET	65+ yr	Overall	train_quantile_0.95	5.079999999999996	ridge_with_ed	3	1	0.3333333333333333	0.06149194472039615	0.7923403991979523	1.0	1.0	1.0	1.0
+0	RSV-NET	65+ yr	Overall	train_quantile_0.95	5.079999999999996	seasonal_naive	3	2	0.6666666666666666	0.20765960080204765	0.9385080552796037	4.0	4.0	4.0	4.0
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.414999999999994	ridge_univariate	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.414999999999994	ridge_with_ed	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.414999999999994	ridge_with_signals	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.414999999999994	ridge_with_signals_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.414999999999994	ridge_with_signals_plus_flu_pos	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.414999999999994	ridge_with_signals_plus_flu_pos_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.85	11.414999999999994	seasonal_naive	2	1	0.5	0.09453120573423074	0.9054687942657693	4.0	4.0	4.0	4.0
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.290000000000001	ridge_univariate	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.290000000000001	ridge_with_ed	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.290000000000001	ridge_with_signals	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.290000000000001	ridge_with_signals_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.290000000000001	ridge_with_signals_plus_flu_pos	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.290000000000001	ridge_with_signals_plus_flu_pos_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.90	14.290000000000001	seasonal_naive	2	1	0.5	0.09453120573423074	0.9054687942657693	4.0	4.0	4.0	4.0
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.189999999999998	ridge_univariate	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.189999999999998	ridge_with_ed	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.189999999999998	ridge_with_signals	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.189999999999998	ridge_with_signals_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.189999999999998	ridge_with_signals_plus_flu_pos	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.189999999999998	ridge_with_signals_plus_flu_pos_plus_ed	2	0	0.0	0.0	0.6576197724933469				
+4	FluSurv-NET	65+ yr	Overall	train_quantile_0.95	18.189999999999998	seasonal_naive	2	1	0.5	0.09453120573423074	0.9054687942657693	4.0	4.0	4.0	4.0
+4	RSV-NET	65+ yr	Overall	train_quantile_0.85	2.3	ridge_univariate	2	1	0.5	0.09453120573423074	0.9054687942657693	1.0	1.0	1.0	1.0
+4	RSV-NET	65+ yr	Overall	train_quantile_0.85	2.3	ridge_with_ed	2	1	0.5	0.09453120573423074	0.9054687942657693	1.0	1.0	1.0	1.0
+4	RSV-NET	65+ yr	Overall	train_quantile_0.85	2.3	seasonal_naive	2	2	1.0	0.34238022750665303	1.0	2.5	1.75	3.25	4.0
+4	RSV-NET	65+ yr	Overall	train_quantile_0.90	3.1800000000000015	ridge_univariate	2	1	0.5	0.09453120573423074	0.9054687942657693	1.0	1.0	1.0	1.0
+4	RSV-NET	65+ yr	Overall	train_quantile_0.90	3.1800000000000015	ridge_with_ed	2	1	0.5	0.09453120573423074	0.9054687942657693	1.0	1.0	1.0	1.0
+4	RSV-NET	65+ yr	Overall	train_quantile_0.90	3.1800000000000015	seasonal_naive	2	2	1.0	0.34238022750665303	1.0	2.5	1.75	3.25	4.0
+4	RSV-NET	65+ yr	Overall	train_quantile_0.95	4.189999999999998	ridge_univariate	3	2	0.6666666666666666	0.20765960080204765	0.9385080552796037	2.0	1.5	2.5	3.0
+4	RSV-NET	65+ yr	Overall	train_quantile_0.95	4.189999999999998	ridge_with_ed	3	2	0.6666666666666666	0.20765960080204765	0.9385080552796037	2.0	1.5	2.5	3.0
+4	RSV-NET	65+ yr	Overall	train_quantile_0.95	4.189999999999998	seasonal_naive	3	3	1.0	0.43850296824495455	1.0	4.0	2.5	4.0	4.0

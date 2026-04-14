@@ -1,0 +1,273 @@
+surveillance_network	age_group	site	n_rows	time_min	time_max	variable	n_missing	frac_missing
+FluSurv-NET	65+ yr	Overall	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	65+ yr	Overall	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	65+ yr	Overall	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	65+ yr	Overall	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	65+ yr	Overall	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	65+ yr	Overall	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	65+ yr	Overall	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	65+ yr	Overall	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	California	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	California	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	California	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	California	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	California	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	California	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	California	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	California	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Colorado	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Colorado	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	Colorado	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	Colorado	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	Colorado	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	Colorado	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	Colorado	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Colorado	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Connecticut	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Connecticut	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	Connecticut	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	Connecticut	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	Connecticut	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	Connecticut	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	Connecticut	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Connecticut	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Georgia	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Georgia	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	Georgia	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	Georgia	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	Georgia	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	Georgia	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	Georgia	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Georgia	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Iowa	67	2019-10-05	2022-06-11	rate_per_100k	31	0.4626865671641791
+FluSurv-NET	Overall	Iowa	67	2019-10-05	2022-06-11	rsvpos	36	0.5373134328358209
+FluSurv-NET	Overall	Iowa	67	2019-10-05	2022-06-11	rsvtest	36	0.5373134328358209
+FluSurv-NET	Overall	Iowa	67	2019-10-05	2022-06-11	rsv_positivity	36	0.5373134328358209
+FluSurv-NET	Overall	Iowa	67	2019-10-05	2022-06-11	wili	0	0.0
+FluSurv-NET	Overall	Iowa	67	2019-10-05	2022-06-11	flu_positivity	67	1.0
+FluSurv-NET	Overall	Iowa	67	2019-10-05	2022-06-11	ed_influenza_pct_65p	67	1.0
+FluSurv-NET	Overall	Iowa	67	2019-10-05	2022-06-11	ed_rsv_pct_65p	67	1.0
+FluSurv-NET	Overall	Maryland	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Maryland	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	Maryland	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	Maryland	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	Maryland	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	Maryland	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	Maryland	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Maryland	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Michigan	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Michigan	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	Michigan	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	Michigan	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	Michigan	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	Michigan	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	Michigan	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Michigan	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Minnesota	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Minnesota	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	Minnesota	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	Minnesota	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	Minnesota	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	Minnesota	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	Minnesota	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Minnesota	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	New Mexico	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	New Mexico	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	New Mexico	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	New Mexico	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	New Mexico	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	New Mexico	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	New Mexico	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	New Mexico	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	New York	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	New York	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	New York	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	New York	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	New York	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	New York	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	New York	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	New York	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	North Carolina	107	2023-10-07	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	North Carolina	107	2023-10-07	2026-03-14	rsvpos	107	1.0
+FluSurv-NET	Overall	North Carolina	107	2023-10-07	2026-03-14	rsvtest	107	1.0
+FluSurv-NET	Overall	North Carolina	107	2023-10-07	2026-03-14	rsv_positivity	107	1.0
+FluSurv-NET	Overall	North Carolina	107	2023-10-07	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	North Carolina	107	2023-10-07	2026-03-14	flu_positivity	0	0.0
+FluSurv-NET	Overall	North Carolina	107	2023-10-07	2026-03-14	ed_influenza_pct_65p	0	0.0
+FluSurv-NET	Overall	North Carolina	107	2023-10-07	2026-03-14	ed_rsv_pct_65p	0	0.0
+FluSurv-NET	Overall	Ohio	212	2018-10-06	2025-05-03	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Ohio	212	2018-10-06	2025-05-03	rsvpos	150	0.7075471698113207
+FluSurv-NET	Overall	Ohio	212	2018-10-06	2025-05-03	rsvtest	150	0.7075471698113207
+FluSurv-NET	Overall	Ohio	212	2018-10-06	2025-05-03	rsv_positivity	150	0.7075471698113207
+FluSurv-NET	Overall	Ohio	212	2018-10-06	2025-05-03	wili	0	0.0
+FluSurv-NET	Overall	Ohio	212	2018-10-06	2025-05-03	flu_positivity	98	0.46226415094339623
+FluSurv-NET	Overall	Ohio	212	2018-10-06	2025-05-03	ed_influenza_pct_65p	98	0.46226415094339623
+FluSurv-NET	Overall	Ohio	212	2018-10-06	2025-05-03	ed_rsv_pct_65p	98	0.46226415094339623
+FluSurv-NET	Overall	Oregon	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Oregon	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	Oregon	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	Oregon	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	Oregon	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	Oregon	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	Oregon	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Oregon	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Overall	1919	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Overall	1919	2018-10-06	2026-03-14	rsvpos	1423	0.7415320479416363
+FluSurv-NET	Overall	Overall	1919	2018-10-06	2026-03-14	rsvtest	1423	0.7415320479416363
+FluSurv-NET	Overall	Overall	1919	2018-10-06	2026-03-14	rsv_positivity	1423	0.7415320479416363
+FluSurv-NET	Overall	Overall	1919	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	Overall	1919	2018-10-06	2026-03-14	flu_positivity	815	0.42470036477331946
+FluSurv-NET	Overall	Overall	1919	2018-10-06	2026-03-14	ed_influenza_pct_65p	815	0.42470036477331946
+FluSurv-NET	Overall	Overall	1919	2018-10-06	2026-03-14	ed_rsv_pct_65p	815	0.42470036477331946
+FluSurv-NET	Overall	Tennessee	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Tennessee	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	Tennessee	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	Tennessee	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	Tennessee	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	Tennessee	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	Tennessee	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Tennessee	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Utah	236	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Utah	236	2018-10-06	2026-03-14	rsvpos	174	0.7372881355932204
+FluSurv-NET	Overall	Utah	236	2018-10-06	2026-03-14	rsvtest	174	0.7372881355932204
+FluSurv-NET	Overall	Utah	236	2018-10-06	2026-03-14	rsv_positivity	174	0.7372881355932204
+FluSurv-NET	Overall	Utah	236	2018-10-06	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	Utah	236	2018-10-06	2026-03-14	flu_positivity	98	0.4152542372881356
+FluSurv-NET	Overall	Utah	236	2018-10-06	2026-03-14	ed_influenza_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Utah	236	2018-10-06	2026-03-14	ed_rsv_pct_65p	98	0.4152542372881356
+FluSurv-NET	Overall	Washington	24	2025-10-04	2026-03-14	rate_per_100k	0	0.0
+FluSurv-NET	Overall	Washington	24	2025-10-04	2026-03-14	rsvpos	24	1.0
+FluSurv-NET	Overall	Washington	24	2025-10-04	2026-03-14	rsvtest	24	1.0
+FluSurv-NET	Overall	Washington	24	2025-10-04	2026-03-14	rsv_positivity	24	1.0
+FluSurv-NET	Overall	Washington	24	2025-10-04	2026-03-14	wili	0	0.0
+FluSurv-NET	Overall	Washington	24	2025-10-04	2026-03-14	flu_positivity	0	0.0
+FluSurv-NET	Overall	Washington	24	2025-10-04	2026-03-14	ed_influenza_pct_65p	0	0.0
+FluSurv-NET	Overall	Washington	24	2025-10-04	2026-03-14	ed_rsv_pct_65p	0	0.0
+RSV-NET	65+ yr	Overall	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	65+ yr	Overall	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	65+ yr	Overall	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	65+ yr	Overall	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	65+ yr	Overall	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	65+ yr	Overall	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	65+ yr	Overall	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	65+ yr	Overall	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	California	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	California	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	California	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	California	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	California	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	California	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	California	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	California	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Colorado	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	Colorado	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	Colorado	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	Colorado	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	Colorado	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	Colorado	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	Colorado	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Colorado	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Connecticut	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	Connecticut	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	Connecticut	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	Connecticut	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	Connecticut	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	Connecticut	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	Connecticut	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Connecticut	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Georgia	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	Georgia	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	Georgia	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	Georgia	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	Georgia	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	Georgia	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	Georgia	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Georgia	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Maryland	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	Maryland	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	Maryland	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	Maryland	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	Maryland	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	Maryland	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	Maryland	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Maryland	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Michigan	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	Michigan	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	Michigan	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	Michigan	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	Michigan	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	Michigan	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	Michigan	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Michigan	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Minnesota	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	Minnesota	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	Minnesota	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	Minnesota	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	Minnesota	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	Minnesota	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	Minnesota	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Minnesota	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	New Mexico	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	New Mexico	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	New Mexico	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	New Mexico	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	New Mexico	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	New Mexico	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	New Mexico	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	New Mexico	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	New York	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	New York	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	New York	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	New York	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	New York	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	New York	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	New York	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	New York	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	North Carolina	76	2024-10-05	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	North Carolina	76	2024-10-05	2026-03-14	rsvpos	76	1.0
+RSV-NET	Overall	North Carolina	76	2024-10-05	2026-03-14	rsvtest	76	1.0
+RSV-NET	Overall	North Carolina	76	2024-10-05	2026-03-14	rsv_positivity	76	1.0
+RSV-NET	Overall	North Carolina	76	2024-10-05	2026-03-14	wili	0	0.0
+RSV-NET	Overall	North Carolina	76	2024-10-05	2026-03-14	flu_positivity	0	0.0
+RSV-NET	Overall	North Carolina	76	2024-10-05	2026-03-14	ed_influenza_pct_65p	0	0.0
+RSV-NET	Overall	North Carolina	76	2024-10-05	2026-03-14	ed_rsv_pct_65p	0	0.0
+RSV-NET	Overall	Oregon	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	Oregon	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	Oregon	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	Oregon	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	Oregon	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	Oregon	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	Oregon	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Oregon	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Overall	2776	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	Overall	2776	2018-10-06	2026-03-14	rsvpos	2280	0.8213256484149856
+RSV-NET	Overall	Overall	2776	2018-10-06	2026-03-14	rsvtest	2280	0.8213256484149856
+RSV-NET	Overall	Overall	2776	2018-10-06	2026-03-14	rsv_positivity	2280	0.8213256484149856
+RSV-NET	Overall	Overall	2776	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	Overall	2776	2018-10-06	2026-03-14	flu_positivity	1328	0.4783861671469741
+RSV-NET	Overall	Overall	2776	2018-10-06	2026-03-14	ed_influenza_pct_65p	1328	0.4783861671469741
+RSV-NET	Overall	Overall	2776	2018-10-06	2026-03-14	ed_rsv_pct_65p	1328	0.4783861671469741
+RSV-NET	Overall	Tennessee	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	Tennessee	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	Tennessee	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	Tennessee	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	Tennessee	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	Tennessee	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	Tennessee	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Tennessee	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Utah	347	2018-10-06	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	Utah	347	2018-10-06	2026-03-14	rsvpos	285	0.8213256484149856
+RSV-NET	Overall	Utah	347	2018-10-06	2026-03-14	rsvtest	285	0.8213256484149856
+RSV-NET	Overall	Utah	347	2018-10-06	2026-03-14	rsv_positivity	285	0.8213256484149856
+RSV-NET	Overall	Utah	347	2018-10-06	2026-03-14	wili	0	0.0
+RSV-NET	Overall	Utah	347	2018-10-06	2026-03-14	flu_positivity	166	0.4783861671469741
+RSV-NET	Overall	Utah	347	2018-10-06	2026-03-14	ed_influenza_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Utah	347	2018-10-06	2026-03-14	ed_rsv_pct_65p	166	0.4783861671469741
+RSV-NET	Overall	Washington	24	2025-10-04	2026-03-14	rate_per_100k	0	0.0
+RSV-NET	Overall	Washington	24	2025-10-04	2026-03-14	rsvpos	24	1.0
+RSV-NET	Overall	Washington	24	2025-10-04	2026-03-14	rsvtest	24	1.0
+RSV-NET	Overall	Washington	24	2025-10-04	2026-03-14	rsv_positivity	24	1.0
+RSV-NET	Overall	Washington	24	2025-10-04	2026-03-14	wili	0	0.0
+RSV-NET	Overall	Washington	24	2025-10-04	2026-03-14	flu_positivity	0	0.0
+RSV-NET	Overall	Washington	24	2025-10-04	2026-03-14	ed_influenza_pct_65p	0	0.0
+RSV-NET	Overall	Washington	24	2025-10-04	2026-03-14	ed_rsv_pct_65p	0	0.0

@@ -1,0 +1,28 @@
+{
+  "title": "Older-Adult Influenza/RSV Hospital Burden Early Warning (Public Data)",
+  "upload_type": "software",
+  "description": "Reproducible, audit-ready pipeline that forecasts older-adult (65+) hospitalization burden for influenza (FluSurv-NET) and RSV (RSV-NET) using publicly available U.S. surveillance data, and translates forecasts into decision-relevant alerts (utility, expected cost, lead time).",
+  "creators": [
+    {
+      "name": "Zheng, Hongwei",
+      "affiliation": "Quanzhou Medical College, Quanzhou, Fujian, China"
+    },
+    {
+      "name": "Zhang, Tinge",
+      "affiliation": "Quanzhou Institute for Infectious Disease Prevention and Control, Quanzhou, Fujian, China"
+    },
+    {
+      "name": "Lin, Shaomei",
+      "affiliation": "Quanzhou, Fujian, China"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "public health surveillance",
+    "older adults",
+    "influenza",
+    "RSV",
+    "forecasting",
+    "decision analysis"
+  ]
+}

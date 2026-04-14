@@ -1,0 +1,5 @@
+surveillance_network	method	alert_weeks_reconstructed	prop_alert_weeks_oct_mar	episodes_total	episode_length_median_weeks	episode_length_max_weeks	episode_gap_median_weeks	n_origin_weeks	alert_week_fraction	episodes_total_summary
+FluSurv-NET	ridge_with_signals	15	1.0	2	7.5	11.0	40.0	72	0.2083333333333333	2
+FluSurv-NET	seasonal_naive	18	1.0	2	9.0	11.0	46.0	56	0.3214285714285714	2
+RSV-NET	ridge_with_ed	28	1.0	4	6.0	15.0	37.0	104	0.2692307692307692	4
+RSV-NET	seasonal_naive	52	0.9807692307692307	4	14.5	19.0	39.0	186	0.2795698924731182	4

@@ -1,0 +1,2 @@
+surveillance_network	age_group	site	horizon_weeks	n_weeks	spearman_r	spearman_r_ci_lo	spearman_r_ci_hi	shift_permutation_p	notes
+RSV-NET	65+ yr	Overall	1	180	0.8613625756831194	0.7577096497751328	0.9132814167024567	0.0112	ED deviation at week t vs hospitalization deviation at week t+1; both deviations from leave-one-year-out seasonal medians by MMWR week (modern syndromic surveillance era weeks only).

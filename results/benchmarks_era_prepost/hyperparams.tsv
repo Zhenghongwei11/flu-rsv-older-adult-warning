@@ -1,0 +1,361 @@
+exclude_last_weeks	surveillance_network	age_group	site	train_scope	method	horizon_weeks	lambda	tune_n	lam_grid	tune_min_train	tune_last_n	tune_cutoff_index
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_ed	1	100.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_ed	2	100.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_ed	1	100.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_ed	2	100.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_ed	1	100.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_ed	2	100.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	3	10.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	10.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_ed	1	0.01	39	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_ed	2	0.01	38	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_ed	3	0.01	37	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_ed	4	0.01	36	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_ed	1	0.01	39	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_ed	2	0.01	38	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_ed	3	0.01	37	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_ed	4	0.01	36	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_ed	1	0.01	39	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_ed	2	0.01	38	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_ed	3	0.01	37	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_ed	4	0.01	36	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_ed	1	1.0	39	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_ed	2	10.0	38	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_ed	3	10.0	37	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_ed	4	1.0	36	0.01,0.1,1.0,10.0,100.0	52	52	238
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	Overall	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	Overall	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	Overall	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+0	RSV-NET	Overall	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_ed	1	100.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_ed	2	100.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_ed	1	100.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_ed	2	100.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_ed	1	100.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_ed	2	100.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	10.0	36	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	10.0	34	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_ed	3	100.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	3	10.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	10.0	32	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	100.0	30	0.01,0.1,1.0,10.0,100.0	52	52	170
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_ed	1	0.01	39	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_ed	2	0.01	38	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_ed	3	0.01	37	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_ed	4	0.01	36	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-4 yr	Overall	within_site	ridge_with_signals_plus_ed	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_ed	1	0.01	39	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_ed	2	0.01	38	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_ed	3	0.01	37	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_ed	4	0.01	36	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	0-<1 yr	Overall	within_site	ridge_with_signals_plus_ed	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_ed	1	0.01	39	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_ed	2	0.01	38	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_ed	3	0.01	37	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_ed	4	0.01	36	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	1-4 yr	Overall	within_site	ridge_with_signals_plus_ed	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_ed	1	1.0	39	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_ed	2	10.0	38	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_ed	3	10.0	37	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_ed	4	1.0	36	0.01,0.1,1.0,10.0,100.0	52	52	238
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	5-17 yr	Overall	within_site	ridge_with_signals_plus_ed	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	Overall	Overall	within_site	ridge_with_signals	1	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	Overall	Overall	within_site	ridge_with_signals	2	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	Overall	Overall	within_site	ridge_with_signals	3	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52
+4	RSV-NET	Overall	Overall	within_site	ridge_with_signals	4	1.0	0	0.01,0.1,1.0,10.0,100.0	52	52	52

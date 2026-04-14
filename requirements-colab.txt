@@ -1,0 +1,7 @@
+# Colab-friendly runtime dependencies (avoid strict pins; Colab Python is not 3.13).
+numpy
+pandas
+requests
+matplotlib
+python-docx
+

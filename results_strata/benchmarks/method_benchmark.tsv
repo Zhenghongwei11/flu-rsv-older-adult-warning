@@ -1,0 +1,1595 @@
+exclude_last_weeks	surveillance_network	age_group	site	train_scope	method	horizon_weeks	split_scheme	metric	metric_value	ci_lo	ci_hi	n_forecasts
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	2.563908471452229	1.397369425887794	4.286112397353235	76
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	4.788631375007889	2.6614595548890323	6.796565409313797	76
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	3.5702200762978675	2.0691968052644847	5.465924973429874	74
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	6.231668839433466	3.8580589895323905	8.795324296261393	74
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	4.271563551578238	2.1039750469097505	6.857402318230793	72
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	7.280774317451641	4.573340408399279	9.629531961417122	72
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	4.808658042054734	2.825457734621292	7.493910705296668	70
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	7.900680004899097	4.81944970364254	10.640039749041321	70
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	1	rolling_origin	MAE	2.351969207936149	1.1114114019542756	3.949372694879954	76
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	1	rolling_origin	RMSE	4.561356874205719	2.430573851979988	6.458231069070296	76
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	2	rolling_origin	MAE	3.3722148612131826	1.8772848014205112	5.530841349771545	74
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	2	rolling_origin	RMSE	6.185833676431386	3.594332331129272	8.637043150959402	74
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	3	rolling_origin	MAE	4.031375905187392	2.018130240223794	6.425149470536505	72
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	3	rolling_origin	RMSE	6.940067677181617	4.077507491821232	9.438516942120232	72
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	4	rolling_origin	MAE	4.375792483089733	2.291765885686565	7.100200021115053	70
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	4	rolling_origin	RMSE	7.360427843932565	4.6778300450105315	10.074542448883335	70
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	2.6825636413265954	1.4575438996040957	4.210801906543478	76
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	4.653392204103609	2.2880652483848527	6.4131354129054134	76
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	3.9970655374729738	2.337560494381592	6.247317277986022	74
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	6.509162647948535	3.789626085866484	8.850589873120596	74
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	4.703590205533778	2.8588698286409997	7.138612904976882	72
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	7.339822054959035	4.314962440311063	10.19230240937678	72
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	5.209909005920005	3.206536738428077	8.002446857910149	70
+0	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	7.903114833876625	4.759247087586973	10.861136585499754	70
+0	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	6.203508771929824	2.9594736842105265	9.314824561403507	57
+0	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	9.339164844888433	5.126478615517269	12.566361328430046	57
+0	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	6.3909090909090915	3.0375454545454543	10.152863636363634	55
+0	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	9.503960896766817	5.064601131660111	12.915988640565528	55
+0	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	6.605660377358491	3.5025943396226418	9.921462264150943	53
+0	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	9.68035357221103	5.318749930958779	13.417293997823913	53
+0	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	6.841176470588235	3.5876470588235287	10.781764705882352	51
+0	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	9.867305888143738	5.937173183477627	13.23716865779581	51
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	5.135737374312882	2.517376065626067	8.910350338073448	76
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	10.20761941291012	5.237967867942801	14.362736330484056	76
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	6.69718829279857	3.108356038756755	11.320545360901884	74
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	12.963764827165411	6.664481944929847	18.360983977596288	74
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	8.387054695993255	4.282782690932605	14.785676522091252	72
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	14.596261283235096	8.982092750934797	20.210879171993813	72
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	9.420429098194765	4.855487887990631	14.95935011446883	70
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	15.61310330507882	10.109730302744268	21.074617826771156	70
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	1	rolling_origin	MAE	5.209368908933379	2.3920487802869452	8.387771198316683	76
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	1	rolling_origin	RMSE	9.928681439576577	4.74761277272757	14.21398653705973	76
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	2	rolling_origin	MAE	6.904156223614711	3.704316854264556	11.288689524835476	74
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	2	rolling_origin	RMSE	12.632582184517943	6.857803051027494	17.4196006381279	74
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	3	rolling_origin	MAE	8.482929075468263	4.89739423107763	13.188124790022147	72
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	3	rolling_origin	RMSE	14.117040672338183	8.100839637021107	19.60587901230956	72
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	4	rolling_origin	MAE	9.291515121658875	5.437052240765254	14.473674132386495	70
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	4	rolling_origin	RMSE	14.952953869478254	8.93849808740088	20.721456742236818	70
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	5.31560301961742	2.972015711556743	8.284607597662204	76
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	9.203642241413823	5.218426895752304	12.724154934319746	76
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	7.607220433241459	4.5066205227054095	11.426864181787211	74
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	12.624200758522868	7.871268294985272	17.837438064240065	74
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	9.097632876475142	5.409759288372809	14.093008800156413	72
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	14.229354827955566	8.239145441048318	19.549270984309665	72
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	9.953000111796168	6.6681327766536995	14.711238566024733	70
+0	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	15.108791383149923	9.252554467214178	20.186016871124405	70
+0	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	11.142105263157895	5.339692982456141	17.406578947368423	57
+0	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	16.965729129992635	9.854118634693185	23.179518399690043	57
+0	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	11.512727272727272	5.685136363636364	17.852954545454548	55
+0	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	17.269542290086637	9.969487898657768	22.848262575837907	55
+0	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	11.90754716981132	6.23367924528302	18.485141509433962	53
+0	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	17.5904079779347	11.18165925761699	23.632925177030533	53
+0	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	12.333333333333334	6.379558823529412	19.03490196078431	51
+0	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	17.930464819057285	11.221446887946346	23.651977567842568	51
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	10.193709362670589	4.955135180619706	17.567471350063297	76
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	20.488861011524712	9.51165160041453	31.62992620502521	76
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	13.274873593074833	6.848078398759408	22.6291958604535	74
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	24.91751480461496	12.709052625394724	35.75706678063748	74
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	16.06862438118173	8.548701062979108	25.48702200939876	72
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	27.3761151902866	16.508425303728597	37.86201661483105	72
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	17.73253516103442	9.921665654279817	27.572873753509302	70
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	28.906524796403822	16.566065821232765	40.44816505928151	70
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	1	rolling_origin	MAE	10.20191512415906	4.67256951477777	17.697487786468287	76
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	1	rolling_origin	RMSE	20.011602491335807	9.460238499808378	29.7102223129576	76
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	2	rolling_origin	MAE	12.62704762115441	6.4233152078348335	20.77154526407885	74
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	2	rolling_origin	RMSE	24.26252915498681	13.01640432154408	35.32685719840763	74
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	3	rolling_origin	MAE	15.024058719503236	7.227758502592046	25.042011222624375	72
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	3	rolling_origin	RMSE	26.87543156496877	15.114586598730849	38.770679469047614	72
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	4	rolling_origin	MAE	15.978884167714416	8.658039495768607	25.137468125454184	70
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	4	rolling_origin	RMSE	27.96546527610117	15.357764437429474	39.53581795179043	70
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	10.431485928602873	5.477657664371766	16.448305744358798	76
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	18.37902600245688	10.330281901913285	26.301518981426586	76
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	14.575433382619252	7.937848889512958	22.113737585407584	74
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	24.813351622454416	14.09376886248954	34.52144053773525	74
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	17.07353324756535	9.822386546591135	25.995981520515546	72
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	27.802496404970764	16.781123349062558	38.05025812568861	72
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	17.667481758283966	10.061784496452827	26.753528630827855	70
+0	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	28.760432323577426	16.59057207189396	40.17267942014418	70
+0	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	18.989473684210527	9.122456140350879	29.923201754385964	57
+0	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	29.52047757898283	17.466657811188476	39.80698428371416	57
+0	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	19.61454545454545	9.598136363636364	30.96395454545454	55
+0	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	30.0489116426717	18.15785928775544	40.61523175036822	55
+0	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	20.23396226415094	9.821415094339624	31.303632075471697	53
+0	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	30.601048200076356	19.548756464140336	40.446060095908265	53
+0	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	20.954901960784316	10.672450980392158	31.72700980392157	51
+0	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	31.191222370102402	18.357244884577305	41.27637842998714	51
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.7869578909966668			76
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	1.2681495942612757			76
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.0976331059833218			74
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.6093119249831598			74
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.4055141530780122			72
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.9478464627704883			72
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.6178598118146266			70
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	2.2098335707326786			70
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	0.7728732120853338			76
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	1.2870739861716187			76
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.0661870327571075			74
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	1.6517296924605116			74
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.32864852383354			72
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	1.9517893703815266			72
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	1.4864684155013537			70
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	2.1566717058243166			70
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.0315074895332015			76
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	1.5580323115278776			76
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.3558024839965097			74
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	1.9510854077837774			74
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	1.6393100886511556			72
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	2.2440552804288045			72
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	1.8400865117809206			70
+0	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	2.482001643412934			70
+0	FluSurv-NET	Overall	California	within_site	seasonal_naive	1	rolling_origin	MAE	2.2175438596491226			57
+0	FluSurv-NET	Overall	California	within_site	seasonal_naive	1	rolling_origin	RMSE	3.414571458560215			57
+0	FluSurv-NET	Overall	California	within_site	seasonal_naive	2	rolling_origin	MAE	2.2818181818181817			55
+0	FluSurv-NET	Overall	California	within_site	seasonal_naive	2	rolling_origin	RMSE	3.4743998827789735			55
+0	FluSurv-NET	Overall	California	within_site	seasonal_naive	3	rolling_origin	MAE	2.3528301886792455			53
+0	FluSurv-NET	Overall	California	within_site	seasonal_naive	3	rolling_origin	RMSE	3.538014580214632			53
+0	FluSurv-NET	Overall	California	within_site	seasonal_naive	4	rolling_origin	MAE	2.4294117647058826			51
+0	FluSurv-NET	Overall	California	within_site	seasonal_naive	4	rolling_origin	RMSE	3.6056328480995004			51
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.1827718822552082			76
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.205233024748612			76
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.5711036915981142			74
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	2.7417997407956274			74
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.839568744544634			72
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	3.0872563879497488			72
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.188645324991831			70
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	3.3892971824816747			70
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.1281744928627275			76
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	2.131814081090393			76
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.5173574073379392			74
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	2.7183028678246974			74
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.7888378522215322			72
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	3.0404716885135397			72
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.076261291012815			70
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	3.295921504134954			70
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.1829364752844118			76
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	2.086914670875184			76
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.7227345380618302			74
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	2.718272729312305			74
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.005026205236372			72
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	3.023616505892682			72
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.30195823145105			70
+0	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	3.2598094885534628			70
+0	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	1	rolling_origin	MAE	2.329824561403509			57
+0	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	1	rolling_origin	RMSE	3.2543088845082724			57
+0	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	2	rolling_origin	MAE	2.4018181818181823			55
+0	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	2	rolling_origin	RMSE	3.311934342783548			55
+0	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	3	rolling_origin	MAE	2.4773584905660377			53
+0	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	3	rolling_origin	RMSE	3.3724466232121593			53
+0	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	4	rolling_origin	MAE	2.562745098039216			51
+0	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	4	rolling_origin	RMSE	3.43719561932256			51
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	1	rolling_origin	MAE	2.3893689852802056			76
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	4.748145839590344			76
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	2	rolling_origin	MAE	3.325420604063842			74
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	6.292044914723216			74
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	3	rolling_origin	MAE	3.985299478762448			72
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	7.24515967569642			72
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	4	rolling_origin	MAE	4.570028075539458			70
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	7.795599781668157			70
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	2.3089493591166663			76
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	4.7025726738922415			76
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	3.2301456673650404			74
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	6.14402199669577			74
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	3.7907636760323697			72
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	6.950309145375703			72
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	4.171764229424236			70
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	7.34635961741557			70
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	2.583277665156855			76
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	4.802342018547657			76
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	3.390781098432469			74
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	6.140090531491526			74
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	3.9372352938061095			72
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	6.842278725912536			72
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	4.389829480846387			70
+0	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	7.271117349892801			70
+0	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	1	rolling_origin	MAE	5.3614035087719305			57
+0	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	1	rolling_origin	RMSE	8.40496929036209			57
+0	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	2	rolling_origin	MAE	5.474545454545455			55
+0	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	2	rolling_origin	RMSE	8.536712162504633			55
+0	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	3	rolling_origin	MAE	5.624528301886793			53
+0	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	3	rolling_origin	RMSE	8.686521765203752			53
+0	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	4	rolling_origin	MAE	5.821568627450981			51
+0	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	4	rolling_origin	RMSE	8.853613419854929			51
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.5911194789970757			76
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	3.308624616786164			76
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	2	rolling_origin	MAE	2.1481303871136435			74
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	4.0872616586520465			74
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	3	rolling_origin	MAE	2.5499458342630996			72
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	4.4477940255218265			72
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.8452684157194037			70
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	4.593832749427744			70
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.5255264407701703			76
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	3.258687620094596			76
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	2.1112497560976364			74
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	3.995775700631335			74
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	2.4097134384926093			72
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	4.277191913732134			72
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.626738395909752			70
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	4.353171150268173			70
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.702383494641009			76
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	3.2871859730840955			76
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	2.318465530216075			74
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	3.960983970776716			74
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.5857520075726277			72
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	4.169660710056018			72
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.8446030962382305			70
+0	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	4.257930266468254			70
+0	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	1	rolling_origin	MAE	3.075438596491228			57
+0	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	1	rolling_origin	RMSE	4.455255126882639			57
+0	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	2	rolling_origin	MAE	3.185454545454546			55
+0	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	2	rolling_origin	RMSE	4.535516408404791			55
+0	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	3	rolling_origin	MAE	3.303773584905661			53
+0	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	3	rolling_origin	RMSE	4.6202793348536275			53
+0	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	4	rolling_origin	MAE	3.4333333333333336			51
+0	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	4	rolling_origin	RMSE	4.710001873360437			51
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.8021701048518772			76
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	3.6138712840779004			76
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	2	rolling_origin	MAE	2.5895303724422134			74
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	4.941754412002666			74
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	3	rolling_origin	MAE	3.174862244665863			72
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	5.7004812261749525			72
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	4	rolling_origin	MAE	3.637823927966424			70
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	6.134320641815998			70
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.7538126651328618			76
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	3.523509756827507			76
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	2.4922314206043956			74
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	4.814191006178892			74
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	3.0426474115739968			72
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	5.463762481406856			72
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	3.3342871182334988			70
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	5.742815905574517			70
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.9797977981004904			76
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	3.524044449718042			76
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	2.7041388475120582			74
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	4.802625591116078			74
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	3.2057485997758786			72
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	5.367105252494713			72
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	3.472832057960259			70
+0	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	5.62744306783347			70
+0	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	1	rolling_origin	MAE	4.719298245614035			57
+0	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	1	rolling_origin	RMSE	7.55027593314752			57
+0	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	2	rolling_origin	MAE	4.874545454545454			55
+0	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	2	rolling_origin	RMSE	7.685369808337728			55
+0	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	3	rolling_origin	MAE	5.049056603773584			53
+0	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	3	rolling_origin	RMSE	7.828877362350044			53
+0	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	4	rolling_origin	MAE	5.2333333333333325			51
+0	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	4	rolling_origin	RMSE	7.980552342179989			51
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.2292865263071504			76
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.0770458344174916			76
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.7440195965488516			74
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	2.830682615689472			74
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	3	rolling_origin	MAE	2.0736797750145084			72
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	3.302403545682192			72
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.487210004476808			70
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	3.9288234619364326			70
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.0889536220210239			76
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	1.8698759287344437			76
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.5949184690871734			74
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	2.679428666789883			74
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.903782786039034			72
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	3.1608500998756695			72
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.283011346973236			70
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	3.68232094046756			70
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.1982238756726538			76
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	1.7973722793309148			76
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.7249798246834722			74
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	2.657372704220794			74
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.145499806958788			72
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	3.278318865237744			72
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.5782361930558793			70
+0	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	3.778364348475576			70
+0	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	1	rolling_origin	MAE	3.068421052631579			57
+0	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	1	rolling_origin	RMSE	5.138451538209377			57
+0	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	2	rolling_origin	MAE	3.1618181818181825			55
+0	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	2	rolling_origin	RMSE	5.229618446015836			55
+0	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	3	rolling_origin	MAE	3.266037735849057			53
+0	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	3	rolling_origin	RMSE	5.326243321941677			53
+0	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	4	rolling_origin	MAE	3.380392156862745			51
+0	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	4	rolling_origin	RMSE	5.429007059035642			51
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.4618476002104572			76
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.871454453071565			76
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.9539817169317186			74
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	3.7812579284181456			74
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	3	rolling_origin	MAE	2.3483403644111167			72
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	4.375006202113485			72
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.856086210410774			70
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	4.8663342632161894			70
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.4512457645083363			76
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	2.8648071722583164			76
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.9476661634483843			74
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	3.7335988184404107			74
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	2.315153246091288			72
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	4.2233983259464			72
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.734879037505415			70
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	4.6134281627530145			70
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.7503693347408888			76
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	3.046033225669971			76
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	2.360615315473969			74
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	3.885760557993486			74
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.723310235729801			72
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	4.308345490101353			72
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	3.172386877352047			70
+0	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	4.681274212496941			70
+0	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	1	rolling_origin	MAE	3.289473684210526			57
+0	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	1	rolling_origin	RMSE	5.1381442482465856			57
+0	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	2	rolling_origin	MAE	3.3945454545454545			55
+0	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	2	rolling_origin	RMSE	5.229861809403241			55
+0	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	3	rolling_origin	MAE	3.513207547169811			53
+0	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	3	rolling_origin	RMSE	5.327181987179366			53
+0	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	4	rolling_origin	MAE	3.6411764705882357			51
+0	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	4	rolling_origin	RMSE	5.430180728585195			51
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.5452340752212146			76
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.7621180421179865			76
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	2	rolling_origin	MAE	2.011809068801723			74
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	3.5303474052626376			74
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	3	rolling_origin	MAE	2.3980884082394334			72
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	3.9342409943256733			72
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.6182628393358076			70
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	4.125454481327742			70
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.363812849427776			76
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	2.547346515545534			76
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.8682595109746924			74
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	3.391882639828701			74
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	2.2563247338839867			72
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	3.8705244602423186			72
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.53373119562199			70
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	4.120517322759096			70
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.262830745359769			76
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	2.3368230772187992			76
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.9092642755319438			74
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	3.2649385250953			74
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.4769223809120007			72
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	3.844861798019799			72
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.8124353789231087			70
+0	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	4.214094881402103			70
+0	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	1	rolling_origin	MAE	2.7070175438596493			57
+0	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	1	rolling_origin	RMSE	3.749736832871005			57
+0	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	2	rolling_origin	MAE	2.787272727272728			55
+0	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	2	rolling_origin	RMSE	3.816066513618917			55
+0	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	3	rolling_origin	MAE	2.8735849056603775			53
+0	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	3	rolling_origin	RMSE	3.886138889913498			53
+0	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	4	rolling_origin	MAE	2.9725490196078437			51
+0	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	4	rolling_origin	RMSE	3.9606891854233415			51
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.7716470565810503			76
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	3.6408735282084836			76
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	2	rolling_origin	MAE	2.5330224706945033			74
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	4.854943417897578			74
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	3	rolling_origin	MAE	3.1885576316253146			72
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	5.603457312236611			72
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	4	rolling_origin	MAE	3.7251525167514714			70
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	6.140516676733414			70
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.7143212663583076			76
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	3.554598250289302			76
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	2.4117995392200604			74
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	4.736964004343104			74
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	3.0349286848683534			72
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	5.410722806517369			72
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	3.414260475262676			70
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	5.836343362844537			70
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.8968752588472497			76
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	3.532503893910472			76
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	2.58807173635907			74
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	4.694854386276665			74
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	3.187961286845924			72
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	5.322310028060705			72
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	3.705896505516757			70
+0	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	5.770059722329403			70
+0	FluSurv-NET	Overall	New York	within_site	seasonal_naive	1	rolling_origin	MAE	4.619298245614036			57
+0	FluSurv-NET	Overall	New York	within_site	seasonal_naive	1	rolling_origin	RMSE	6.959418709341307			57
+0	FluSurv-NET	Overall	New York	within_site	seasonal_naive	2	rolling_origin	MAE	4.765454545454546			55
+0	FluSurv-NET	Overall	New York	within_site	seasonal_naive	2	rolling_origin	RMSE	7.08297574854986			55
+0	FluSurv-NET	Overall	New York	within_site	seasonal_naive	3	rolling_origin	MAE	4.926415094339622			53
+0	FluSurv-NET	Overall	New York	within_site	seasonal_naive	3	rolling_origin	RMSE	7.214071678925795			53
+0	FluSurv-NET	Overall	New York	within_site	seasonal_naive	4	rolling_origin	MAE	5.1			51
+0	FluSurv-NET	Overall	New York	within_site	seasonal_naive	4	rolling_origin	RMSE	7.35307058709649			51
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.3086796227519244			55
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.6410114543089707			55
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.9863847520995734			54
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	3.831960396279246			54
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	3	rolling_origin	MAE	2.57234408693086			53
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	4.680419657625551			53
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.98864120010925			52
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	5.184807630748052			52
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.2453942639615643			55
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	2.629357195572428			55
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.815229289393863			54
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	3.753385015522902			54
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	2.3309895662206337			53
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	4.451076782221757			53
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.5833153120525414			52
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	4.714377257185129			52
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.525727883466337			55
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	2.766688062491828			55
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	2.117945951112042			54
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	3.907183184940781			54
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.5734170490934347			53
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	4.510985918328527			53
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.7973762185562148			52
+0	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	4.737080872678458			52
+0	FluSurv-NET	Overall	Ohio	within_site	seasonal_naive	1	rolling_origin	MAE	2.488235294117647			34
+0	FluSurv-NET	Overall	Ohio	within_site	seasonal_naive	1	rolling_origin	RMSE	5.070444927686907			34
+0	FluSurv-NET	Overall	Ohio	within_site	seasonal_naive	2	rolling_origin	MAE	2.5606060606060606			33
+0	FluSurv-NET	Overall	Ohio	within_site	seasonal_naive	2	rolling_origin	RMSE	5.146667059192951			33
+0	FluSurv-NET	Overall	Ohio	within_site	seasonal_naive	3	rolling_origin	MAE	2.63125			32
+0	FluSurv-NET	Overall	Ohio	within_site	seasonal_naive	3	rolling_origin	RMSE	5.226196035358796			32
+0	FluSurv-NET	Overall	Ohio	within_site	seasonal_naive	4	rolling_origin	MAE	2.706451612903226			31
+0	FluSurv-NET	Overall	Ohio	within_site	seasonal_naive	4	rolling_origin	RMSE	5.309547092039079			31
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.0363214865263977			76
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	1.772588658351827			76
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.3323003724321167			74
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	2.1905613662579357			74
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.5415799497442109			72
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	2.408306838661922			72
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.666819279377929			70
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	2.4275860123849164			70
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	0.9807831393227692			76
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	1.6878306735499544			76
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.2450297837079831			74
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	2.091755797723391			74
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.4426487496288023			72
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	2.2692389166968874			72
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	1.4027061494077926			70
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	2.2012349505320583			70
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.1298124265270562			76
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	1.808940741501795			76
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.4919400815668875			74
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	2.1660218581277464			74
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	1.7451243656779076			72
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	2.343780191358561			72
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	1.797830543201071			70
+0	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	2.3335958653617115			70
+0	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	1	rolling_origin	MAE	2.1			57
+0	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	1	rolling_origin	RMSE	3.2901501058915605			57
+0	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	2	rolling_origin	MAE	2.1636363636363636			55
+0	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	2	rolling_origin	RMSE	3.348106656278766			55
+0	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	3	rolling_origin	MAE	2.233962264150943			53
+0	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	3	rolling_origin	RMSE	3.41014026159828			53
+0	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	4	rolling_origin	MAE	2.3176470588235296			51
+0	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	4	rolling_origin	RMSE	3.4763063562282515			51
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	1.1681486937672523	0.6677854064869334	1.8197866696456573	104
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	2.178944090438654	1.241222325291453	3.091299122456217	104
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	1.5887213363344777	0.9480875233844861	2.403822714936745	101
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	2.846419567965472	1.766554041910815	3.8928815282383664	101
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	1.9694291769878653	1.1509999738145344	2.9747035171374723	98
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	3.3971065112959544	2.241553286502039	4.5591179429890785	98
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	2.1869349199522405	1.2694107022637864	3.2666255626467073	95
+0	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	3.6979599084358017	2.333323639472281	4.888129531468716	95
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	1	rolling_origin	MAE	1.1142804841986047	0.631332522477021	1.7015697835744426	104
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	1	rolling_origin	RMSE	2.1284464313628773	1.3188793324511598	2.934447573009265	104
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	2	rolling_origin	MAE	1.5718278572472424	0.9392199772887908	2.365085184783403	101
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	2	rolling_origin	RMSE	2.820795514201391	1.7725459480765091	3.748949347357191	101
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	3	rolling_origin	MAE	1.9128592856038962	1.14092443923938	2.808396132851174	98
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	3	rolling_origin	RMSE	3.2153853361245917	2.0528986779853584	4.1794161794143845	98
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	4	rolling_origin	MAE	2.123820067496921	1.3044977932341164	3.1328267724801697	95
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	4	rolling_origin	RMSE	3.439497027126582	2.2155724589604247	4.591025951054323	95
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.2892463784784387	0.7942297664945283	1.9387479944157213	98
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	2.192957684189974	1.3863642962249414	2.985168373847449	98
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.8661085507350108	1.2102216787402942	2.6693207182675986	94
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	2.9907217244545476	1.9494431384213058	3.9288758340074836	94
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.2328397317408264	1.3415385234652424	3.0978301140190294	90
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	3.4107865906550265	1.9727687750371914	4.51020760038344	90
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.4604758044607387	1.6479337686875823	3.522684887586035	86
+0	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	3.6510294071839753	2.2744795888048106	4.953217635462051	86
+0	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	2.870114942528736	1.8849712643678158	3.9483908045977008	87
+0	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	3.9732583114108504	2.75488385515467	5.268369203195154	87
+0	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	2.952380952380953	1.9366666666666663	4.1431547619047615	84
+0	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	4.041422427573643	2.873054002282428	5.23167462263842	84
+0	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	3.038271604938272	1.8863580246913583	4.115216049382716	81
+0	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	4.11286749268022	2.849099263136094	5.342996316596426	81
+0	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	3.1179487179487184	1.942051282051282	4.358012820512819	78
+0	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	4.184403275167293	2.870187107775064	5.328747144521881	78
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.483174097308147			76
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.602146128845818			76
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.7770417874770923			74
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	3.1344917380472426			74
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.9596728922792868			72
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	3.2491446455068846			72
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.9722656371056007			70
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	3.031357696714648			70
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.3482816786746659			76
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	2.4660772850415014			76
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.6451713292762014			74
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	3.008641138821074			74
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.804353520480232			72
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	3.163300199601869			72
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	1.8423085559863246			70
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	2.9340840808623945			70
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.3809082521940033			76
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	2.364768395727499			76
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.7535822135072743			74
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	2.887298915049503			74
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	1.9647608940805716			72
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	3.114556438361597			72
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.1084311116766634			70
+0	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	2.9919130240043397			70
+0	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	1	rolling_origin	MAE	2.019298245614035			57
+0	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	1	rolling_origin	RMSE	3.237797605369016			57
+0	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	2	rolling_origin	MAE	2.0799999999999996			55
+0	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	2	rolling_origin	RMSE	3.295341063876807			55
+0	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	3	rolling_origin	MAE	2.1471698113207545			53
+0	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	3	rolling_origin	RMSE	3.356210801394368			53
+0	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	4	rolling_origin	MAE	2.2254901960784315			51
+0	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	4	rolling_origin	RMSE	3.421242750929012			51
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.9533788049752324			76
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	1.5322469777359062			76
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.308264644337435			74
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	2.051945179512123			74
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.6598479821440693			72
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	2.4230064976620778			72
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.7547491938467883			70
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	2.5125087044643406			70
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	0.8464364728073895			76
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	1.3994114825365374			76
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.1683510032627973			74
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	1.9373979874489455			74
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.5021826238852285			72
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	2.316811008211436			72
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	1.5771479352220816			70
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	2.417768768934954			70
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	0.9903067234979325			76
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	1.4364692325012411			76
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.3391669976227947			74
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	1.9401303790689386			74
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	1.6803256208261268			72
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	2.3511389168068			72
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	1.9671029101634596			70
+0	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	2.572670342077737			70
+0	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	1	rolling_origin	MAE	1.249122807017544			57
+0	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	1	rolling_origin	RMSE	1.6875186808582636			57
+0	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	2	rolling_origin	MAE	1.2927272727272727			55
+0	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	2	rolling_origin	RMSE	1.7178739502917288			55
+0	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	3	rolling_origin	MAE	1.3320754716981131			53
+0	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	3	rolling_origin	RMSE	1.7492855684535902			53
+0	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	4	rolling_origin	MAE	1.3823529411764706			51
+0	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	4	rolling_origin	RMSE	1.7832004715030298			51
+0	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	0.3802536860849241	0.2837584238376124	0.4981715907438476	190
+0	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	0.6028040378363566	0.4132934061526637	0.7570779964090444	190
+0	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	0.4792199923040546	0.34934395154462955	0.6234269217679856	189
+0	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	0.7542099207702255	0.5636177381714838	0.9420246872341128	189
+0	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	0.5825285498185547	0.43016239102467424	0.759386287704942	188
+0	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	0.9065411395126906	0.6547088943045879	1.132134077051936	188
+0	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	0.6793939170095293	0.4891942824417526	0.8811681596318267	187
+0	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	1.0607328930499822	0.7954795351189211	1.3452652798597746	187
+0	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	0.63	0.43575	0.843736842105263	190
+0	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	0.9904544411531506	0.7260609026752264	1.2265970372187647	190
+0	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	0.6322751322751323	0.4650661375661375	0.8402248677248676	189
+0	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	0.9929646700557053	0.7213770810238709	1.270913210493009	189
+0	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	0.6329787234042553	0.4319015957446808	0.8532180851063828	188
+0	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	0.9949339762121285	0.7385581108367228	1.2373702239433741	188
+0	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	0.6342245989304813	0.44438502673796787	0.8674331550802138	187
+0	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	0.9971617475626203	0.7331958795075566	1.2328224842726083	187
+0	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	0.7662184903423742	0.5210717912711504	1.054716943373325	190
+0	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	1.3051853170059584	0.9346831461648119	1.6383103337895417	190
+0	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	0.9676887855868462	0.6641526298379591	1.3194998547491683	189
+0	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	1.6298949310556337	1.1587330225251298	2.0713369070274776	189
+0	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	1.1507748276656289	0.7924376523083002	1.5872401972328927	188
+0	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	1.9130151926967864	1.3455320455554873	2.481605320345236	188
+0	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	1.3104085789498674	0.9136722429942369	1.7752082938389946	187
+0	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	2.1506680128241435	1.5253877811835108	2.8118144214749914	187
+0	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	1.1494736842105262	0.8141184210526315	1.5221315789473682	190
+0	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	1.8469035252494772	1.381048360070663	2.3419082412459113	190
+0	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	1.1544973544973545	0.8263227513227513	1.5677910052910053	189
+0	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	1.851725921644153	1.3353144756302837	2.340358497137273	189
+0	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	1.1595744680851063	0.8376063829787234	1.5487367021276595	188
+0	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	1.8565868936349361	1.3938380715965248	2.358090978351597	188
+0	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	1.1652406417112298	0.8324598930481283	1.538810160427807	187
+0	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	1.8615300474735987	1.3413157135869207	2.3696160615879664	187
+0	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	1.7722682198491633	1.2069464828822833	2.406862026995534	190
+0	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	3.1560981279879363	2.115519826621613	4.075535302192388	190
+0	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	2.1435061631943286	1.533778270645626	2.9003928906251737	189
+0	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	3.76155137818036	2.5612703707351034	4.824233546588121	189
+0	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	2.4856327749674425	1.7214618967700197	3.404187923877428	188
+0	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	4.278792713048907	3.0009229206192507	5.449876482557686	188
+0	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	2.7522104061489707	1.9135750561371405	3.6985004789316775	187
+0	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	4.8451056127205465	3.273091764486541	6.236599165222172	187
+0	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	2.6884210526315786	1.8268026315789476	3.588657894736841	190
+0	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	4.449376065070366	3.293085333302811	5.621224416795311	190
+0	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	2.698941798941799	1.9210978835978838	3.7039550264550263	189
+0	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	4.460840787239613	3.3537895527838684	5.707052948920232	189
+0	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	2.7122340425531917	1.8216888297872342	3.768617021276595	188
+0	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	4.472665205730604	3.2726786761096105	5.628153089343995	188
+0	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	2.7197860962566844	1.8420855614973264	3.655748663101604	187
+0	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	4.483600539387005	3.2840592830416284	5.645155385817466	187
+0	RSV-NET	Overall	California	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.30452748939321234			190
+0	RSV-NET	Overall	California	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.48186539068884693			190
+0	RSV-NET	Overall	California	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.3710319220353431			189
+0	RSV-NET	Overall	California	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.5731596525224502			189
+0	RSV-NET	Overall	California	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.44449999665855316			188
+0	RSV-NET	Overall	California	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	0.6582574659641112			188
+0	RSV-NET	Overall	California	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.5235265798847258			187
+0	RSV-NET	Overall	California	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	0.7313003167944584			187
+0	RSV-NET	Overall	California	within_site	seasonal_naive	1	rolling_origin	MAE	0.3915789473684211			190
+0	RSV-NET	Overall	California	within_site	seasonal_naive	1	rolling_origin	RMSE	0.661179169920561			190
+0	RSV-NET	Overall	California	within_site	seasonal_naive	2	rolling_origin	MAE	0.3936507936507937			189
+0	RSV-NET	Overall	California	within_site	seasonal_naive	2	rolling_origin	RMSE	0.6629260135723288			189
+0	RSV-NET	Overall	California	within_site	seasonal_naive	3	rolling_origin	MAE	0.39521276595744687			188
+0	RSV-NET	Overall	California	within_site	seasonal_naive	3	rolling_origin	RMSE	0.6646467626859671			188
+0	RSV-NET	Overall	California	within_site	seasonal_naive	4	rolling_origin	MAE	0.3967914438502674			187
+0	RSV-NET	Overall	California	within_site	seasonal_naive	4	rolling_origin	RMSE	0.6663814006430512			187
+0	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.567089017267332			190
+0	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	1.0295943033117516			190
+0	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.7726971076026569			189
+0	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.433579511319086			189
+0	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.9635301663661124			188
+0	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.792203807876576			188
+0	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.1492194792025683			187
+0	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	2.0801827437438667			187
+0	RSV-NET	Overall	Colorado	within_site	seasonal_naive	1	rolling_origin	MAE	1.2389473684210528			190
+0	RSV-NET	Overall	Colorado	within_site	seasonal_naive	1	rolling_origin	RMSE	2.220123277753074			190
+0	RSV-NET	Overall	Colorado	within_site	seasonal_naive	2	rolling_origin	MAE	1.2439153439153436			189
+0	RSV-NET	Overall	Colorado	within_site	seasonal_naive	2	rolling_origin	RMSE	2.2258819071438323			189
+0	RSV-NET	Overall	Colorado	within_site	seasonal_naive	3	rolling_origin	MAE	1.248936170212766			188
+0	RSV-NET	Overall	Colorado	within_site	seasonal_naive	3	rolling_origin	RMSE	2.23168670111082			188
+0	RSV-NET	Overall	Colorado	within_site	seasonal_naive	4	rolling_origin	MAE	1.253475935828877			187
+0	RSV-NET	Overall	Colorado	within_site	seasonal_naive	4	rolling_origin	RMSE	2.237454627150269			187
+0	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.5727149875396365			190
+0	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.9601497939235113			190
+0	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.7142339949136242			189
+0	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.1847318199789136			189
+0	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.8237713863610008			188
+0	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.3887785075347232			188
+0	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.9435683780615074			187
+0	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.5108159409730553			187
+0	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	1	rolling_origin	MAE	0.9963157894736843			190
+0	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	1	rolling_origin	RMSE	1.5657014570573724			190
+0	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	2	rolling_origin	MAE	0.9984126984126983			189
+0	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	2	rolling_origin	RMSE	1.5692312680056986			189
+0	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	3	rolling_origin	MAE	1.001063829787234			188
+0	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	3	rolling_origin	RMSE	1.572976579338973			188
+0	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	4	rolling_origin	MAE	1.0032085561497328			187
+0	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	4	rolling_origin	RMSE	1.5765663631215159			187
+0	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.29548489796460653			190
+0	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.4356278770341577			190
+0	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.39485275628457683			189
+0	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.5806869611979764			189
+0	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.48183639063227746			188
+0	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	0.6857642157870748			188
+0	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.5466068376764924			187
+0	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	0.7751646886445656			187
+0	RSV-NET	Overall	Georgia	within_site	seasonal_naive	1	rolling_origin	MAE	0.756842105263158			190
+0	RSV-NET	Overall	Georgia	within_site	seasonal_naive	1	rolling_origin	RMSE	1.042668640909873			190
+0	RSV-NET	Overall	Georgia	within_site	seasonal_naive	2	rolling_origin	MAE	0.7608465608465608			189
+0	RSV-NET	Overall	Georgia	within_site	seasonal_naive	2	rolling_origin	RMSE	1.0454233845242094			189
+0	RSV-NET	Overall	Georgia	within_site	seasonal_naive	3	rolling_origin	MAE	0.7632978723404256			188
+0	RSV-NET	Overall	Georgia	within_site	seasonal_naive	3	rolling_origin	RMSE	1.0479716984971796			188
+0	RSV-NET	Overall	Georgia	within_site	seasonal_naive	4	rolling_origin	MAE	0.7657754010695187			187
+0	RSV-NET	Overall	Georgia	within_site	seasonal_naive	4	rolling_origin	RMSE	1.050540986176343			187
+0	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.39741233850477065			190
+0	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.6328917988757065			190
+0	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.5580837400260945			189
+0	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.8817636519796772			189
+0	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.690278929232384			188
+0	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.0609450756011285			188
+0	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.8033211299240217			187
+0	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.2268981910732617			187
+0	RSV-NET	Overall	Maryland	within_site	seasonal_naive	1	rolling_origin	MAE	0.7200000000000001			190
+0	RSV-NET	Overall	Maryland	within_site	seasonal_naive	1	rolling_origin	RMSE	1.1798751048979272			190
+0	RSV-NET	Overall	Maryland	within_site	seasonal_naive	2	rolling_origin	MAE	0.7211640211640211			189
+0	RSV-NET	Overall	Maryland	within_site	seasonal_naive	2	rolling_origin	RMSE	1.1824331474329313			189
+0	RSV-NET	Overall	Maryland	within_site	seasonal_naive	3	rolling_origin	MAE	0.723404255319149			188
+0	RSV-NET	Overall	Maryland	within_site	seasonal_naive	3	rolling_origin	RMSE	1.1853718332146765			188
+0	RSV-NET	Overall	Maryland	within_site	seasonal_naive	4	rolling_origin	MAE	0.7251336898395722			187
+0	RSV-NET	Overall	Maryland	within_site	seasonal_naive	4	rolling_origin	RMSE	1.1881770515720091			187
+0	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.5110606059454884			190
+0	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.905578859604633			190
+0	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.6636902624329819			189
+0	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.2172047517034548			189
+0	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.8203195327905023			188
+0	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.4392412084950366			188
+0	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.9504687144687654			187
+0	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.6175532687912975			187
+0	RSV-NET	Overall	Michigan	within_site	seasonal_naive	1	rolling_origin	MAE	0.9678947368421053			190
+0	RSV-NET	Overall	Michigan	within_site	seasonal_naive	1	rolling_origin	RMSE	1.7678562694613167			190
+0	RSV-NET	Overall	Michigan	within_site	seasonal_naive	2	rolling_origin	MAE	0.9719576719576719			189
+0	RSV-NET	Overall	Michigan	within_site	seasonal_naive	2	rolling_origin	RMSE	1.7724672667330732			189
+0	RSV-NET	Overall	Michigan	within_site	seasonal_naive	3	rolling_origin	MAE	0.9686170212765959			188
+0	RSV-NET	Overall	Michigan	within_site	seasonal_naive	3	rolling_origin	RMSE	1.773339798953712			188
+0	RSV-NET	Overall	Michigan	within_site	seasonal_naive	4	rolling_origin	MAE	0.9727272727272728			187
+0	RSV-NET	Overall	Michigan	within_site	seasonal_naive	4	rolling_origin	RMSE	1.7780148757520904			187
+0	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.37289427018592225			190
+0	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.6253956192389913			190
+0	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.49302406742725396			189
+0	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.8145858521390986			189
+0	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.6088731756374731			188
+0	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	0.98948972209425			188
+0	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.7329775692467508			187
+0	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.1949402848741244			187
+0	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	1	rolling_origin	MAE	1.0605263157894735			190
+0	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	1	rolling_origin	RMSE	1.610933041177657			190
+0	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	2	rolling_origin	MAE	1.0608465608465607			189
+0	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	2	rolling_origin	RMSE	1.6135504248535195			189
+0	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	3	rolling_origin	MAE	1.059042553191489			188
+0	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	3	rolling_origin	RMSE	1.6146108153689491			188
+0	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	4	rolling_origin	MAE	1.0550802139037432			187
+0	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	4	rolling_origin	RMSE	1.6135621734846584			187
+0	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.829558223413352			190
+0	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	1.6908647879147218			190
+0	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.1779252842596049			189
+0	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	2.372766346559292			189
+0	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.4632118772799958			188
+0	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	2.9461905491920564			188
+0	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.7308640842159486			187
+0	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	3.338370140536814			187
+0	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	1	rolling_origin	MAE	2.013684210526316			190
+0	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	1	rolling_origin	RMSE	3.7090075279116466			190
+0	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	2	rolling_origin	MAE	2.0232804232804233			189
+0	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	2	rolling_origin	RMSE	3.7187783167744977			189
+0	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	3	rolling_origin	MAE	2.0313829787234043			188
+0	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	3	rolling_origin	RMSE	3.7284772432175965			188
+0	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	4	rolling_origin	MAE	2.0422459893048126			187
+0	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	4	rolling_origin	RMSE	3.7384331414298657			187
+0	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.4581243441792247			190
+0	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.8222044955026517			190
+0	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.6085093019794955			189
+0	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.1024093766319996			189
+0	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.7659529915662551			188
+0	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.3246208017870766			188
+0	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.866254719164711			187
+0	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.5210880571360723			187
+0	RSV-NET	Overall	New York	within_site	seasonal_naive	1	rolling_origin	MAE	0.9436842105263157			190
+0	RSV-NET	Overall	New York	within_site	seasonal_naive	1	rolling_origin	RMSE	1.6732099626010384			190
+0	RSV-NET	Overall	New York	within_site	seasonal_naive	2	rolling_origin	MAE	0.9455026455026454			189
+0	RSV-NET	Overall	New York	within_site	seasonal_naive	2	rolling_origin	RMSE	1.6770628141306103			189
+0	RSV-NET	Overall	New York	within_site	seasonal_naive	3	rolling_origin	MAE	0.9462765957446809			188
+0	RSV-NET	Overall	New York	within_site	seasonal_naive	3	rolling_origin	RMSE	1.680504610133769			188
+0	RSV-NET	Overall	New York	within_site	seasonal_naive	4	rolling_origin	MAE	0.9470588235294117			187
+0	RSV-NET	Overall	New York	within_site	seasonal_naive	4	rolling_origin	RMSE	1.6839760690311245			187
+0	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.2726232818215351			190
+0	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.4658728897594746			190
+0	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.3740998633815932			189
+0	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.6296615015304893			189
+0	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.4606924155614935			188
+0	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	0.7373370060920553			188
+0	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.5282096985438831			187
+0	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	0.8316466614866959			187
+0	RSV-NET	Overall	Oregon	within_site	seasonal_naive	1	rolling_origin	MAE	0.41105263157894734			190
+0	RSV-NET	Overall	Oregon	within_site	seasonal_naive	1	rolling_origin	RMSE	0.8030533835568501			190
+0	RSV-NET	Overall	Oregon	within_site	seasonal_naive	2	rolling_origin	MAE	0.4132275132275132			189
+0	RSV-NET	Overall	Oregon	within_site	seasonal_naive	2	rolling_origin	RMSE	0.8051750606587852			189
+0	RSV-NET	Overall	Oregon	within_site	seasonal_naive	3	rolling_origin	MAE	0.41542553191489356			188
+0	RSV-NET	Overall	Oregon	within_site	seasonal_naive	3	rolling_origin	RMSE	0.8073136436038575			188
+0	RSV-NET	Overall	Oregon	within_site	seasonal_naive	4	rolling_origin	MAE	0.41711229946524064			187
+0	RSV-NET	Overall	Oregon	within_site	seasonal_naive	4	rolling_origin	RMSE	0.809436325954921			187
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	0.2570286484946769	0.1898416132727222	0.3337109543757204	190
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	0.4080356679699998	0.3037288064761323	0.5152632604520954	190
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	0.368045267895125	0.26443881667665275	0.4842280031369061	189
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	0.5765069865166628	0.4092848018195755	0.7109683123846048	189
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	0.4567064666223089	0.3326272782847187	0.6084344938814017	188
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	0.7213295807923538	0.5170684786781874	0.9334998152689469	188
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	0.5552838399763743	0.40350102348545624	0.7409218077727576	187
+0	RSV-NET	Overall	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	0.8842069046180688	0.63783049199924	1.143260838023178	187
+0	RSV-NET	Overall	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	0.704736842105263	0.5002894736842106	0.9411447368421053	190
+0	RSV-NET	Overall	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	1.0826624103278186	0.785922742345755	1.3859511263365996	190
+0	RSV-NET	Overall	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	0.7058201058201057	0.5094444444444445	0.9551190476190475	189
+0	RSV-NET	Overall	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	1.084913377665257	0.776391850631829	1.3834002541715984	189
+0	RSV-NET	Overall	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	0.7074468085106383	0.5143085106382979	0.9340425531914892	188
+0	RSV-NET	Overall	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	1.0874037007986677	0.8000461956128051	1.3690698678290705	188
+0	RSV-NET	Overall	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	0.7090909090909091	0.5201737967914438	0.9493181818181817	187
+0	RSV-NET	Overall	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	1.0899148767232576	0.7959962782348495	1.3594470299122077	187
+0	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.3368206508749198			190
+0	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.5474050145118442			190
+0	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.3846676760647302			189
+0	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.596455512198496			189
+0	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.4763422057696967			188
+0	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	0.7252749407933157			188
+0	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.5294619727171314			187
+0	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	0.7715862029919465			187
+0	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	1	rolling_origin	MAE	0.4857894736842106			190
+0	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	1	rolling_origin	RMSE	0.7382411530116699			190
+0	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	2	rolling_origin	MAE	0.48201058201058206			189
+0	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	2	rolling_origin	RMSE	0.7350269044494564			189
+0	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	3	rolling_origin	MAE	0.48085106382978726			188
+0	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	3	rolling_origin	RMSE	0.7352087559962932			188
+0	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	4	rolling_origin	MAE	0.4802139037433156			187
+0	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	4	rolling_origin	RMSE	0.7358650190104219			187
+0	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.5281847100853237			190
+0	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.9457099708939622			190
+0	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.7035470778081182			189
+0	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.288721574018774			189
+0	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.8686668102516965			188
+0	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.540857601108501			188
+0	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.0140461957040376			187
+0	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.7846540482441042			187
+0	RSV-NET	Overall	Utah	within_site	seasonal_naive	1	rolling_origin	MAE	1.0189473684210524			190
+0	RSV-NET	Overall	Utah	within_site	seasonal_naive	1	rolling_origin	RMSE	1.826443192886684			190
+0	RSV-NET	Overall	Utah	within_site	seasonal_naive	2	rolling_origin	MAE	1.0243386243386243			189
+0	RSV-NET	Overall	Utah	within_site	seasonal_naive	2	rolling_origin	RMSE	1.8312686786883494			189
+0	RSV-NET	Overall	Utah	within_site	seasonal_naive	3	rolling_origin	MAE	1.0281914893617021			188
+0	RSV-NET	Overall	Utah	within_site	seasonal_naive	3	rolling_origin	RMSE	1.8360022481792195			188
+0	RSV-NET	Overall	Utah	within_site	seasonal_naive	4	rolling_origin	MAE	1.029946524064171			187
+0	RSV-NET	Overall	Utah	within_site	seasonal_naive	4	rolling_origin	RMSE	1.84019296825844			187
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	2.6468564499030074	1.2796245991317718	4.345785122539534	72
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	4.910523483194131	2.409979580872522	7.05510070262171	72
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	3.671227638460224	2.1092910481548635	5.653671638777459	70
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	6.389258896282822	3.463536609830554	8.94971413224592	70
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	4.455509100000022	2.294678843514435	7.180238405261607	68
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	7.486050218884824	4.64928469698751	10.408514125248349	68
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	4.959124345026712	2.5731263563558993	7.62769173648446	66
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	8.105297991872881	4.943135605185415	10.733860537022483	66
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	1	rolling_origin	MAE	2.3927109956192094	1.0457647912682615	4.05437858636104	72
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	1	rolling_origin	RMSE	4.669953716198331	2.3865782918565035	6.945303952402776	72
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	2	rolling_origin	MAE	3.4257112116580393	1.6420479949992939	5.53784029985602	70
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	2	rolling_origin	RMSE	6.330093822879227	3.555132828114319	8.923726059986816	70
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	3	rolling_origin	MAE	4.12286105472317	1.9261119418533856	6.557786975360759	68
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	3	rolling_origin	RMSE	7.113038880366085	3.96648735456557	9.71163374485802	68
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	4	rolling_origin	MAE	4.421048471770845	2.1484813228911395	7.173171459843194	66
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals	4	rolling_origin	RMSE	7.519518163189631	4.335693009053125	10.0423564812508	66
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	2.7116096559727643	1.5226134335434793	4.327340331114659	72
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	4.750424141467429	2.539426739892053	6.615042326304604	72
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	4.044773303434479	2.3964730939047207	6.086645256443017	70
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	6.645740570477062	4.201252816912007	9.165812821809624	70
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	4.772980596583411	3.0004361060904166	7.138324057343626	68
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	7.502126360296013	4.4554441140869345	10.234908441046544	68
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	5.279490275175838	3.147042177690911	7.892602326387102	66
+4	FluSurv-NET	65-74 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	8.0751612868169	4.6043485301380445	10.900665105197263	66
+4	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	5.650943396226416	2.3863679245283023	8.461698113207548	53
+4	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	8.889372497326592	4.306511236197231	11.729849968645855	53
+4	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	5.831372549019608	2.6186764705882353	9.506666666666666	51
+4	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	9.058048095153705	3.950137960438984	11.727460701392113	51
+4	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	6.040816326530612	2.4719897959183674	9.10454081632653	49
+4	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	9.239621866986655	4.482980667090948	12.31869204762312	49
+4	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	6.272340425531915	2.703031914893617	9.572127659574466	47
+4	FluSurv-NET	65-74 yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	9.432988741419376	4.679016098318464	12.263084402177514	47
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	5.317249205511328	2.2280462175819804	9.284750447927996	72
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	10.477548357967772	5.486567774828365	14.721292720474894	72
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	6.930828953642606	3.4881846504779235	11.30330702390613	70
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	13.312287644621163	7.667756973831525	18.482990271703354	70
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	8.728521464664102	4.614206920014918	13.533311155714275	68
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	15.00130485157745	8.42588709999076	20.377441668508627	68
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	9.744405526275333	4.649257291433587	15.667470009512693	66
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	16.028434414093415	9.150815690783858	20.636520323787575	66
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	1	rolling_origin	MAE	5.31278392325618	2.7753555925440367	9.138089954278168	72
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	1	rolling_origin	RMSE	10.169618536718946	5.068986268294987	14.40564365939438	72
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	2	rolling_origin	MAE	7.040415058711116	3.69192984925872	11.451306963600087	70
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	2	rolling_origin	RMSE	12.939079896030748	7.187470788270167	18.18435523520917	70
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	3	rolling_origin	MAE	8.730573647861338	4.427008854561767	13.61632180086844	68
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	3	rolling_origin	RMSE	14.475991967482955	8.529529569394157	20.15184998618781	68
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	4	rolling_origin	MAE	9.498871602881957	4.884099906879985	14.100218327369658	66
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals	4	rolling_origin	RMSE	15.307407217162067	8.529197836345194	20.690864885699952	66
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	5.3241876090053255	2.9371507165871633	8.60286142466183	72
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	9.36652413699464	4.993764648765219	13.366730991357734	72
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	7.6418691978353745	4.6443055676926095	11.844878832524964	70
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	12.862899006491368	7.919467137302871	18.305603206541445	70
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	9.196756417025195	5.367286228174999	14.128999665524516	68
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	14.524166526080164	7.815946016087011	20.391934436658662	68
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	10.098668712785713	5.884223530290843	15.268104011340808	66
+4	FluSurv-NET	75-84 yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	15.440407881289458	9.153243097479582	21.295998560644705	66
+4	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	10.186792452830188	3.9568396226415095	15.337452830188678	53
+4	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	16.25041654037979	8.03451595001303	20.47309263428563	53
+4	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	10.549019607843137	4.414362745098039	15.689558823529405	51
+4	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	16.563851498687985	8.780362016420488	21.753536895276472	51
+4	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	10.93673469387755	4.917755102040816	16.91301020408163	49
+4	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	16.89630439003797	8.12107617234817	21.770464576702143	49
+4	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	11.357446808510637	5.305159574468085	17.897819148936172	47
+4	FluSurv-NET	75-84 yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	17.250322229491154	8.964663857810185	22.394138615658317	47
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	10.56656449979804	4.432788301485004	18.865750899343364	72
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	21.029898962051853	10.414187620854078	31.944454350798853	72
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	13.634386502326771	7.180306567650949	23.236843435421488	70
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	25.55999235646022	14.16019551471562	37.50495047699431	70
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	16.625590577638135	9.30889787106639	25.799305888028133	68
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	28.113002786640372	15.366513136421077	39.74748656435741	68
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	18.235682755357367	9.95588804412203	27.366389654745824	66
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	29.648354446356123	16.277323348557893	40.53053715055138	66
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	1	rolling_origin	MAE	10.487112873205774	4.961959442196434	18.520879816383086	72
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	1	rolling_origin	RMSE	20.517914529733734	9.477709121693891	30.153269703084696	72
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	2	rolling_origin	MAE	12.851497184736274	5.880459969473637	21.166890206845768	70
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	2	rolling_origin	RMSE	24.849273804109107	13.342064418623481	34.77453257468667	70
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	3	rolling_origin	MAE	15.4017827421371	7.214773151501912	26.001763288507036	68
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	3	rolling_origin	RMSE	27.563411343463187	14.305070096208865	38.016659229247544	68
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	4	rolling_origin	MAE	16.30707798879799	7.772006650697435	26.346033822952595	66
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals	4	rolling_origin	RMSE	28.66863410473074	13.685849106839939	40.99259512673811	66
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	10.48011623055537	5.219107788422988	16.69112764978771	72
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	18.734647837977686	10.90406343931377	26.633460913585203	72
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	14.729645641879067	8.212431054173354	23.532651210408513	70
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	25.33448827380483	13.78076279547299	36.12467141806646	70
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	17.34277842959516	9.579623543788161	27.49796206425853	68
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	28.435041759667012	17.249292130453263	40.277958728700675	68
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	18.0090677136336	10.645007353020521	28.68090201568888	66
+4	FluSurv-NET	85+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	29.447929533803734	16.096431040944374	40.10442592982789	66
+4	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	17.49811320754717	7.609764150943396	27.372499999999995	53
+4	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	28.567820661690153	14.403529603224237	37.593710105972335	53
+4	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	18.113725490196078	8.807598039215687	28.2678431372549	51
+4	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	29.118682096874227	16.045897122366956	37.706648368397644	51
+4	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	18.722448979591835	7.815663265306123	28.6615306122449	49
+4	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	29.696326990634617	15.31405664885025	39.27253816629845	49
+4	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	19.440425531914894	8.180531914893617	30.05478723404255	47
+4	FluSurv-NET	85+ yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	30.317030534429524	16.030206357445397	38.97663423561356	47
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.7731837790394827			72
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	1.263253580386793			72
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.1143377620138293			70
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.6427992135636609			70
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.4248489155496373			68
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.9808059694079232			68
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.6436332725448433			66
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	2.24832765025846			66
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	0.7583052564515134			72
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	1.28820218678197			72
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.0636078107629945			70
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	1.677018116356857			70
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.3263004357658055			68
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	1.9733113123102657			68
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	1.49423450959655			66
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	2.187114898791716			66
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.0111424245523826			72
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	1.5610464765101844			72
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.3316853743331707			70
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	1.960113099911665			70
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	1.6107279688061973			68
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	2.245458421479009			68
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	1.8229687014187348			66
+4	FluSurv-NET	Overall	California	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	2.4950445380193			66
+4	FluSurv-NET	Overall	California	within_site	seasonal_naive	1	rolling_origin	MAE	2.1320754716981125			53
+4	FluSurv-NET	Overall	California	within_site	seasonal_naive	1	rolling_origin	RMSE	3.385652301910809			53
+4	FluSurv-NET	Overall	California	within_site	seasonal_naive	2	rolling_origin	MAE	2.1980392156862743			51
+4	FluSurv-NET	Overall	California	within_site	seasonal_naive	2	rolling_origin	RMSE	3.4495524006319838			51
+4	FluSurv-NET	Overall	California	within_site	seasonal_naive	3	rolling_origin	MAE	2.2714285714285714			49
+4	FluSurv-NET	Overall	California	within_site	seasonal_naive	3	rolling_origin	RMSE	3.5177973163875818			49
+4	FluSurv-NET	Overall	California	within_site	seasonal_naive	4	rolling_origin	MAE	2.3510638297872335			47
+4	FluSurv-NET	Overall	California	within_site	seasonal_naive	4	rolling_origin	RMSE	3.590679423647321			47
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.2163731341019433			72
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.2607829041582335			72
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.6179264170049834			70
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	2.813249957317879			70
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.9149849858155417			68
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	3.1725466049734776			68
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.256685813163252			66
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	3.470951407289581			66
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.1755165327672321			72
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	2.1889560144256377			72
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.5761935284330197			70
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	2.7919538891484503			70
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.8659666341188972			68
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	3.1263326727739287			68
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.1384253270662965			66
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	3.3746241806018555			66
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.2348538438588557			72
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	2.1423130122739282			72
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.7826274245502365			70
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	2.789116673546954			70
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.0700310134545687			68
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	3.1019091822702234			68
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.3670400506095346			66
+4	FluSurv-NET	Overall	Colorado	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	3.3411105472376077			66
+4	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	1	rolling_origin	MAE	2.3150943396226418			53
+4	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	1	rolling_origin	RMSE	3.2889466111995125			53
+4	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	2	rolling_origin	MAE	2.392156862745098			51
+4	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	2	rolling_origin	RMSE	3.351733528647351			51
+4	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	3	rolling_origin	MAE	2.473469387755102			49
+4	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	3	rolling_origin	RMSE	3.417959768574206			49
+4	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	4	rolling_origin	MAE	2.5659574468085107			47
+4	FluSurv-NET	Overall	Colorado	within_site	seasonal_naive	4	rolling_origin	RMSE	3.4891320630196114			47
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	1	rolling_origin	MAE	2.480280906417476			72
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	4.874643232268359			72
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	2	rolling_origin	MAE	3.4735351313498324			70
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	6.466838018321069			70
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	3	rolling_origin	MAE	4.185534655558812			68
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	7.452745164760183			68
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	4	rolling_origin	MAE	4.769020739085414			66
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	8.016860905049793			66
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	2.406269961843172			72
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	4.828825736918115			72
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	3.3783559815859143			70
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	6.314323369374013			70
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	3.9637076236959228			68
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	7.148124638257666			68
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	4.3323020316097			66
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	7.5507531927873055			66
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	2.6800438101594803			72
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	4.928537693388066			72
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	3.5035840199680814			70
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	6.303152930874409			70
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	4.085521375722084			68
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	7.028958119243013			68
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	4.554165598220519			66
+4	FluSurv-NET	Overall	Connecticut	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	7.473668966806527			66
+4	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	1	rolling_origin	MAE	5.035849056603773			53
+4	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	1	rolling_origin	RMSE	8.252946872207024			53
+4	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	2	rolling_origin	MAE	5.145098039215687			51
+4	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	2	rolling_origin	RMSE	8.391592431083135			51
+4	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	3	rolling_origin	MAE	5.293877551020409			49
+4	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	3	rolling_origin	RMSE	8.55040278320864			49
+4	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	4	rolling_origin	MAE	5.493617021276595			47
+4	FluSurv-NET	Overall	Connecticut	within_site	seasonal_naive	4	rolling_origin	RMSE	8.728676144412882			47
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.648023858201315			72
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	3.395373556823367			72
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	2	rolling_origin	MAE	2.2143901272933153			70
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	4.194357226739838			70
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	3	rolling_origin	MAE	2.65234861893413			68
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	4.570909450383654			68
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.905249054421958			66
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	4.697788330703337			66
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.5700157975388616			72
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	3.3421271020068968			72
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	2.16470095134418			70
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	4.095826452061447			70
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	2.4778433291056166			68
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	4.388978389359902			68
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.654662954076521			66
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	4.4454858783159175			66
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.7329982440562448			72
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	3.3647085842870914			72
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	2.351256299502457			70
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	4.047533319144844			70
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.612413004661182			68
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	4.2580795811954975			68
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.8636098964871937			66
+4	FluSurv-NET	Overall	Georgia	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	4.33820476301093			66
+4	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	1	rolling_origin	MAE	3.0867924528301884			53
+4	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	1	rolling_origin	RMSE	4.549393490573823			53
+4	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	2	rolling_origin	MAE	3.2058823529411766			51
+4	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	2	rolling_origin	RMSE	4.637718336914071			51
+4	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	3	rolling_origin	MAE	3.3346938775510204			49
+4	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	3	rolling_origin	RMSE	4.731397515426028			49
+4	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	4	rolling_origin	MAE	3.4765957446808513			47
+4	FluSurv-NET	Overall	Georgia	within_site	seasonal_naive	4	rolling_origin	RMSE	4.831016808525439			47
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.8747969689933655			72
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	3.7110537837241706			72
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	2	rolling_origin	MAE	2.6991360951343846			70
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	5.077747872799122			70
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	3	rolling_origin	MAE	3.3364806630240205			68
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	5.864762483099123			68
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	4	rolling_origin	MAE	3.7633931662851174			66
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	6.289632510653902			66
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.8185610619497519			72
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	3.6167274143382775			72
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	2.5782535300302554			70
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	4.942617134988008			70
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	3.1661482363898097			68
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	5.617049199147133			68
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	3.4204412982382957			66
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	5.880560677132269			66
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	2.02491883519964			72
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	3.6081364863861496			72
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	2.7489512976858186			70
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	4.915577895878016			70
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	3.275393277619934			68
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	5.500161097876284			68
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	3.5367290372025137			66
+4	FluSurv-NET	Overall	Maryland	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	5.762746989628874			66
+4	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	1	rolling_origin	MAE	4.290566037735849			53
+4	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	1	rolling_origin	RMSE	7.185152405783723			53
+4	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	2	rolling_origin	MAE	4.4411764705882355			51
+4	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	2	rolling_origin	RMSE	7.323598708231882			51
+4	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	3	rolling_origin	MAE	4.612244897959184			49
+4	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	3	rolling_origin	RMSE	7.471387598904317			49
+4	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	4	rolling_origin	MAE	4.793617021276595			47
+4	FluSurv-NET	Overall	Maryland	within_site	seasonal_naive	4	rolling_origin	RMSE	7.628292801395983			47
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.2250418703668728			72
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.095930273009846			72
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.7832931737380369			70
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	2.8948938699847004			70
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	3	rolling_origin	MAE	2.146427732011699			68
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	3.3893000169689174			68
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.5257820707244885			66
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	4.005215303649967			66
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.0996906234885928			72
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	1.8946070580107026			72
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.6194020753614642			70
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	2.738589889546085			70
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.9743865307323836			68
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	3.24193401416157			68
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.2986651866211503			66
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	3.747637039044101			66
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.2169692925588436			72
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	1.825739467415083			72
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.7434988893108299			70
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	2.706917756077937			70
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.1857770173219855			68
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	3.349381555550304			68
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.5951491016242163			66
+4	FluSurv-NET	Overall	Michigan	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	3.849072228104867			66
+4	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	1	rolling_origin	MAE	2.4301886792452834			53
+4	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	1	rolling_origin	RMSE	4.241973552798451			53
+4	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	2	rolling_origin	MAE	2.505882352941177			51
+4	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	2	rolling_origin	RMSE	4.322490204572759			51
+4	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	3	rolling_origin	MAE	2.5918367346938775			49
+4	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	3	rolling_origin	RMSE	4.40834088833374			49
+4	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	4	rolling_origin	MAE	2.6872340425531918			47
+4	FluSurv-NET	Overall	Michigan	within_site	seasonal_naive	4	rolling_origin	RMSE	4.500283679001732			47
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.497894581785202			72
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.942947213855149			72
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	2	rolling_origin	MAE	2.0212996845448026			70
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	3.88109506406078			70
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	3	rolling_origin	MAE	2.4504858671001934			68
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	4.499064286999839			68
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.9436944393322646			66
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	4.9915718190183425			66
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.4959961982151215			72
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	2.9380903689753164			72
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	2.0050570029041968			70
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	3.8320255552585603			70
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	2.4147638638675644			68
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	4.341251923268322			68
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.803913597514042			66
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	4.729460859265542			66
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.8057748130158155			72
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	3.122383730433899			72
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	2.42095706072226			70
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	3.980025238166228			70
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.786023747631733			68
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	4.413955218375834			68
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	3.2482600028499005			66
+4	FluSurv-NET	Overall	Minnesota	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	4.79461237137426			66
+4	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	1	rolling_origin	MAE	3.3037735849056604			53
+4	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	1	rolling_origin	RMSE	5.247155563677712			53
+4	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	2	rolling_origin	MAE	3.4176470588235293			51
+4	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	2	rolling_origin	RMSE	5.348135097359438			51
+4	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	3	rolling_origin	MAE	3.5469387755102035			49
+4	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	3	rolling_origin	RMSE	5.455721580064701			49
+4	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	4	rolling_origin	MAE	3.6872340425531913			47
+4	FluSurv-NET	Overall	Minnesota	within_site	seasonal_naive	4	rolling_origin	RMSE	5.570114021522895			47
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.5686771928236856			72
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.819328009565864			72
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	2	rolling_origin	MAE	2.05632585093404			70
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	3.613304151693428			70
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	3	rolling_origin	MAE	2.4441375361250475			68
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	4.021652864157255			68
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.612312360309965			66
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	4.183645927171779			66
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.385216830251164			72
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	2.600869237555187			72
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.904921372905819			70
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	3.46992744284112			70
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	2.2952030124462484			68
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	3.9572821556306765			68
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.5257857637446577			66
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	4.1813800935823116			66
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.2838113297110747			72
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	2.384740246704871			72
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.9459852475285166			70
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	3.335432319505687			70
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.5291833607830685			68
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	3.9320403670705613			68
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.843575844441325			66
+4	FluSurv-NET	Overall	New Mexico	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	4.296090326690658			66
+4	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	1	rolling_origin	MAE	2.464150943396227			53
+4	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	1	rolling_origin	RMSE	3.525433199662564			53
+4	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	2	rolling_origin	MAE	2.5411764705882356			51
+4	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	2	rolling_origin	RMSE	3.592475797126708			51
+4	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	3	rolling_origin	MAE	2.6244897959183673			49
+4	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	3	rolling_origin	RMSE	3.663610352688524			49
+4	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	4	rolling_origin	MAE	2.721276595744681			47
+4	FluSurv-NET	Overall	New Mexico	within_site	seasonal_naive	4	rolling_origin	RMSE	3.739695060955662			47
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.8501882226275574			72
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	3.7389142082353084			72
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	2	rolling_origin	MAE	2.659477496599903			70
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	4.991017020461896			70
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	3	rolling_origin	MAE	3.354830800359354			68
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	5.765177313202737			68
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	4	rolling_origin	MAE	3.874469154138504			66
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	6.310353904342914			66
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.7920670751075685			72
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	3.650857494227558			72
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	2.5209523242123564			70
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	4.868547908335425			70
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	3.1833828892047875			68
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	5.56556235363603			68
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	3.532394976304609			66
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	5.99427402958751			66
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.959726606959344			72
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	3.6231781301892103			72
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	2.6569381183738465			70
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	4.815707819897247			70
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	3.2964925329776635			68
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	5.4653278976651585			68
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	3.8400075314763953			66
+4	FluSurv-NET	Overall	New York	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	5.927549406885845			66
+4	FluSurv-NET	Overall	New York	within_site	seasonal_naive	1	rolling_origin	MAE	4.169811320754717			53
+4	FluSurv-NET	Overall	New York	within_site	seasonal_naive	1	rolling_origin	RMSE	6.565691272576898			53
+4	FluSurv-NET	Overall	New York	within_site	seasonal_naive	2	rolling_origin	MAE	4.309803921568627			51
+4	FluSurv-NET	Overall	New York	within_site	seasonal_naive	2	rolling_origin	RMSE	6.691082740132131			51
+4	FluSurv-NET	Overall	New York	within_site	seasonal_naive	3	rolling_origin	MAE	4.465306122448979			49
+4	FluSurv-NET	Overall	New York	within_site	seasonal_naive	3	rolling_origin	RMSE	6.824774796314393			49
+4	FluSurv-NET	Overall	New York	within_site	seasonal_naive	4	rolling_origin	MAE	4.634042553191489			47
+4	FluSurv-NET	Overall	New York	within_site	seasonal_naive	4	rolling_origin	RMSE	6.9672180717682775			47
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.3785922090802942			51
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.7399828161007442			51
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	2	rolling_origin	MAE	2.1147467260581077			50
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	3.9801653167393813			50
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	3	rolling_origin	MAE	2.7321397779647567			49
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	4.86264547720231			49
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	4	rolling_origin	MAE	3.1178096089961023			48
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	5.378654524074766			48
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.3287732686036327			51
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	2.7296504862552355			51
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.939969337540737			50
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	3.8998209220283058			50
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	2.4864109545502053			49
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	4.626993937535825			49
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	2.7138511734309394			48
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	4.894300326615066			48
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.639773743573259			51
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	2.87301600252132			51
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	2.276658528685818			50
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	4.06015595456067			50
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.765429517829073			49
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	4.690986015143126			49
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.9552812722447186			48
+4	FluSurv-NET	Overall	Ohio	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	4.920236665929267			48
+4	FluSurv-NET	Overall	Ohio	within_site	seasonal_naive	1	rolling_origin	MAE	2.8100000000000005			30
+4	FluSurv-NET	Overall	Ohio	within_site	seasonal_naive	1	rolling_origin	RMSE	5.3977464433471365			30
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.0557333724150377			72
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	1.8106009992136554			72
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.2952624533328023			70
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	2.1538108482304024			70
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.5251085127168948			68
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	2.391181907464493			68
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.649254355616557			66
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	2.413389963026393			66
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	0.9913048776037444			72
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	1.7178594928633353			72
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.2204259352771196			70
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	2.0867865734995323			70
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.4332241382684714			68
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	2.272677471145909			68
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	1.3945646666125697			66
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	2.212084435790877			66
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.1147860625812143			72
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	1.820991604474397			72
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.4751366127593895			70
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	2.180388083924982			70
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	1.7429137240647612			68
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	2.360378374603553			68
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	1.810533136486325			66
+4	FluSurv-NET	Overall	Oregon	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	2.36034424300105			66
+4	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	1	rolling_origin	MAE	2.1056603773584905			53
+4	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	1	rolling_origin	RMSE	3.3601437525403357			53
+4	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	2	rolling_origin	MAE	2.1745098039215685			51
+4	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	2	rolling_origin	RMSE	3.42399262414452			51
+4	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	3	rolling_origin	MAE	2.251020408163265			49
+4	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	3	rolling_origin	RMSE	3.4925869016112			49
+4	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	4	rolling_origin	MAE	2.3425531914893614			47
+4	FluSurv-NET	Overall	Oregon	within_site	seasonal_naive	4	rolling_origin	RMSE	3.566063447365778			47
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	1.1975711043350343	0.6610326354198452	1.8618570626510929	100
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	2.2197625112134056	1.3181809971825638	3.026700666359496	100
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	1.6345105184180202	0.9858356401541055	2.4491643778615373	97
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	2.9013736799864107	1.7668224950270635	3.83627074727888	97
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	2.040346628106996	1.2157951226378356	3.1354995166250643	94
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	3.4676840191608767	2.255493497408725	4.494852607184279	94
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	2.2603944903065956	1.3419391601541026	3.5103512683647655	91
+4	FluSurv-NET	Overall	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	3.7758549724113952	2.347164879014968	5.033565766541804	91
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	1	rolling_origin	MAE	1.1374647005318415	0.6293236913342403	1.8021078459754463	100
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	1	rolling_origin	RMSE	2.167698584554322	1.2299004491888068	2.9922344204628573	100
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	2	rolling_origin	MAE	1.6072662339947297	0.9892338592246419	2.4782193122025005	97
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	2	rolling_origin	RMSE	2.872934890605956	1.8634421065227538	3.9593797900656527	97
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	3	rolling_origin	MAE	1.965495904179394	1.2147661783512267	2.8974076781175775	94
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	3	rolling_origin	RMSE	3.2785693840630143	2.0910708243792175	4.261593154628656	94
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	4	rolling_origin	MAE	2.155354783456173	1.262552077766193	3.1416764712057503	91
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals	4	rolling_origin	RMSE	3.494276066386255	2.1529505025611586	4.49958632273937	91
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.3054648940850717	0.8175440816078596	1.9316825344327941	94
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	2.2308788273447613	1.332001092148074	3.0186012212214575	94
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.8904712202379639	1.2131166708810879	2.849878558278801	90
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	3.042298243911199	1.9157232168121785	4.126871141203481	90
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.269544372334464	1.4708235537523502	3.171583611549397	86
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	3.4738649339060457	2.096985594921677	4.63210623477928	86
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.492783639849108	1.5793433583915988	3.4505726003720696	82
+4	FluSurv-NET	Overall	Overall	within_site	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	3.716399575947572	2.39304366699849	5.085320555361552	82
+4	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	2.728915662650602	1.6262951807228916	3.5571987951807236	83
+4	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	3.845494938925444	2.4575473873154126	4.687992553115924	83
+4	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	2.81	1.7673437499999995	3.8052187500000003	80
+4	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	3.914588100937313	2.4514816160519173	4.801117425671193	80
+4	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	2.894805194805194	1.814188311688312	3.823636363636363	77
+4	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	3.9871709854898962	2.673085915654933	4.764256118280755	77
+4	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	2.972972972972973	1.838918918918919	4.059493243243244	74
+4	FluSurv-NET	Overall	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	4.059789636408751	2.5955869960680666	4.9877478219562414	74
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	1	rolling_origin	MAE	1.5237286745709255			72
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	2.665913535966428			72
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.8330008077125548			70
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	3.2161440429766417			70
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.9970267078982555			68
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	3.3260813756380343			68
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	4	rolling_origin	MAE	2.024572631739496			66
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	3.106845442013991			66
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	1.3919491231451424			72
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	2.5295531814252454			72
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.7030458311641974			70
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	3.0875426788542173			70
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.8431786516963253			68
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	3.2408637239845204			68
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	1.8891595631434477			66
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	3.007427973987373			66
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	1.4318406552767673			72
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	2.4265233882891146			72
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.8104436818824843			70
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	2.95980415302867			70
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	2.0229784375890394			68
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	3.190530994059639			68
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	2.167828515789041			66
+4	FluSurv-NET	Overall	Tennessee	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	3.0669179091755945			66
+4	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	1	rolling_origin	MAE	1.977358490566038			53
+4	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	1	rolling_origin	RMSE	3.276502967816939			53
+4	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	2	rolling_origin	MAE	2.041176470588235			51
+4	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	2	rolling_origin	RMSE	3.3392790110629407			51
+4	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	3	rolling_origin	MAE	2.1122448979591835			49
+4	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	3	rolling_origin	RMSE	3.4059671526451867			49
+4	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	4	rolling_origin	MAE	2.195744680851064			47
+4	FluSurv-NET	Overall	Tennessee	within_site	seasonal_naive	4	rolling_origin	RMSE	3.4775266338824355			47
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.9552254053707482			72
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	1.5567777332059953			72
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.2996018183628968			70
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	2.0737212220177765			70
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.6624726050553902			68
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	2.4594123287463723			68
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.761273507248731			66
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	2.5481363672541875			66
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	1	rolling_origin	MAE	0.8327928248655619			72
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	1	rolling_origin	RMSE	1.4124849100918715			72
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	2	rolling_origin	MAE	1.1434669699264841			70
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	2	rolling_origin	RMSE	1.9443532255093308			70
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	3	rolling_origin	MAE	1.4847133708859324			68
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	3	rolling_origin	RMSE	2.33954632239639			68
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	4	rolling_origin	MAE	1.5675643359720528			66
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals	4	rolling_origin	RMSE	2.4368070712549725			66
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	MAE	0.9625160257871787			72
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	1	rolling_origin	RMSE	1.4312296770945778			72
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	MAE	1.2995598329717304			70
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	2	rolling_origin	RMSE	1.920282007729241			70
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	MAE	1.6569786507895754			68
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	3	rolling_origin	RMSE	2.3474779816479905			68
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	MAE	1.946574227985212			66
+4	FluSurv-NET	Overall	Utah	train_on_overall	ridge_with_signals_plus_flu_pos	4	rolling_origin	RMSE	2.573298543138685			66
+4	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	1	rolling_origin	MAE	1.130188679245283			53
+4	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	1	rolling_origin	RMSE	1.5541180839524145			53
+4	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	2	rolling_origin	MAE	1.1725490196078432			51
+4	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	2	rolling_origin	RMSE	1.5842360687626789			51
+4	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	3	rolling_origin	MAE	1.2102040816326531			49
+4	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	3	rolling_origin	RMSE	1.6154231138419104			49
+4	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	4	rolling_origin	MAE	1.2595744680851062			47
+4	FluSurv-NET	Overall	Utah	within_site	seasonal_naive	4	rolling_origin	RMSE	1.649371253512954			47
+4	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	0.3701413142006653	0.26797599639063563	0.4998993620466357	186
+4	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	0.5931616857911988	0.4505486160288346	0.7421822839735119	186
+4	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	0.46607357831132284	0.3441495679874451	0.6090931950527588	185
+4	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	0.7393224876830728	0.5378040897250763	0.914056152771808	185
+4	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	0.5680206819612307	0.3957393123591667	0.724570015975554	184
+4	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	0.8931029910110765	0.6387940397438031	1.114604903684651	184
+4	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	0.6596499690256974	0.48923108412490934	0.8827346769748712	183
+4	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	1.0410112761641848	0.763661678011716	1.314933197677672	183
+4	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	0.6301075268817204	0.43864247311827953	0.84630376344086	186
+4	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	0.9953656052788055	0.7088069237975991	1.2352019203990812	186
+4	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	0.6324324324324324	0.4556216216216215	0.8449324324324323	185
+4	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	0.9979438320325907	0.702144320773608	1.2806934350539525	185
+4	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	0.6331521739130435	0.4353260869565217	0.8489673913043477	184
+4	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	0.9999728257177357	0.7279531196529508	1.2620226139418422	184
+4	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	0.6344262295081967	0.4420765027322405	0.8607650273224042	183
+4	RSV-NET	65-74 yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	1.002265194010888	0.7369364339851476	1.2482109260294993	183
+4	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	0.7552978849962052	0.517982322139682	1.0368765683393335	186
+4	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	1.2990190476068302	0.932972917511092	1.6589791400367289	186
+4	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	0.9570104681950448	0.6690742479574827	1.3182365291488565	185
+4	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	1.6264416886295474	1.1745118348057932	2.0676952378517823	185
+4	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	1.1313773637785207	0.7831028971724611	1.5769190121560368	184
+4	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	1.9078080218713085	1.3657373845670442	2.4311735757173616	184
+4	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	1.2886156840067937	0.8880727101816459	1.7737707287933697	183
+4	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	2.144351964808176	1.4674574183884317	2.780312069279512	183
+4	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	1.1543010752688172	0.825215053763441	1.5347177419354834	186
+4	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	1.8591390075683865	1.3452257154737375	2.4101451356893597	186
+4	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	1.1594594594594594	0.8151081081081082	1.5567567567567568	185
+4	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	1.864098941812066	1.3705009069007663	2.3918841715487575	185
+4	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	1.1646739130434782	0.8168342391304348	1.5793750000000002	184
+4	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	1.8690994111324448	1.3344865188930854	2.423232429347142	184
+4	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	1.1704918032786884	0.7775956284153006	1.6257103825136612	183
+4	RSV-NET	75-84 yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	1.874184704347714	1.389708744952707	2.355369347496778	183
+4	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	1.7441781171599204	1.1151063598059792	2.346266826107559	186
+4	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	3.1453657033548255	2.239288060426169	4.155449296143479	186
+4	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	2.103203567534886	1.43563251087079	2.9178467307193583	185
+4	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	3.7494331137374006	2.467193673685462	4.883889422325762	185
+4	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	2.43709845216783	1.6699096152329032	3.3554366791944985	184
+4	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	4.2626930126343145	2.814707536286289	5.506727937101545	184
+4	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	2.719315921606325	1.801498912775658	3.7853646185836505	183
+4	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	4.846185988929864	3.36316901954589	6.1113343292569215	183
+4	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	2.6779569892473116	1.8609543010752687	3.622862903225805	186
+4	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	4.470831391736143	3.2670183217454576	5.643842105116521	186
+4	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	2.6886486486486487	1.7831756756756754	3.609891891891892	185
+4	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	4.482603008267599	3.2502102174239864	5.6369161986108125	185
+4	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	2.7021739130434783	1.9146059782608693	3.743043478260869	184
+4	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	4.49474330649753	3.2956629960106225	5.641348524177369	184
+4	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	2.7098360655737705	1.8155054644808744	3.6940573770491794	183
+4	RSV-NET	85+ yr	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	4.505982665459419	3.290647212983352	5.661759409859744	183
+4	RSV-NET	Overall	California	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.29462369076785316			186
+4	RSV-NET	Overall	California	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.47352534123548745			186
+4	RSV-NET	Overall	California	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.36667343187757734			185
+4	RSV-NET	Overall	California	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.5711902846153243			185
+4	RSV-NET	Overall	California	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.4452308296564546			184
+4	RSV-NET	Overall	California	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	0.6615122839030922			184
+4	RSV-NET	Overall	California	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.5230771432438686			183
+4	RSV-NET	Overall	California	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	0.7337763179628296			183
+4	RSV-NET	Overall	California	within_site	seasonal_naive	1	rolling_origin	MAE	0.38602150537634405			186
+4	RSV-NET	Overall	California	within_site	seasonal_naive	1	rolling_origin	RMSE	0.658933644904475			186
+4	RSV-NET	Overall	California	within_site	seasonal_naive	2	rolling_origin	MAE	0.3881081081081082			185
+4	RSV-NET	Overall	California	within_site	seasonal_naive	2	rolling_origin	RMSE	0.6607121465059806			185
+4	RSV-NET	Overall	California	within_site	seasonal_naive	3	rolling_origin	MAE	0.38967391304347837			184
+4	RSV-NET	Overall	California	within_site	seasonal_naive	3	rolling_origin	RMSE	0.6624641089539673			184
+4	RSV-NET	Overall	California	within_site	seasonal_naive	4	rolling_origin	MAE	0.39125683060109284			183
+4	RSV-NET	Overall	California	within_site	seasonal_naive	4	rolling_origin	RMSE	0.6642305215754164			183
+4	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.5443686120138633			186
+4	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	1.0080678639994265			186
+4	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.7446843363697			185
+4	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.3980383739629896			185
+4	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.9426714035376397			184
+4	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.7808872601395838			184
+4	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.108075521008833			183
+4	RSV-NET	Overall	Colorado	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	2.046801863959237			183
+4	RSV-NET	Overall	Colorado	within_site	seasonal_naive	1	rolling_origin	MAE	1.2440860215053766			186
+4	RSV-NET	Overall	Colorado	within_site	seasonal_naive	1	rolling_origin	RMSE	2.236116064466118			186
+4	RSV-NET	Overall	Colorado	within_site	seasonal_naive	2	rolling_origin	MAE	1.249189189189189			185
+4	RSV-NET	Overall	Colorado	within_site	seasonal_naive	2	rolling_origin	RMSE	2.242042987267808			185
+4	RSV-NET	Overall	Colorado	within_site	seasonal_naive	3	rolling_origin	MAE	1.2543478260869565			184
+4	RSV-NET	Overall	Colorado	within_site	seasonal_naive	3	rolling_origin	RMSE	2.2480184511079395			184
+4	RSV-NET	Overall	Colorado	within_site	seasonal_naive	4	rolling_origin	MAE	1.2590163934426228			183
+4	RSV-NET	Overall	Colorado	within_site	seasonal_naive	4	rolling_origin	RMSE	2.2539582668834974			183
+4	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.564442789101227			186
+4	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.9574309334372182			186
+4	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.7166810029244697			185
+4	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.191957107792515			185
+4	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.8005214570966147			184
+4	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.3666437227716082			184
+4	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.9314973714897027			183
+4	RSV-NET	Overall	Connecticut	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.4780938416573717			183
+4	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	1	rolling_origin	MAE	0.9478494623655914			186
+4	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	1	rolling_origin	RMSE	1.5054917390487688			186
+4	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	2	rolling_origin	MAE	0.9497297297297297			185
+4	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	2	rolling_origin	RMSE	1.5089104714365298			185
+4	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	3	rolling_origin	MAE	0.9521739130434783			184
+4	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	3	rolling_origin	RMSE	1.5125561434064263			184
+4	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	4	rolling_origin	MAE	0.9540983606557377			183
+4	RSV-NET	Overall	Connecticut	within_site	seasonal_naive	4	rolling_origin	RMSE	1.5160345166709448			183
+4	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.28436743734105063			186
+4	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.41935753097605144			186
+4	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.3799189785098681			185
+4	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.5633998640159014			185
+4	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.467966374215138			184
+4	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	0.669650782807507			184
+4	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.5408292487016395			183
+4	RSV-NET	Overall	Georgia	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	0.7712000183043257			183
+4	RSV-NET	Overall	Georgia	within_site	seasonal_naive	1	rolling_origin	MAE	0.7510752688172042			186
+4	RSV-NET	Overall	Georgia	within_site	seasonal_naive	1	rolling_origin	RMSE	1.0412203344855673			186
+4	RSV-NET	Overall	Georgia	within_site	seasonal_naive	2	rolling_origin	MAE	0.7551351351351351			185
+4	RSV-NET	Overall	Georgia	within_site	seasonal_naive	2	rolling_origin	RMSE	1.0440306508910548			185
+4	RSV-NET	Overall	Georgia	within_site	seasonal_naive	3	rolling_origin	MAE	0.7576086956521739			184
+4	RSV-NET	Overall	Georgia	within_site	seasonal_naive	3	rolling_origin	RMSE	1.0466302033711312			184
+4	RSV-NET	Overall	Georgia	within_site	seasonal_naive	4	rolling_origin	MAE	0.7601092896174864			183
+4	RSV-NET	Overall	Georgia	within_site	seasonal_naive	4	rolling_origin	RMSE	1.0492516198456088			183
+4	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.388461743286088			186
+4	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.6257708964308291			186
+4	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.5478295698728934			185
+4	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.8761371980053583			185
+4	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.681797549872633			184
+4	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.0565808413196658			184
+4	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.806369775636326			183
+4	RSV-NET	Overall	Maryland	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.2340886027837326			183
+4	RSV-NET	Overall	Maryland	within_site	seasonal_naive	1	rolling_origin	MAE	0.6973118279569893			186
+4	RSV-NET	Overall	Maryland	within_site	seasonal_naive	1	rolling_origin	RMSE	1.1618255934852784			186
+4	RSV-NET	Overall	Maryland	within_site	seasonal_naive	2	rolling_origin	MAE	0.6983783783783784			185
+4	RSV-NET	Overall	Maryland	within_site	seasonal_naive	2	rolling_origin	RMSE	1.164381287973911			185
+4	RSV-NET	Overall	Maryland	within_site	seasonal_naive	3	rolling_origin	MAE	0.7005434782608696			184
+4	RSV-NET	Overall	Maryland	within_site	seasonal_naive	3	rolling_origin	RMSE	1.1673315910563977			184
+4	RSV-NET	Overall	Maryland	within_site	seasonal_naive	4	rolling_origin	MAE	0.7021857923497268			183
+4	RSV-NET	Overall	Maryland	within_site	seasonal_naive	4	rolling_origin	RMSE	1.170143141960673			183
+4	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.49907913790166153			186
+4	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.8937551660346391			186
+4	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.6565805425209378			185
+4	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.2188854306102725			185
+4	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.8091416917692714			184
+4	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.4399017071536557			184
+4	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.9354687187640564			183
+4	RSV-NET	Overall	Michigan	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.6097801846191266			183
+4	RSV-NET	Overall	Michigan	within_site	seasonal_naive	1	rolling_origin	MAE	0.960752688172043			186
+4	RSV-NET	Overall	Michigan	within_site	seasonal_naive	1	rolling_origin	RMSE	1.7735663603058673			186
+4	RSV-NET	Overall	Michigan	within_site	seasonal_naive	2	rolling_origin	MAE	0.9648648648648649			185
+4	RSV-NET	Overall	Michigan	within_site	seasonal_naive	2	rolling_origin	RMSE	1.7782925305821662			185
+4	RSV-NET	Overall	Michigan	within_site	seasonal_naive	3	rolling_origin	MAE	0.961413043478261			184
+4	RSV-NET	Overall	Michigan	within_site	seasonal_naive	3	rolling_origin	RMSE	1.7792126983828989			184
+4	RSV-NET	Overall	Michigan	within_site	seasonal_naive	4	rolling_origin	MAE	0.9655737704918033			183
+4	RSV-NET	Overall	Michigan	within_site	seasonal_naive	4	rolling_origin	RMSE	1.784006052576172			183
+4	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.3721799896774798			186
+4	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.6271476045648839			186
+4	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.49228697046749165			185
+4	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.8179656591485546			185
+4	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.6032165770803978			184
+4	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	0.9892300841717646			184
+4	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.7256227564423684			183
+4	RSV-NET	Overall	Minnesota	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.1940309056900347			183
+4	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	1	rolling_origin	MAE	1.0526881720430106			186
+4	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	1	rolling_origin	RMSE	1.613551482629784			186
+4	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	2	rolling_origin	MAE	1.0529729729729729			185
+4	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	2	rolling_origin	RMSE	1.6162351982976413			185
+4	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	3	rolling_origin	MAE	1.0510869565217391			184
+4	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	3	rolling_origin	RMSE	1.6173314037528665			184
+4	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	4	rolling_origin	MAE	1.046994535519126			183
+4	RSV-NET	Overall	Minnesota	within_site	seasonal_naive	4	rolling_origin	RMSE	1.6162765007188453			183
+4	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.8206270510638949			186
+4	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	1.695843694043621			186
+4	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	2	rolling_origin	MAE	1.1597168324860783			185
+4	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	2.3763712528933456			185
+4	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	3	rolling_origin	MAE	1.4360802342385635			184
+4	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	2.9418929816144566			184
+4	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	4	rolling_origin	MAE	1.7022443088649581			183
+4	RSV-NET	Overall	New Mexico	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	3.3412108862022314			183
+4	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	1	rolling_origin	MAE	1.9440860215053766			186
+4	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	1	rolling_origin	RMSE	3.6649164933495837			186
+4	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	2	rolling_origin	MAE	1.9535135135135133			185
+4	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	2	rolling_origin	RMSE	3.6747789049138726			185
+4	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	3	rolling_origin	MAE	1.9614130434782608			184
+4	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	3	rolling_origin	RMSE	3.6845668142531562			184
+4	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	4	rolling_origin	MAE	1.9721311475409835			183
+4	RSV-NET	Overall	New Mexico	within_site	seasonal_naive	4	rolling_origin	RMSE	3.6946202212453407			183
+4	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.45411240588932644			186
+4	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.8215858719819907			186
+4	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.5981157969715729			185
+4	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.0992273987695493			185
+4	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.7543507553438914			184
+4	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.319137639245598			184
+4	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.8579937710888477			183
+4	RSV-NET	Overall	New York	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.521486205500877			183
+4	RSV-NET	Overall	New York	within_site	seasonal_naive	1	rolling_origin	MAE	0.9268817204301074			186
+4	RSV-NET	Overall	New York	within_site	seasonal_naive	1	rolling_origin	RMSE	1.6713911532303782			186
+4	RSV-NET	Overall	New York	within_site	seasonal_naive	2	rolling_origin	MAE	0.9286486486486486			185
+4	RSV-NET	Overall	New York	within_site	seasonal_naive	2	rolling_origin	RMSE	1.6753216714120016			185
+4	RSV-NET	Overall	New York	within_site	seasonal_naive	3	rolling_origin	MAE	0.9293478260869565			184
+4	RSV-NET	Overall	New York	within_site	seasonal_naive	3	rolling_origin	RMSE	1.6788324100009402			184
+4	RSV-NET	Overall	New York	within_site	seasonal_naive	4	rolling_origin	MAE	0.9300546448087431			183
+4	RSV-NET	Overall	New York	within_site	seasonal_naive	4	rolling_origin	RMSE	1.682374070669541			183
+4	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.27351432100514433			186
+4	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.46911709930248907			186
+4	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.36845528050881304			185
+4	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.6266208900879203			185
+4	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.45781689705335166			184
+4	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	0.7395550839700578			184
+4	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.5238944901718263			183
+4	RSV-NET	Overall	Oregon	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	0.8321182646873366			183
+4	RSV-NET	Overall	Oregon	within_site	seasonal_naive	1	rolling_origin	MAE	0.4096774193548387			186
+4	RSV-NET	Overall	Oregon	within_site	seasonal_naive	1	rolling_origin	RMSE	0.8084898972643348			186
+4	RSV-NET	Overall	Oregon	within_site	seasonal_naive	2	rolling_origin	MAE	0.4118918918918919			185
+4	RSV-NET	Overall	Oregon	within_site	seasonal_naive	2	rolling_origin	RMSE	0.8106720602001707			185
+4	RSV-NET	Overall	Oregon	within_site	seasonal_naive	3	rolling_origin	MAE	0.4141304347826087			184
+4	RSV-NET	Overall	Oregon	within_site	seasonal_naive	3	rolling_origin	RMSE	0.8128719884245105			184
+4	RSV-NET	Overall	Oregon	within_site	seasonal_naive	4	rolling_origin	MAE	0.4158469945355191			183
+4	RSV-NET	Overall	Oregon	within_site	seasonal_naive	4	rolling_origin	RMSE	0.8150564028892175			183
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	1	rolling_origin	MAE	0.2502825857146309	0.1754634854434499	0.32752763746206487	186
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	1	rolling_origin	RMSE	0.40011204516199694	0.2842633304073239	0.5078382068889047	186
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	2	rolling_origin	MAE	0.35757934305535494	0.2589841981056147	0.48011488533185503	185
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	2	rolling_origin	RMSE	0.5668940838141561	0.41231453706751575	0.7195238048469995	185
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	3	rolling_origin	MAE	0.44918376590867776	0.3244454472572018	0.5750374125719232	184
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	3	rolling_origin	RMSE	0.7191349213790514	0.5031061580885534	0.9019195982937432	184
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	4	rolling_origin	MAE	0.5478675117913002	0.3889285179130853	0.76166127899219	183
+4	RSV-NET	Overall	Overall	within_site	ridge_univariate	4	rolling_origin	RMSE	0.8788367581442914	0.6220516190607128	1.1238419240791422	183
+4	RSV-NET	Overall	Overall	within_site	seasonal_naive	1	rolling_origin	MAE	0.7150537634408602	0.5147177419354838	0.9468010752688172	186
+4	RSV-NET	Overall	Overall	within_site	seasonal_naive	1	rolling_origin	RMSE	1.0936768408712256	0.8035348140749858	1.4048270110507004	186
+4	RSV-NET	Overall	Overall	within_site	seasonal_naive	2	rolling_origin	MAE	0.7162162162162161	0.49671621621621626	0.9504594594594592	185
+4	RSV-NET	Overall	Overall	within_site	seasonal_naive	2	rolling_origin	RMSE	1.096012428416413	0.7968335266106876	1.3865588922150878	185
+4	RSV-NET	Overall	Overall	within_site	seasonal_naive	3	rolling_origin	MAE	0.7179347826086956	0.5222826086956521	0.9528396739130433	184
+4	RSV-NET	Overall	Overall	within_site	seasonal_naive	3	rolling_origin	RMSE	1.0985909948261197	0.7726515918202529	1.395120438067979	184
+4	RSV-NET	Overall	Overall	within_site	seasonal_naive	4	rolling_origin	MAE	0.7196721311475409	0.5032786885245901	0.9393715846994534	183
+4	RSV-NET	Overall	Overall	within_site	seasonal_naive	4	rolling_origin	RMSE	1.1011916049533215	0.8088757842516627	1.381477284340429	183
+4	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.33009660299433813			186
+4	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.5424572559665699			186
+4	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.38213756500947466			185
+4	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	0.5980438428060232			185
+4	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.4637176800871076			184
+4	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	0.7115997938589822			184
+4	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.5238762687137406			183
+4	RSV-NET	Overall	Tennessee	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	0.7656763135487713			183
+4	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	1	rolling_origin	MAE	0.4887096774193549			186
+4	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	1	rolling_origin	RMSE	0.7437553650298951			186
+4	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	2	rolling_origin	MAE	0.48486486486486485			185
+4	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	2	rolling_origin	RMSE	0.7405257445750136			185
+4	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	3	rolling_origin	MAE	0.483695652173913			184
+4	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	3	rolling_origin	RMSE	0.7407399355873241			184
+4	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	4	rolling_origin	MAE	0.48306010928961746			183
+4	RSV-NET	Overall	Tennessee	within_site	seasonal_naive	4	rolling_origin	RMSE	0.7414356182139378			183
+4	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	1	rolling_origin	MAE	0.48954870695652614			186
+4	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	1	rolling_origin	RMSE	0.8764770275462761			186
+4	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	2	rolling_origin	MAE	0.6553068847135658			185
+4	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	2	rolling_origin	RMSE	1.2104012786739946			185
+4	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	3	rolling_origin	MAE	0.8478589693930093			184
+4	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	3	rolling_origin	RMSE	1.5302042756880863			184
+4	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	4	rolling_origin	MAE	0.992792476122582			183
+4	RSV-NET	Overall	Utah	train_on_overall	ridge_univariate	4	rolling_origin	RMSE	1.768746332961649			183
+4	RSV-NET	Overall	Utah	within_site	seasonal_naive	1	rolling_origin	MAE	1.0053763440860215			186
+4	RSV-NET	Overall	Utah	within_site	seasonal_naive	1	rolling_origin	RMSE	1.8289782093624243			186
+4	RSV-NET	Overall	Utah	within_site	seasonal_naive	2	rolling_origin	MAE	1.0108108108108107			185
+4	RSV-NET	Overall	Utah	within_site	seasonal_naive	2	rolling_origin	RMSE	1.8339147317264353			185
+4	RSV-NET	Overall	Utah	within_site	seasonal_naive	3	rolling_origin	MAE	1.014673913043478			184
+4	RSV-NET	Overall	Utah	within_site	seasonal_naive	3	rolling_origin	RMSE	1.838758442182021			184
+4	RSV-NET	Overall	Utah	within_site	seasonal_naive	4	rolling_origin	MAE	1.0163934426229508			183
+4	RSV-NET	Overall	Utah	within_site	seasonal_naive	4	rolling_origin	RMSE	1.8430492671366372			183

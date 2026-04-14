@@ -1,0 +1,13 @@
+outcome_series	variable	label	first_week_ending_date	last_week_ending_date	n_nonmissing_weeks	missingness_frac	notes
+FluSurv-NET	ed_influenza_pct_65p	ED percent visits, influenza (NSSP; age 65 years and older)	2022-10-08	2026-03-14	138	0.4152542372881356	Modern syndromic surveillance era (Oct 2022–present).
+FluSurv-NET	ed_rsv_pct_65p	ED percent visits, RSV (NSSP; age 65 years and older)	2022-10-08	2026-03-14	138	0.4152542372881356	Modern syndromic surveillance era (Oct 2022–present).
+FluSurv-NET	flu_positivity	Influenza test positivity (CDC public export)	2022-10-08	2026-03-14	138	0.4152542372881356	
+FluSurv-NET	rate_per_100k	Hospitalization rate per 100,000 (RESP-NET)	2018-10-06	2026-03-14	236	0.0	
+FluSurv-NET	rsv_positivity	RSV test positivity (NREVSS public export; sensitivity)	2018-10-06	2020-05-02	62	0.7372881355932204	Public export ends pre-2021; included for sensitivity analysis only.
+FluSurv-NET	wili	wILI (FluView; national)	2018-10-06	2026-03-14	236	0.0	
+RSV-NET	ed_influenza_pct_65p	ED percent visits, influenza (NSSP; age 65 years and older)	2022-10-01	2026-03-14	181	0.4783861671469741	Modern syndromic surveillance era (Oct 2022–present).
+RSV-NET	ed_rsv_pct_65p	ED percent visits, RSV (NSSP; age 65 years and older)	2022-10-01	2026-03-14	181	0.4783861671469741	Modern syndromic surveillance era (Oct 2022–present).
+RSV-NET	flu_positivity	Influenza test positivity (CDC public export)	2022-10-01	2026-03-14	181	0.4783861671469741	
+RSV-NET	rate_per_100k	Hospitalization rate per 100,000 (RESP-NET)	2018-10-06	2026-03-14	347	0.0	
+RSV-NET	rsv_positivity	RSV test positivity (NREVSS public export; sensitivity)	2018-10-06	2020-05-02	62	0.8213256484149856	Public export ends pre-2021; included for sensitivity analysis only.
+RSV-NET	wili	wILI (FluView; national)	2018-10-06	2026-03-14	347	0.0	

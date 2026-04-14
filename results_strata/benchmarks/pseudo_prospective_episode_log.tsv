@@ -1,0 +1,319 @@
+exclude_last_weeks	surveillance_network	age_group	site	method	threshold_rule	threshold_value	episode_start_epiweek	episode_end_epiweek	episode_start_week_ending_date	episode_end_week_ending_date	true_episode	onset_epiweek	lead_weeks
+0	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	8.775	202452	202510	2024-12-28	2025-03-08	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	11.3	202501	202509	2025-01-04	2025-03-01	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	12.55	202501	202508	2025-01-04	2025-02-22	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	8.775	202551	202601	2025-12-20	2026-01-10	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	11.3	202552	202601	2025-12-27	2026-01-10	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	12.55	202552	202601	2025-12-27	2026-01-10	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.85	8.775	202452	202510	2024-12-28	2025-03-08	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.90	11.3	202501	202509	2025-01-04	2025-03-01	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.95	12.55	202501	202502	2025-01-04	2025-01-11	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.95	12.55	202504	202508	2025-01-25	2025-02-22	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.85	8.775	202551	202601	2025-12-20	2026-01-10	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.90	11.3	202552	202601	2025-12-27	2026-01-10	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.95	12.55	202552	202601	2025-12-27	2026-01-10	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	8.775	202452	202510	2024-12-28	2025-03-08	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	11.3	202501	202502	2025-01-04	2025-01-11	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	12.55	202501	202502	2025-01-04	2025-01-11	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	11.3	202504	202509	2025-01-25	2025-03-01	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	12.55	202504	202509	2025-01-25	2025-03-01	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	8.775	202550	202602	2025-12-13	2026-01-17	1	202551.0	1.0
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	11.3	202551	202601	2025-12-20	2026-01-10	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	12.55	202552	202601	2025-12-27	2026-01-10	0		
+0	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	8.775	202604	202604	2026-01-31	2026-01-31	0		
+0	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	8.775	202447	202501	2024-11-23	2025-01-04	0		
+0	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.90	11.3	202447	202452	2024-11-23	2024-12-28	0		
+0	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.95	12.55	202448	202452	2024-11-30	2024-12-28	1	202452.0	4.0
+0	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	8.775	202548	202609	2025-11-29	2026-03-07	1	202551.0	3.0
+0	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.90	11.3	202548	202609	2025-11-29	2026-03-07	1	202551.0	3.0
+0	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.95	12.55	202548	202608	2025-11-29	2026-02-28	1	202551.0	3.0
+4	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	8.775	202452	202510	2024-12-28	2025-03-08	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	11.3	202501	202509	2025-01-04	2025-03-01	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	12.55	202501	202508	2025-01-04	2025-02-22	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	8.775	202551	202601	2025-12-20	2026-01-10	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	11.3	202552	202601	2025-12-27	2026-01-10	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	12.55	202552	202601	2025-12-27	2026-01-10	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.85	8.775	202452	202510	2024-12-28	2025-03-08	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.90	11.3	202501	202509	2025-01-04	2025-03-01	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.95	12.55	202501	202502	2025-01-04	2025-01-11	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.95	12.55	202504	202508	2025-01-25	2025-02-22	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.85	8.775	202551	202601	2025-12-20	2026-01-10	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.90	11.3	202552	202601	2025-12-27	2026-01-10	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals	train_quantile_0.95	12.55	202552	202601	2025-12-27	2026-01-10	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	8.775	202452	202510	2024-12-28	2025-03-08	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	11.3	202501	202502	2025-01-04	2025-01-11	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	12.55	202501	202502	2025-01-04	2025-01-11	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	11.3	202504	202509	2025-01-25	2025-03-01	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	12.55	202504	202509	2025-01-25	2025-03-01	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	8.775	202550	202602	2025-12-13	2026-01-17	1	202551.0	1.0
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	11.3	202551	202601	2025-12-20	2026-01-10	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	12.55	202552	202601	2025-12-27	2026-01-10	0		
+4	FluSurv-NET	65-74 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	8.775	202604	202604	2026-01-31	2026-01-31	0		
+4	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	8.775	202447	202501	2024-11-23	2025-01-04	0		
+4	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.90	11.3	202447	202452	2024-11-23	2024-12-28	0		
+4	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.95	12.55	202448	202452	2024-11-30	2024-12-28	1	202452.0	4.0
+4	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	8.775	202548	202605	2025-11-29	2026-02-07	1	202551.0	3.0
+4	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.90	11.3	202548	202605	2025-11-29	2026-02-07	1	202551.0	3.0
+4	FluSurv-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.95	12.55	202548	202605	2025-11-29	2026-02-07	1	202551.0	3.0
+0	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	14.975	202501	202510	2025-01-04	2025-03-08	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	17.85	202501	202510	2025-01-04	2025-03-08	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	23.1	202501	202502	2025-01-04	2025-01-11	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	23.1	202504	202509	2025-01-25	2025-03-01	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	14.975	202551	202601	2025-12-20	2026-01-10	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	17.85	202551	202601	2025-12-20	2026-01-10	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	23.1	202552	202601	2025-12-27	2026-01-10	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.85	14.975	202452	202510	2024-12-28	2025-03-08	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.90	17.85	202501	202509	2025-01-04	2025-03-01	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.95	23.1	202501	202502	2025-01-04	2025-01-11	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.95	23.1	202504	202509	2025-01-25	2025-03-01	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.85	14.975	202551	202601	2025-12-20	2026-01-10	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.90	17.85	202551	202601	2025-12-20	2026-01-10	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.95	23.1	202552	202601	2025-12-27	2026-01-10	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	14.975	202452	202510	2024-12-28	2025-03-08	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	17.85	202452	202502	2024-12-28	2025-01-11	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	23.1	202501	202502	2025-01-04	2025-01-11	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	17.85	202504	202509	2025-01-25	2025-03-01	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	23.1	202504	202509	2025-01-25	2025-03-01	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	14.975	202549	202602	2025-12-06	2026-01-17	1	202550.0	1.0
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	17.85	202551	202602	2025-12-20	2026-01-17	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	23.1	202552	202601	2025-12-27	2026-01-10	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	14.975	202604	202604	2026-01-31	2026-01-31	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	17.85	202604	202604	2026-01-31	2026-01-31	0		
+0	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	14.975	202606	202606	2026-02-14	2026-02-14	0		
+0	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	14.975	202447	202502	2024-11-23	2025-01-11	0		
+0	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	17.85	202447	202501	2024-11-23	2025-01-04	0		
+0	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	23.1	202448	202452	2024-11-30	2024-12-28	1	202452.0	4.0
+0	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	14.975	202548	202609	2025-11-29	2026-03-07	1	202550.0	2.0
+0	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	17.85	202548	202609	2025-11-29	2026-03-07	1	202551.0	3.0
+0	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	23.1	202548	202608	2025-11-29	2026-02-28	1	202551.0	3.0
+4	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	14.975	202501	202510	2025-01-04	2025-03-08	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	17.85	202501	202510	2025-01-04	2025-03-08	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	23.1	202501	202502	2025-01-04	2025-01-11	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	23.1	202504	202509	2025-01-25	2025-03-01	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	14.975	202551	202601	2025-12-20	2026-01-10	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	17.85	202551	202601	2025-12-20	2026-01-10	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	23.1	202552	202601	2025-12-27	2026-01-10	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.85	14.975	202452	202510	2024-12-28	2025-03-08	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.90	17.85	202501	202509	2025-01-04	2025-03-01	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.95	23.1	202501	202502	2025-01-04	2025-01-11	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.95	23.1	202504	202509	2025-01-25	2025-03-01	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.85	14.975	202551	202601	2025-12-20	2026-01-10	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.90	17.85	202551	202601	2025-12-20	2026-01-10	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals	train_quantile_0.95	23.1	202552	202601	2025-12-27	2026-01-10	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	14.975	202452	202510	2024-12-28	2025-03-08	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	17.85	202452	202502	2024-12-28	2025-01-11	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	23.1	202501	202502	2025-01-04	2025-01-11	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	17.85	202504	202509	2025-01-25	2025-03-01	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	23.1	202504	202509	2025-01-25	2025-03-01	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	14.975	202549	202602	2025-12-06	2026-01-17	1	202550.0	1.0
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	17.85	202551	202602	2025-12-20	2026-01-17	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	23.1	202552	202601	2025-12-27	2026-01-10	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	14.975	202604	202604	2026-01-31	2026-01-31	0		
+4	FluSurv-NET	75-84 yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	17.85	202604	202604	2026-01-31	2026-01-31	0		
+4	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	14.975	202447	202502	2024-11-23	2025-01-11	0		
+4	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	17.85	202447	202501	2024-11-23	2025-01-04	0		
+4	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	23.1	202448	202452	2024-11-30	2024-12-28	1	202452.0	4.0
+4	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	14.975	202548	202605	2025-11-29	2026-02-07	1	202550.0	2.0
+4	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	17.85	202548	202605	2025-11-29	2026-02-07	1	202551.0	3.0
+4	FluSurv-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	23.1	202548	202605	2025-11-29	2026-02-07	1	202551.0	3.0
+0	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	22.9	202501	202510	2025-01-04	2025-03-08	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	26.0	202501	202510	2025-01-04	2025-03-08	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	35.300000000000004	202501	202510	2025-01-04	2025-03-08	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	22.9	202550	202603	2025-12-13	2026-01-24	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	26.0	202551	202602	2025-12-20	2026-01-17	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	35.300000000000004	202551	202602	2025-12-20	2026-01-17	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	22.9	202605	202606	2026-02-07	2026-02-14	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	26.0	202605	202605	2026-02-07	2026-02-07	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.85	22.9	202452	202510	2024-12-28	2025-03-08	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.90	26.0	202501	202510	2025-01-04	2025-03-08	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.95	35.300000000000004	202501	202502	2025-01-04	2025-01-11	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.95	35.300000000000004	202504	202510	2025-01-25	2025-03-08	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.85	22.9	202550	202606	2025-12-13	2026-02-14	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.90	26.0	202551	202606	2025-12-20	2026-02-14	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.95	35.300000000000004	202551	202601	2025-12-20	2026-01-10	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	22.9	202452	202511	2024-12-28	2025-03-15	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	26.0	202452	202511	2024-12-28	2025-03-15	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	35.300000000000004	202501	202509	2025-01-04	2025-03-01	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	22.9	202549	202607	2025-12-06	2026-02-21	1	202550.0	1.0
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	26.0	202550	202604	2025-12-13	2026-01-31	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	35.300000000000004	202551	202602	2025-12-20	2026-01-17	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	35.300000000000004	202604	202604	2026-01-31	2026-01-31	0		
+0	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	26.0	202606	202607	2026-02-14	2026-02-21	0		
+0	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	22.9	202447	202502	2024-11-23	2025-01-11	0		
+0	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	26.0	202447	202501	2024-11-23	2025-01-04	0		
+0	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.95	35.300000000000004	202448	202451	2024-11-30	2024-12-21	1	202452.0	4.0
+0	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	22.9	202504	202507	2025-01-25	2025-02-15	0		
+0	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	22.9	202548	202609	2025-11-29	2026-03-07	1	202550.0	2.0
+0	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	26.0	202548	202609	2025-11-29	2026-03-07	1	202550.0	2.0
+0	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.95	35.300000000000004	202548	202608	2025-11-29	2026-02-28	1	202551.0	3.0
+4	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	22.9	202501	202510	2025-01-04	2025-03-08	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	26.0	202501	202510	2025-01-04	2025-03-08	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	35.300000000000004	202501	202510	2025-01-04	2025-03-08	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	22.9	202550	202603	2025-12-13	2026-01-24	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	26.0	202551	202602	2025-12-20	2026-01-17	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	35.300000000000004	202551	202602	2025-12-20	2026-01-17	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	22.9	202605	202605	2026-02-07	2026-02-07	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	26.0	202605	202605	2026-02-07	2026-02-07	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.85	22.9	202452	202510	2024-12-28	2025-03-08	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.90	26.0	202501	202510	2025-01-04	2025-03-08	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.95	35.300000000000004	202501	202502	2025-01-04	2025-01-11	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.95	35.300000000000004	202504	202510	2025-01-25	2025-03-08	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.85	22.9	202550	202605	2025-12-13	2026-02-07	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.90	26.0	202551	202605	2025-12-20	2026-02-07	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals	train_quantile_0.95	35.300000000000004	202551	202601	2025-12-20	2026-01-10	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	22.9	202452	202511	2024-12-28	2025-03-15	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	26.0	202452	202511	2024-12-28	2025-03-15	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	35.300000000000004	202501	202509	2025-01-04	2025-03-01	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.85	22.9	202549	202605	2025-12-06	2026-02-07	1	202550.0	1.0
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.90	26.0	202550	202604	2025-12-13	2026-01-31	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	35.300000000000004	202551	202602	2025-12-20	2026-01-17	0		
+4	FluSurv-NET	85+ yr	Overall	ridge_with_signals_plus_flu_pos	train_quantile_0.95	35.300000000000004	202604	202604	2026-01-31	2026-01-31	0		
+4	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	22.9	202447	202502	2024-11-23	2025-01-11	0		
+4	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	26.0	202447	202501	2024-11-23	2025-01-04	0		
+4	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.95	35.300000000000004	202448	202451	2024-11-30	2024-12-21	1	202452.0	4.0
+4	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	22.9	202504	202507	2025-01-25	2025-02-15	0		
+4	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	22.9	202548	202605	2025-11-29	2026-02-07	1	202550.0	2.0
+4	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	26.0	202548	202605	2025-11-29	2026-02-07	1	202550.0	2.0
+4	FluSurv-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.95	35.300000000000004	202548	202605	2025-11-29	2026-02-07	1	202551.0	3.0
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	1.2	202243	202303	2022-10-29	2023-01-21	0		
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	1.35	202243	202302	2022-10-29	2023-01-14	0		
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	1.6	202244	202302	2022-11-05	2023-01-14	0		
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	1.2	202345	202409	2023-11-11	2024-03-02	0		
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	1.35	202345	202409	2023-11-11	2024-03-02	0		
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	1.6	202346	202408	2023-11-18	2024-02-24	0		
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	1.2	202448	202512	2024-11-30	2025-03-22	0		
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	1.35	202448	202448	2024-11-30	2024-11-30	1	202449.0	1.0
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	1.35	202450	202512	2024-12-14	2025-03-22	0		
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	1.6	202450	202511	2024-12-14	2025-03-15	0		
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	1.2	202551	202609	2025-12-20	2026-03-07	0		
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	1.35	202551	202609	2025-12-20	2026-03-07	0		
+0	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	1.6	202553	202609	2026-01-03	2026-03-07	0		
+0	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	1.2	202245	202250	2022-11-12	2022-12-17	0		
+0	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	1.2	202338	202402	2023-09-23	2024-01-13	0		
+0	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.90	1.35	202339	202401	2023-09-30	2024-01-06	0		
+0	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.95	1.6	202339	202352	2023-09-30	2023-12-30	0		
+0	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	1.2	202440	202510	2024-10-05	2025-03-08	0		
+0	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.90	1.35	202440	202507	2024-10-05	2025-02-15	0		
+0	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.95	1.6	202441	202507	2024-10-12	2025-02-15	0		
+0	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	1.2	202543	202609	2025-10-25	2026-03-07	0		
+0	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.90	1.35	202545	202609	2025-11-08	2026-03-07	0		
+0	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.95	1.6	202545	202609	2025-11-08	2026-03-07	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	1.2	202243	202303	2022-10-29	2023-01-21	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	1.35	202243	202302	2022-10-29	2023-01-14	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	1.6	202244	202302	2022-11-05	2023-01-14	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	1.2	202345	202409	2023-11-11	2024-03-02	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	1.35	202345	202409	2023-11-11	2024-03-02	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	1.6	202346	202408	2023-11-18	2024-02-24	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	1.2	202448	202512	2024-11-30	2025-03-22	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	1.35	202448	202448	2024-11-30	2024-11-30	1	202449.0	1.0
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	1.35	202450	202512	2024-12-14	2025-03-22	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	1.6	202450	202511	2024-12-14	2025-03-15	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.85	1.2	202551	202605	2025-12-20	2026-02-07	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.90	1.35	202551	202605	2025-12-20	2026-02-07	0		
+4	RSV-NET	65-74 yr	Overall	ridge_univariate	train_quantile_0.95	1.6	202553	202605	2026-01-03	2026-02-07	0		
+4	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	1.2	202245	202250	2022-11-12	2022-12-17	0		
+4	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	1.2	202338	202402	2023-09-23	2024-01-13	0		
+4	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.90	1.35	202339	202401	2023-09-30	2024-01-06	0		
+4	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.95	1.6	202339	202352	2023-09-30	2023-12-30	0		
+4	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	1.2	202440	202510	2024-10-05	2025-03-08	0		
+4	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.90	1.35	202440	202507	2024-10-05	2025-02-15	0		
+4	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.95	1.6	202441	202507	2024-10-12	2025-02-15	0		
+4	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.85	1.2	202543	202605	2025-10-25	2026-02-07	0		
+4	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.90	1.35	202545	202605	2025-11-08	2026-02-07	0		
+4	RSV-NET	65-74 yr	Overall	seasonal_naive	train_quantile_0.95	1.6	202545	202605	2025-11-08	2026-02-07	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	2.5	202245	202304	2022-11-12	2023-01-28	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	2.85	202246	202303	2022-11-19	2023-01-21	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	3.2	202247	202252	2022-11-26	2022-12-31	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	3.2	202302	202303	2023-01-14	2023-01-21	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	2.5	202347	202409	2023-11-25	2024-03-02	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	2.85	202347	202408	2023-11-25	2024-02-24	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	3.2	202347	202407	2023-11-25	2024-02-17	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	2.5	202450	202514	2024-12-14	2025-04-05	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	2.85	202451	202513	2024-12-21	2025-03-29	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	3.2	202451	202513	2024-12-21	2025-03-29	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	2.5	202552	202609	2025-12-27	2026-03-07	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	2.85	202553	202609	2026-01-03	2026-03-07	0		
+0	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	3.2	202601	202609	2026-01-10	2026-03-07	0		
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	2.5	202241	202252	2022-10-15	2022-12-31	1	202244.0	3.0
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	2.85	202245	202248	2022-11-12	2022-12-03	0		
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	3.2	202245	202248	2022-11-12	2022-12-03	0		
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	2.5	202340	202402	2023-10-07	2024-01-13	0		
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	2.85	202340	202401	2023-10-07	2024-01-06	0		
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	3.2	202340	202401	2023-10-07	2024-01-06	0		
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	2.5	202441	202508	2024-10-12	2025-02-22	0		
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	2.85	202441	202507	2024-10-12	2025-02-15	0		
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	3.2	202442	202507	2024-10-19	2025-02-15	0		
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	2.5	202545	202609	2025-11-08	2026-03-07	0		
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	2.85	202545	202609	2025-11-08	2026-03-07	0		
+0	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	3.2	202545	202609	2025-11-08	2026-03-07	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	2.5	202245	202304	2022-11-12	2023-01-28	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	2.85	202246	202303	2022-11-19	2023-01-21	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	3.2	202247	202252	2022-11-26	2022-12-31	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	3.2	202302	202303	2023-01-14	2023-01-21	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	2.5	202347	202409	2023-11-25	2024-03-02	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	2.85	202347	202408	2023-11-25	2024-02-24	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	3.2	202347	202407	2023-11-25	2024-02-17	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	2.5	202450	202514	2024-12-14	2025-04-05	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	2.85	202451	202513	2024-12-21	2025-03-29	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	3.2	202451	202513	2024-12-21	2025-03-29	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.85	2.5	202552	202605	2025-12-27	2026-02-07	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.90	2.85	202553	202605	2026-01-03	2026-02-07	0		
+4	RSV-NET	75-84 yr	Overall	ridge_univariate	train_quantile_0.95	3.2	202601	202605	2026-01-10	2026-02-07	0		
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	2.5	202241	202252	2022-10-15	2022-12-31	1	202244.0	3.0
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	2.85	202245	202248	2022-11-12	2022-12-03	0		
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	3.2	202245	202248	2022-11-12	2022-12-03	0		
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	2.5	202340	202402	2023-10-07	2024-01-13	0		
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	2.85	202340	202401	2023-10-07	2024-01-06	0		
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	3.2	202340	202401	2023-10-07	2024-01-06	0		
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	2.5	202441	202508	2024-10-12	2025-02-22	0		
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	2.85	202441	202507	2024-10-12	2025-02-15	0		
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	3.2	202442	202507	2024-10-19	2025-02-15	0		
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.85	2.5	202545	202605	2025-11-08	2026-02-07	0		
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.90	2.85	202545	202605	2025-11-08	2026-02-07	0		
+4	RSV-NET	75-84 yr	Overall	seasonal_naive	train_quantile_0.95	3.2	202545	202605	2025-11-08	2026-02-07	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	4.65	202246	202303	2022-11-19	2023-01-21	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	5.3	202246	202303	2022-11-19	2023-01-21	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	7.25	202246	202303	2022-11-19	2023-01-21	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	4.65	202346	202410	2023-11-18	2024-03-09	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	5.3	202346	202409	2023-11-18	2024-03-02	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	7.25	202347	202409	2023-11-25	2024-03-02	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	4.65	202450	202514	2024-12-14	2025-04-05	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	5.3	202450	202514	2024-12-14	2025-04-05	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	7.25	202452	202514	2024-12-28	2025-04-05	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	4.65	202552	202609	2025-12-27	2026-03-07	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	5.3	202552	202609	2025-12-27	2026-03-07	0		
+0	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	7.25	202601	202609	2026-01-10	2026-03-07	0		
+0	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	4.65	202245	202248	2022-11-12	2022-12-03	0		
+0	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	5.3	202245	202248	2022-11-12	2022-12-03	0		
+0	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	4.65	202340	202401	2023-10-07	2024-01-06	0		
+0	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	5.3	202341	202401	2023-10-14	2024-01-06	1	202345.0	4.0
+0	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.95	7.25	202341	202401	2023-10-14	2024-01-06	0		
+0	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	4.65	202441	202508	2024-10-12	2025-02-22	0		
+0	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	5.3	202441	202508	2024-10-12	2025-02-22	0		
+0	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.95	7.25	202442	202507	2024-10-19	2025-02-15	0		
+0	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	4.65	202545	202609	2025-11-08	2026-03-07	0		
+0	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	5.3	202545	202609	2025-11-08	2026-03-07	0		
+0	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.95	7.25	202545	202609	2025-11-08	2026-03-07	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	4.65	202246	202303	2022-11-19	2023-01-21	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	5.3	202246	202303	2022-11-19	2023-01-21	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	7.25	202246	202303	2022-11-19	2023-01-21	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	4.65	202346	202410	2023-11-18	2024-03-09	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	5.3	202346	202409	2023-11-18	2024-03-02	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	7.25	202347	202409	2023-11-25	2024-03-02	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	4.65	202450	202514	2024-12-14	2025-04-05	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	5.3	202450	202514	2024-12-14	2025-04-05	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	7.25	202452	202514	2024-12-28	2025-04-05	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.85	4.65	202552	202605	2025-12-27	2026-02-07	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.90	5.3	202552	202605	2025-12-27	2026-02-07	0		
+4	RSV-NET	85+ yr	Overall	ridge_univariate	train_quantile_0.95	7.25	202601	202605	2026-01-10	2026-02-07	0		
+4	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	4.65	202245	202248	2022-11-12	2022-12-03	0		
+4	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	5.3	202245	202248	2022-11-12	2022-12-03	0		
+4	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	4.65	202340	202401	2023-10-07	2024-01-06	0		
+4	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	5.3	202341	202401	2023-10-14	2024-01-06	1	202345.0	4.0
+4	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.95	7.25	202341	202401	2023-10-14	2024-01-06	0		
+4	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	4.65	202441	202508	2024-10-12	2025-02-22	0		
+4	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	5.3	202441	202508	2024-10-12	2025-02-22	0		
+4	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.95	7.25	202442	202507	2024-10-19	2025-02-15	0		
+4	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.85	4.65	202545	202605	2025-11-08	2026-02-07	0		
+4	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.90	5.3	202545	202605	2025-11-08	2026-02-07	0		
+4	RSV-NET	85+ yr	Overall	seasonal_naive	train_quantile_0.95	7.25	202545	202605	2025-11-08	2026-02-07	0		

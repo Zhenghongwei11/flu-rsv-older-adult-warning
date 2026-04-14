@@ -1,0 +1,4 @@
+exclude_last_weeks	surveillance_network	age_group	site	train_scope	method	horizon_weeks	paired_n	metric	baseline_value	method_value	improvement_over_baseline	improvement_ci_lo	improvement_ci_hi
+4	RSV-NET	65-74 yr	Overall	within_site	ridge_univariate	1	186	MAE	0.6301075268817204	0.3701413142006653	0.2599662126810551	0.1388897914094717	0.4086585742448287
+4	RSV-NET	75-84 yr	Overall	within_site	ridge_univariate	1	186	MAE	1.1543010752688172	0.7552978849962052	0.399003190272612	0.1172300400904873	0.668728860529525
+4	RSV-NET	85+ yr	Overall	within_site	ridge_univariate	1	186	MAE	2.677956989247312	1.7441781171599204	0.9337788720873912	0.3530899704047256	1.6237654673919213

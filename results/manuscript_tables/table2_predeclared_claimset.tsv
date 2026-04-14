@@ -1,0 +1,5 @@
+exclude_last_weeks	surveillance_network	age_group	site	train_scope	method	horizon_weeks	paired_n	metric	baseline_value	method_value	improvement_over_baseline	improvement_ci_lo	improvement_ci_hi	p_value_signflip_two_sided	p_holm_claimset	paired_n_mdes	mdes_improvement
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1	51	MAE	8.558823529411763	5.370699007444972	3.188124521966791	-0.0657901912528939	6.027652568101499	0.0179	0.0537	51	3.675580015008603
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2	49	MAE	8.865306122448981	7.754771115285065	1.1105350071639162	-2.324638661774012	3.405114488907906	0.4064	0.7563	49	3.641252523770584
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1	104	MAE	0.8663461538461538	0.5656632096854755	0.3006829441606783	-0.0645552098504397	0.6509178417416651	0.0091	0.0364	104	0.3209864984229634
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2	103	MAE	0.8533980582524272	0.7432379535917116	0.1101601046607155	-0.2444799695356543	0.5310837321793216	0.37815	0.7563	103	0.3429592137356661
