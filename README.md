@@ -55,7 +55,8 @@ MIT (see `LICENSE`).
 See `CITATION.cff`.
 
 ## Archive (Zenodo)
-- DOI: (pending; will be updated after the re-release)
+- Version DOI (v0.3.0): 10.5281/zenodo.19567967
+- Concept DOI: 10.5281/zenodo.19562183
 
 ## Public review bundle (GitHub release / Zenodo)
 To build the sanitized public review bundle zip (suitable as a GitHub release asset and journal supplement), run:

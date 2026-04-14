@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it."
 title: "Public surveillance early warning for older-adult influenza/RSV hospitalization burden"
 type: software
+doi: 10.5281/zenodo.19567967
 authors:
   - family-names: "Zheng"
     given-names: "Hongwei"
