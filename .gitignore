@@ -11,9 +11,8 @@ venv/
 # Local credentials / secrets (do not commit)
 token
 
-# Large/internal logs (do not commit)
+# Local logs (do not commit)
 logs/
-logs/openai/
 
 # Large legacy backups (do not commit)
 data/legacy_backups/
@@ -22,13 +21,14 @@ data/legacy_backups/
 docs/review_bundle/
 release/
 
-# Submission-only artifacts (keep local; do not track)
+# Manuscript upload artifacts (keep local; do not track)
 submission/
 docs/manuscript/*.docx
 
-# Internal scaffolding (keep local; do not track)
+# Local planning files (keep local; do not track)
 openspec/
 conductor/
 
 # Docs/manuscript scaffolding (do not track)
 docs/
+review_reports/

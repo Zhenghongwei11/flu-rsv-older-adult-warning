@@ -386,6 +386,93 @@ def fig3_paired_benchmark(paired: pd.DataFrame, outdir: Path, cohort, *, write_p
     _paired_benchmark_panel(paired, outdir, cohort, exclude_last_weeks=4, stem="Fig3_paired_benchmark", write_png=write_png)
 
 
+def _nested_increment_panel(nested: pd.DataFrame, outdir: Path, cohort, *, exclude_last_weeks: int, stem: str, write_png: bool) -> None:
+    import matplotlib.pyplot as plt
+    from matplotlib.backends.backend_pdf import PdfPages
+
+    palette = method_palette()
+
+    def xtick_label(m: str) -> str:
+        return {
+            "ridge_with_ed": "AR + ED",
+            "ridge_with_signals": "AR + public\nsignals",
+            "ridge_with_signals_plus_ed": "AR + public\nsignals + ED",
+            "ridge_with_signals_plus_flu_pos": "AR + flu\npositivity",
+            "ridge_with_signals_plus_flu_pos_plus_ed": "AR + flu pos\n+ ED",
+        }.get(m, nice_method_label(m))
+
+    keep = nested.copy()
+    keep = keep[keep["site"].astype(str) == "Overall"]
+    keep = keep[keep["age_group"].isin(list(cohort.primary_respnet_ages))]
+    keep = keep[keep["surveillance_network"].isin(["FluSurv-NET", "RSV-NET"])]
+    keep = keep[(keep["exclude_last_weeks"] == int(exclude_last_weeks)) & (keep["loss_metric"] == "MAE")]
+    keep = keep[(keep["horizon_weeks"] == 1) & (keep["train_scope"].astype(str) == "within_site")]
+    keep = keep[keep["comparator_model"].astype(str) == "ridge_univariate"]
+
+    methods = [
+        "ridge_with_ed",
+        "ridge_with_signals",
+        "ridge_with_signals_plus_flu_pos",
+        "ridge_with_signals_plus_ed",
+        "ridge_with_signals_plus_flu_pos_plus_ed",
+    ]
+    outcomes = ["FluSurv-NET", "RSV-NET"]
+    ages = list(cohort.primary_respnet_ages)
+
+    pdf_path = outdir / f"{stem}.pdf"
+    with PdfPages(pdf_path) as pdf:
+        fig, axes = plt.subplots(2, len(ages), figsize=(7.2, 3.5 + 1.3 * len(ages)), sharey=False)
+        axes = np.asarray(axes)
+        if axes.ndim == 1:
+            axes = axes.reshape(2, 1)
+        for i, net in enumerate(outcomes):
+            for j, age in enumerate(ages):
+                ax = axes[i, j]
+                g = keep[(keep["surveillance_network"] == net) & (keep["age_group"] == age)].copy()
+                if g.empty:
+                    ax.set_axis_off()
+                    continue
+                g = g[g["candidate_model"].isin(methods)].copy()
+                g["candidate_model"] = pd.Categorical(g["candidate_model"], categories=methods, ordered=True)
+                g = g.sort_values("candidate_model")
+                x = np.arange(len(g))
+                y = pd.to_numeric(g["loss_difference"], errors="coerce").to_numpy(dtype=float)
+                lo = pd.to_numeric(g["ci_lower"], errors="coerce").to_numpy(dtype=float)
+                hi = pd.to_numeric(g["ci_upper"], errors="coerce").to_numpy(dtype=float)
+                err = np.vstack([y - lo, hi - y])
+                colors = [palette.get(m, (0.0, 0.0, 0.0)) for m in g["candidate_model"].astype(str).tolist()]
+                ax.bar(x, y, yerr=err, color=colors, alpha=0.9, capsize=3, edgecolor="white", linewidth=0.5)
+                ax.axhline(0.0, color=(0.25, 0.25, 0.25), linewidth=0.9, linestyle="--")
+                ax.set_xticks(x)
+                ax.set_xticklabels([xtick_label(m) for m in g["candidate_model"].astype(str).tolist()], fontsize=7)
+                y_min = float(np.nanmin(np.r_[lo, y, 0.0]))
+                y_max = float(np.nanmax(np.r_[hi, y, 0.0]))
+                y_span = max(y_max - y_min, 1e-6)
+                ax.set_ylim(y_min - 0.12 * y_span, y_max + 0.16 * y_span)
+                n_offset = 0.035 * y_span
+                for xi, n in zip(x, g["matched_n"].astype(int).tolist()):
+                    ax.text(xi, n_offset if y[xi] < 0 else -n_offset, f"n={n}", ha="center",
+                            va="bottom" if y[xi] < 0 else "top", fontsize=6.2, color=(0.25, 0.25, 0.25))
+                ax.text(-0.015, 1.04, "AB"[i], transform=ax.transAxes,
+                        fontsize=9, fontweight="bold", va="bottom", ha="right")
+                ax.set_title(f"{net} · {nice_age_label(age)} · One-week-ahead", loc="left", pad=4)
+                if j == 0:
+                    ax.set_ylabel("MAE difference vs AR seasonal core\n(positive = candidate model improves)")
+                ax.grid(axis="y", alpha=0.15)
+                if i == 0 and j == 0:
+                    subtitle = "Recency-exclusion sensitivity: last 4 weeks excluded" if int(exclude_last_weeks) == 4 else "No recency exclusion"
+                    ax.text(0.0, 1.16, subtitle, transform=ax.transAxes, fontsize=8, color=(0.25, 0.25, 0.25))
+        fig.tight_layout(rect=(0, 0.06, 1, 0.96))
+        pdf.savefig(fig)
+        if write_png:
+            fig.savefig(outdir / f"{stem}.png", bbox_inches="tight")
+        plt.close(fig)
+
+
+def fig3_nested_increment(nested: pd.DataFrame, outdir: Path, cohort, *, write_png: bool) -> None:
+    _nested_increment_panel(nested, outdir, cohort, exclude_last_weeks=4, stem="Fig3_paired_benchmark", write_png=write_png)
+
+
 def figS5_paired_benchmark_realtime(paired: pd.DataFrame, outdir: Path, cohort, *, write_png: bool) -> None:
     _paired_benchmark_panel(paired, outdir, cohort, exclude_last_weeks=0, stem="FigS5_paired_benchmark_realtime", write_png=write_png)
 
@@ -608,7 +695,7 @@ def figS4_incremental_value_beyond_seasonality(time_series: pd.DataFrame, outdir
     lim = max(abs(vmin), abs(vmax), 1e-6)
     norm = TwoSlopeNorm(vmin=-lim, vcenter=0.0, vmax=lim)
 
-    pdf_path = outdir / "FigS4_incremental_value_beyond_seasonality.pdf"
+    pdf_path = outdir / "FigS2_seasonality_deviation.pdf"
     with PdfPages(pdf_path) as pdf:
         fig = plt.figure(figsize=(7.2, 3.4))
         gs = fig.add_gridspec(1, 2, width_ratios=[1.35, 1.0], wspace=0.30)
@@ -681,7 +768,7 @@ def figS4_incremental_value_beyond_seasonality(time_series: pd.DataFrame, outdir
         fig.subplots_adjust(left=0.09, right=0.97, top=0.90, bottom=0.18, wspace=0.30)
         pdf.savefig(fig)
         if write_png:
-            fig.savefig(outdir / "FigS4_incremental_value_beyond_seasonality.png", bbox_inches="tight")
+            fig.savefig(outdir / "FigS2_seasonality_deviation.png", bbox_inches="tight")
         plt.close(fig)
 
 
@@ -711,7 +798,7 @@ def figS2_expected_cost(expected_cost: pd.DataFrame, outdir: Path, cohort, *, wr
     ages = list(cohort.primary_respnet_ages)
     panel_letters = string.ascii_uppercase
 
-    pdf_path = outdir / "FigS2_expected_cost.pdf"
+    pdf_path = outdir / "FigS1_expected_cost.pdf"
     with PdfPages(pdf_path) as pdf:
         fig, axes = plt.subplots(2, len(ages), figsize=(7.2, 3.4 + 1.3 * len(ages)), sharex=True, sharey=True)
         axes = np.asarray(axes)
@@ -764,7 +851,7 @@ def figS2_expected_cost(expected_cost: pd.DataFrame, outdir: Path, cohort, *, wr
         pdf.savefig(fig)
 
         if write_png:
-            png_path = outdir / "FigS2_expected_cost.png"
+            png_path = outdir / "FigS1_expected_cost.png"
             fig.savefig(png_path, bbox_inches="tight")
         plt.close(fig)
 
@@ -876,6 +963,7 @@ def main() -> int:
     ap.add_argument("--time-series-overview", default=str(RESULTS_DIR / "figures/time_series_overview.tsv"))
     ap.add_argument("--signal-coverage", default=str(RESULTS_DIR / "analysis/signal_coverage_report.tsv"))
     ap.add_argument("--paired-benchmark", default=str(RESULTS_DIR / "benchmarks/paired_benchmark.tsv"))
+    ap.add_argument("--nested-signal-increment", default=str(RESULTS_DIR / "benchmarks/nested_signal_increment.tsv"))
     ap.add_argument("--expected-cost", default=str(RESULTS_DIR / "benchmarks/expected_cost.tsv"))
     ap.add_argument("--alert-lead-time", default=str(RESULTS_DIR / "benchmarks/alert_lead_time.tsv"))
     ap.add_argument("--time-series-full", default=str(RESULTS_DIR / "analysis/analysis_table.tsv"))
@@ -892,6 +980,7 @@ def main() -> int:
     time_series_full = pd.read_csv(args.time_series_full, sep="\t") if Path(args.time_series_full).exists() else pd.DataFrame()
     coverage = pd.read_csv(args.signal_coverage, sep="\t") if Path(args.signal_coverage).exists() else pd.DataFrame()
     paired = pd.read_csv(args.paired_benchmark, sep="\t") if Path(args.paired_benchmark).exists() else pd.DataFrame()
+    nested = pd.read_csv(args.nested_signal_increment, sep="\t") if Path(args.nested_signal_increment).exists() else pd.DataFrame()
     expected_cost = pd.read_csv(args.expected_cost, sep="\t") if Path(args.expected_cost).exists() else pd.DataFrame()
     alert_lead = pd.read_csv(args.alert_lead_time, sep="\t") if Path(args.alert_lead_time).exists() else pd.DataFrame()
     lag_analysis = pd.read_csv(args.lag_analysis, sep="\t") if Path(args.lag_analysis).exists() else pd.DataFrame()
@@ -904,6 +993,8 @@ def main() -> int:
         raise SystemExit(f"Missing or empty signal coverage table: {args.signal_coverage}")
     if paired.empty:
         raise SystemExit(f"Missing or empty paired benchmark table: {args.paired_benchmark}")
+    if nested.empty:
+        raise SystemExit(f"Missing or empty nested signal-increment table: {args.nested_signal_increment}")
     if expected_cost.empty:
         raise SystemExit(f"Missing or empty expected cost table: {args.expected_cost}")
     if alert_lead.empty:
@@ -911,10 +1002,8 @@ def main() -> int:
 
     fig1_time_series_overview(time_series, outdir=outdir, cohort=cohort, write_png=bool(args.write_png))
     fig2_lag_and_coverage_board(lag_analysis, coverage, outdir=outdir, cohort=cohort, write_png=bool(args.write_png))
-    fig3_paired_benchmark(paired, outdir=outdir, cohort=cohort, write_png=bool(args.write_png))
-    figS5_paired_benchmark_realtime(paired, outdir=outdir, cohort=cohort, write_png=bool(args.write_png))
+    fig3_nested_increment(nested, outdir=outdir, cohort=cohort, write_png=bool(args.write_png))
     figS2_expected_cost(expected_cost, outdir=outdir, cohort=cohort, write_png=bool(args.write_png))
-    figS3_alert_lead_time(alert_lead, outdir=outdir, cohort=cohort, write_png=bool(args.write_png))
     figS4_incremental_value_beyond_seasonality(time_series_full, outdir=outdir, cohort=cohort, write_png=bool(args.write_png))
     print(f"Wrote figures to {outdir}")
     return 0

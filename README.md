@@ -1,18 +1,19 @@
-# Older-Adult Influenza/RSV Hospital Burden Early Warning (Public Data)
+# Public Surveillance Forecasting of Older-Adult Influenza/RSV Hospitalizations
 
-Reproducible, audit-ready pipeline that forecasts **older-adult (65+) hospitalization burden** for influenza (FluSurv-NET) and RSV (RSV-NET) using **publicly available U.S. surveillance data**, and translates forecasts into **decision-relevant alerts** (utility, expected cost, lead time).
+This repository contains the public data, code, and frozen analysis outputs needed to reproduce the figures and tables for a study of short-term forecasts of U.S. older-adult influenza and RSV hospitalization rates. The analysis evaluates whether public surveillance signals add predictive value beyond autoregressive and seasonal structure.
 
-## What this repository contains
-- Data snapshots (frozen inputs): `data/snapshots/…`
-- Provenance log (queries + checksums): `results/dataset_retrieval_log.tsv`
-- Harmonized analysis table: `results/analysis/analysis_table.tsv`
-- Benchmark results (source of truth for claims): `results/benchmarks/…`
-- Publication figures: `plots/publication/…`
-- Secondary age-strata outputs (65–74 / 75–84 / 85+): `results_strata/…`
+## Repository contents
+- Frozen public data snapshots: `data/snapshots/`
+- Data-source manifest: `data/manifest.tsv`
+- Retrieval log with checksums: `results/dataset_retrieval_log.tsv`
+- Harmonized analysis tables: `results/analysis/`
+- Forecast benchmarks and alert summaries: `results/benchmarks/`
+- Figure source tables: `results/figures/`
+- Publication figures: `plots/publication/`
+- Secondary age-strata tables: `results_strata/`
 
-## What this repository intentionally does *not* contain
-- Manuscript / cover letter / journal upload artifacts (kept local-only)
-- Internal planning notes and other non-reproducibility scaffolding
+## Not included
+Manuscript files, cover letters, journal upload artifacts, and local planning notes are not part of this public reproducibility repository.
 
 ## Quick start
 Create a fresh environment and install dependencies:
@@ -24,22 +25,24 @@ python3 -m pip install -U pip
 python3 -m pip install -r requirements.txt
 ```
 
-Run end-to-end (fetches public data, then builds tables + benchmarks + figures):
+Reproduce the current figures and tables from the frozen snapshots included in this repository:
 
 ```bash
-./scripts/run_all.sh
+SKIP_FETCH=1 ./scripts/run_all.sh
 ```
 
-Run secondary age-strata analysis (no ED proxying; uses the same public signals, stratifies outcomes):
+By default, this command reproduces the primary national older-adult analysis (`SITES=Overall`, `AGE_GROUPS="65+ yr"`) using standardized ridge models with an explicit intercept, nonnegative forecast truncation, and forecast-origin-specific tuning.
+
+Run secondary age-strata analyses:
 
 ```bash
 SKIP_FETCH=1 ./scripts/run_secondary_strata.sh
 ```
 
-Re-run using the latest existing snapshots (recommended for “paper freeze” reruns):
+To refresh public data snapshots before rerunning the analysis:
 
 ```bash
-SKIP_FETCH=1 ./scripts/run_all.sh
+./scripts/run_all.sh
 ```
 
 ## Data sources
@@ -54,12 +57,12 @@ MIT (see `LICENSE`).
 ## How to cite
 See `CITATION.cff`.
 
-## Archive (Zenodo)
-- Version DOI (v0.3.0): 10.5281/zenodo.19567967
+## Archive
 - Concept DOI: 10.5281/zenodo.19562183
+- Latest version DOI: see the current GitHub release and Zenodo record.
 
-## Public review bundle (GitHub release / Zenodo)
-To build the sanitized public review bundle zip (suitable as a GitHub release asset and journal supplement), run:
+## Reproducibility bundle
+To build the public reproducibility bundle used as the release asset, run:
 
 ```bash
 python3 tools/build_review_bundle.py

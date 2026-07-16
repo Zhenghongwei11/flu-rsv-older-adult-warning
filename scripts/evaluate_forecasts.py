@@ -14,13 +14,45 @@ from cohort_profiles import cohort_from_env, get_cohort
 from utils import RESULTS_DIR, ensure_dir
 
 
-def ridge_fit_predict(X_train: np.ndarray, y_train: np.ndarray, x_pred: np.ndarray, lam: float) -> float:
-    p = X_train.shape[1]
-    XtX = X_train.T @ X_train
-    A = XtX + lam * np.eye(p)
-    b = X_train.T @ y_train
-    beta = np.linalg.solve(A, b)
-    return float(x_pred @ beta)
+def ridge_fit_predict(
+    X_train: np.ndarray,
+    y_train: np.ndarray,
+    x_pred: np.ndarray,
+    lam: float,
+    *,
+    ridge_preprocess: str,
+    nonnegative_handling: str,
+) -> float:
+    if ridge_preprocess == "legacy":
+        p = X_train.shape[1]
+        XtX = X_train.T @ X_train
+        A = XtX + lam * np.eye(p)
+        b = X_train.T @ y_train
+        beta = np.linalg.solve(A, b)
+        pred = float(x_pred @ beta)
+    elif ridge_preprocess == "standardized_intercept":
+        mu = np.nanmean(X_train, axis=0)
+        sd = np.nanstd(X_train, axis=0, ddof=0)
+        sd = np.where(np.isfinite(sd) & (sd > 0), sd, 1.0)
+        Xz = (X_train - mu) / sd
+        xz = (x_pred - mu) / sd
+        Z = np.column_stack([np.ones(Xz.shape[0]), Xz])
+        z_pred = np.concatenate([[1.0], xz])
+        p = Z.shape[1]
+        penalty = lam * np.eye(p)
+        penalty[0, 0] = 0.0
+        A = Z.T @ Z + penalty
+        b = Z.T @ y_train
+        beta = np.linalg.solve(A, b)
+        pred = float(z_pred @ beta)
+    else:
+        raise ValueError(f"Unknown ridge_preprocess: {ridge_preprocess}")
+
+    if nonnegative_handling == "truncate":
+        return float(max(0.0, pred))
+    if nonnegative_handling == "none":
+        return pred
+    raise ValueError(f"Unknown nonnegative_handling: {nonnegative_handling}")
 
 
 def seasonal_naive(series: np.ndarray, i: int, horizon: int, season_len: int) -> float | None:
@@ -155,6 +187,8 @@ def _fit_one_ridge_X(
     origin_i: int,
     horizon: int,
     lam: float,
+    ridge_preprocess: str,
+    nonnegative_handling: str,
 ) -> float | None:
     """
     Direct multi-horizon ridge:
@@ -186,7 +220,14 @@ def _fit_one_ridge_X(
     if len(y_train2) < 30:
         return None
 
-    return ridge_fit_predict(X_train2, y_train2, x_pred, lam=lam)
+    return ridge_fit_predict(
+        X_train2,
+        y_train2,
+        x_pred,
+        lam=lam,
+        ridge_preprocess=ridge_preprocess,
+        nonnegative_handling=nonnegative_handling,
+    )
 
 
 def tune_ridge_lambda(
@@ -199,6 +240,8 @@ def tune_ridge_lambda(
     lam_grid: list[float],
     tune_last_n: int,
     base_lam: float,
+    ridge_preprocess: str,
+    nonnegative_handling: str,
 ) -> tuple[float, int]:
     """
     Nested (within-training) tuning of ridge lambda for time-series forecasting.
@@ -236,6 +279,8 @@ def tune_ridge_lambda(
                 origin_i=j,
                 horizon=horizon,
                 lam=float(lam),
+                ridge_preprocess=ridge_preprocess,
+                nonnegative_handling=nonnegative_handling,
             )
             if p is None:
                 continue
@@ -270,6 +315,8 @@ def _fit_one_ridge_transfer_X(
     x_pred: np.ndarray,
     horizon: int,
     lam: float,
+    ridge_preprocess: str,
+    nonnegative_handling: str,
 ) -> float | None:
     """
     Like _fit_one_ridge_X but trains on X_train_all and predicts using x_pred (from another series).
@@ -297,7 +344,14 @@ def _fit_one_ridge_transfer_X(
     if len(y_train2) < 30:
         return None
 
-    return ridge_fit_predict(X_train2, y_train2, x_pred, lam=lam)
+    return ridge_fit_predict(
+        X_train2,
+        y_train2,
+        x_pred,
+        lam=lam,
+        ridge_preprocess=ridge_preprocess,
+        nonnegative_handling=nonnegative_handling,
+    )
 
 
 def evaluate_within_series(
@@ -313,11 +367,14 @@ def evaluate_within_series(
     include_flupos: bool,
     include_ed: bool,
     tune_lam: bool,
+    tune_per_origin: bool,
     lam_grid: list[float],
     tune_min_train: int,
     tune_last_n: int,
     tune_warmup_ed: int,
     exclude_last_weeks: int,
+    ridge_preprocess: str,
+    nonnegative_handling: str,
     run_ridge: bool = True,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     df = df.sort_values("epiweeks").reset_index(drop=True)
@@ -429,6 +486,8 @@ def evaluate_within_series(
                 lam_grid=lam_grid,
                 tune_last_n=tune_last_n,
                 base_lam=float(lam),
+                ridge_preprocess=ridge_preprocess,
+                nonnegative_handling=nonnegative_handling,
             )
             lam_uni[h] = lu
             hp_rows.append(
@@ -456,6 +515,8 @@ def evaluate_within_series(
                     lam_grid=lam_grid,
                     tune_last_n=tune_last_n,
                     base_lam=float(lam),
+                    ridge_preprocess=ridge_preprocess,
+                    nonnegative_handling=nonnegative_handling,
                 )
                 lam_ed[h] = le
                 hp_rows.append(
@@ -483,6 +544,8 @@ def evaluate_within_series(
                     lam_grid=lam_grid,
                     tune_last_n=tune_last_n,
                     base_lam=float(lam),
+                    ridge_preprocess=ridge_preprocess,
+                    nonnegative_handling=nonnegative_handling,
                 )
                 lam_sig[h] = ls
                 hp_rows.append(
@@ -510,6 +573,8 @@ def evaluate_within_series(
                     lam_grid=lam_grid,
                     tune_last_n=tune_last_n,
                     base_lam=float(lam),
+                    ridge_preprocess=ridge_preprocess,
+                    nonnegative_handling=nonnegative_handling,
                 )
                 lam_sig_ed[h] = lse
                 hp_rows.append(
@@ -537,6 +602,8 @@ def evaluate_within_series(
                     lam_grid=lam_grid,
                     tune_last_n=tune_last_n,
                     base_lam=float(lam),
+                    ridge_preprocess=ridge_preprocess,
+                    nonnegative_handling=nonnegative_handling,
                 )
                 lam_sig_flupos[h] = lsp
                 hp_rows.append(
@@ -564,6 +631,8 @@ def evaluate_within_series(
                     lam_grid=lam_grid,
                     tune_last_n=tune_last_n,
                     base_lam=float(lam),
+                    ridge_preprocess=ridge_preprocess,
+                    nonnegative_handling=nonnegative_handling,
                 )
                 lam_sig_flupos_ed[h] = lspe
                 hp_rows.append(
@@ -583,6 +652,55 @@ def evaluate_within_series(
     eval_start_ed = int(tune_cutoff_ed) if (tune_lam and run_ridge) else int(eval_start)
     eval_start_sig_ed = int(tune_cutoff_sig_ed) if (tune_lam and run_ridge) else int(eval_start)
     eval_start_sig_flupos_ed = int(tune_cutoff_sig_flupos_ed) if (tune_lam and run_ridge) else int(eval_start)
+
+    origin_lam_cache: dict[tuple[str, int, int], tuple[float, int]] = {}
+
+    def _lambda_for_origin(
+        *,
+        method: str,
+        X: np.ndarray,
+        horizon: int,
+        origin_i: int,
+        fallback_lam: float,
+    ) -> float:
+        if not (tune_lam and tune_per_origin and run_ridge):
+            return float(fallback_lam)
+        key = (method, int(horizon), int(origin_i))
+        if key not in origin_lam_cache:
+            train_end_exclusive = int(origin_i - horizon)
+            if train_end_exclusive <= 0:
+                origin_lam_cache[key] = (float(fallback_lam), 0)
+            else:
+                origin_lam_cache[key] = tune_ridge_lambda(
+                    X,
+                    y,
+                    time_block=time_block,
+                    horizon=int(horizon),
+                    tune_end_exclusive=train_end_exclusive,
+                    tune_min_train=tune_min_train,
+                    lam_grid=lam_grid,
+                    tune_last_n=tune_last_n,
+                    base_lam=float(fallback_lam),
+                    ridge_preprocess=ridge_preprocess,
+                    nonnegative_handling=nonnegative_handling,
+                )
+        tuned_lam, tuned_n = origin_lam_cache[key]
+        hp_rows.append(
+            {
+                "train_scope": "within_site",
+                "method": method,
+                "horizon_weeks": int(horizon),
+                "origin_idx": int(origin_i),
+                "origin_epiweek": int(df.loc[origin_i, "epiweeks"]),
+                "lambda": float(tuned_lam),
+                "tune_n": int(tuned_n),
+                "lam_grid": ",".join(str(x) for x in lam_grid),
+                "tune_min_train": int(tune_min_train),
+                "tune_last_n": int(tune_last_n),
+                "tune_cutoff_index": int(origin_i - horizon),
+            }
+        )
+        return float(tuned_lam)
 
     for h in horizons:
         for i in range(eval_start, n - h):
@@ -626,7 +744,15 @@ def evaluate_within_series(
                 train_end_exclusive=train_end_exclusive,
                 origin_i=i,
                 horizon=h,
-                lam=float(lam_uni[h]),
+                lam=_lambda_for_origin(
+                    method="ridge_univariate",
+                    X=X_base,
+                    horizon=h,
+                    origin_i=i,
+                    fallback_lam=float(lam_uni[h]),
+                ),
+                ridge_preprocess=ridge_preprocess,
+                nonnegative_handling=nonnegative_handling,
             )
             if pred_uni is not None:
                 rows_forecast.append(
@@ -653,7 +779,15 @@ def evaluate_within_series(
                         train_end_exclusive=train_end_exclusive,
                         origin_i=i,
                         horizon=h,
-                        lam=float(lam_ed[h]),
+                        lam=_lambda_for_origin(
+                            method="ridge_with_ed",
+                            X=X_ed,
+                            horizon=h,
+                            origin_i=i,
+                            fallback_lam=float(lam_ed[h]),
+                        ),
+                        ridge_preprocess=ridge_preprocess,
+                        nonnegative_handling=nonnegative_handling,
                     )
                     if pred_ed is not None:
                         rows_forecast.append(
@@ -676,11 +810,19 @@ def evaluate_within_series(
                     X_sig,
                     y,
                     time_block=time_block,
-                    train_end_exclusive=train_end_exclusive,
-                    origin_i=i,
+                train_end_exclusive=train_end_exclusive,
+                origin_i=i,
+                horizon=h,
+                lam=_lambda_for_origin(
+                    method="ridge_with_signals",
+                    X=X_sig,
                     horizon=h,
-                    lam=float(lam_sig[h]),
-                )
+                    origin_i=i,
+                    fallback_lam=float(lam_sig[h]),
+                ),
+                ridge_preprocess=ridge_preprocess,
+                nonnegative_handling=nonnegative_handling,
+            )
                 if pred_sig is not None:
                     rows_forecast.append(
                         {
@@ -702,11 +844,19 @@ def evaluate_within_series(
                     X_sig_flupos,
                     y,
                     time_block=time_block,
-                    train_end_exclusive=train_end_exclusive,
-                    origin_i=i,
+                train_end_exclusive=train_end_exclusive,
+                origin_i=i,
+                horizon=h,
+                lam=_lambda_for_origin(
+                    method="ridge_with_signals_plus_flu_pos",
+                    X=X_sig_flupos,
                     horizon=h,
-                    lam=float(lam_sig_flupos[h]),
-                )
+                    origin_i=i,
+                    fallback_lam=float(lam_sig_flupos[h]),
+                ),
+                ridge_preprocess=ridge_preprocess,
+                nonnegative_handling=nonnegative_handling,
+            )
                 if pred_sig2 is not None:
                     rows_forecast.append(
                         {
@@ -732,7 +882,15 @@ def evaluate_within_series(
                         train_end_exclusive=train_end_exclusive,
                         origin_i=i,
                         horizon=h,
-                        lam=float(lam_sig_ed[h]),
+                        lam=_lambda_for_origin(
+                            method="ridge_with_signals_plus_ed",
+                            X=X_sig_plus_ed,
+                            horizon=h,
+                            origin_i=i,
+                            fallback_lam=float(lam_sig_ed[h]),
+                        ),
+                        ridge_preprocess=ridge_preprocess,
+                        nonnegative_handling=nonnegative_handling,
                     )
                     if pred_sig_ed is not None:
                         rows_forecast.append(
@@ -759,7 +917,15 @@ def evaluate_within_series(
                         train_end_exclusive=train_end_exclusive,
                         origin_i=i,
                         horizon=h,
-                        lam=float(lam_sig_flupos_ed[h]),
+                        lam=_lambda_for_origin(
+                            method="ridge_with_signals_plus_flu_pos_plus_ed",
+                            X=X_sig_flupos_plus_ed,
+                            horizon=h,
+                            origin_i=i,
+                            fallback_lam=float(lam_sig_flupos_ed[h]),
+                        ),
+                        ridge_preprocess=ridge_preprocess,
+                        nonnegative_handling=nonnegative_handling,
                     )
                     if pred_sig_ed2 is not None:
                         rows_forecast.append(
@@ -794,6 +960,8 @@ def evaluate_transfer_overall_to_site(
     include_rsvpos: bool,
     include_flupos: bool,
     exclude_last_weeks: int,
+    ridge_preprocess: str,
+    nonnegative_handling: str,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     overall_df = overall_df.sort_values("epiweeks").drop_duplicates("epiweeks").reset_index(drop=True)
     site_df = site_df.sort_values("epiweeks").drop_duplicates("epiweeks").reset_index(drop=True)
@@ -864,6 +1032,8 @@ def evaluate_transfer_overall_to_site(
                 x_pred=X_site_base[i_site],
                 horizon=h,
                 lam=lam,
+                ridge_preprocess=ridge_preprocess,
+                nonnegative_handling=nonnegative_handling,
             )
             if pred_uni is not None:
                 rows_forecast.append(
@@ -891,6 +1061,8 @@ def evaluate_transfer_overall_to_site(
                     x_pred=X_site_sig[i_site],
                     horizon=h,
                     lam=lam,
+                    ridge_preprocess=ridge_preprocess,
+                    nonnegative_handling=nonnegative_handling,
                 )
                 if pred_sig is not None:
                     rows_forecast.append(
@@ -918,6 +1090,8 @@ def evaluate_transfer_overall_to_site(
                     x_pred=X_site_sig_flupos[i_site],
                     horizon=h,
                     lam=lam,
+                    ridge_preprocess=ridge_preprocess,
+                    nonnegative_handling=nonnegative_handling,
                 )
                 if pred_sig2 is not None:
                     rows_forecast.append(
@@ -1461,12 +1635,41 @@ def main() -> int:
     )
     ap.add_argument("--input", default=str(RESULTS_DIR / "analysis/analysis_table.tsv"), help="Input analysis table (default: results/analysis/analysis_table.tsv)")
     ap.add_argument("--outdir", default=str(RESULTS_DIR / "benchmarks"), help="Output directory for benchmark TSVs (default: results/benchmarks)")
+    ap.add_argument(
+        "--sites",
+        default=None,
+        help="Optional comma-separated site filter, e.g. Overall. Use this to freeze main-text national results separately from site-level supplements.",
+    )
+    ap.add_argument(
+        "--age-groups",
+        default=None,
+        help="Optional comma-separated age_group filter, e.g. '65+ yr'.",
+    )
     ap.add_argument("--horizons", default="1,2,3,4", help="Forecast horizons in weeks (default: 1,2,3,4)")
     ap.add_argument("--season-len", type=int, default=52, help="Season length in weeks (default: 52)")
     ap.add_argument("--min-train", type=int, default=156, help="Minimum training points before evaluation (default: 156 ~ 3 years)")
     ap.add_argument("--eval-last-n", type=int, default=260, help="Evaluate on last N weeks (default: 260 ~ 5 years)")
     ap.add_argument("--lam", type=float, default=1.0, help="Ridge penalty lambda fallback (used when tuning is off; default: 1.0)")
+    ap.add_argument(
+        "--ridge-preprocess",
+        choices=["legacy", "standardized_intercept"],
+        default="standardized_intercept",
+        help="Ridge preprocessing/specification: legacy has no intercept or scaling; standardized_intercept adds an unpenalized intercept and training-window predictor standardization (default: standardized_intercept)",
+    )
+    ap.add_argument(
+        "--nonnegative-handling",
+        choices=["none", "truncate"],
+        default="truncate",
+        help="Handling for unconstrained negative ridge forecasts (default: truncate)",
+    )
     ap.add_argument("--tune-lam", type=int, default=1, choices=[0, 1], help="Whether to tune ridge lambda via nested time-series CV within training window (default: 1)")
+    ap.add_argument(
+        "--tune-per-origin",
+        type=int,
+        default=0,
+        choices=[0, 1],
+        help="When enabled, retune ridge lambda separately inside each forecast origin's available training window (slower; default: 0)",
+    )
     ap.add_argument("--lam-grid", default="0.01,0.1,1,10,100", help="Comma-separated lambda candidates for tuning (default: 0.01,0.1,1,10,100)")
     ap.add_argument(
         "--tune-min-train",
@@ -1492,11 +1695,22 @@ def main() -> int:
     exclude_last_weeks_list = [int(x.strip()) for x in args.exclude_last_weeks.split(",") if x.strip()]
     lam_grid = [float(x.strip()) for x in args.lam_grid.split(",") if x.strip()]
     tune_lam = bool(int(args.tune_lam))
+    tune_per_origin = bool(int(args.tune_per_origin))
 
     df = pd.read_csv(args.input, sep="\t")
     df = df.dropna(subset=["rate_per_100k"])
     if "site" not in df.columns:
         df["site"] = "Overall"
+    if args.sites:
+        sites = [x.strip() for x in str(args.sites).split(",") if x.strip()]
+        df = df[df["site"].astype(str).isin(sites)].copy()
+        if df.empty:
+            raise SystemExit(f"No rows remain after --sites filter: {sites}")
+    if args.age_groups:
+        age_groups_filter = [x.strip() for x in str(args.age_groups).split(",") if x.strip()]
+        df = df[df["age_group"].astype(str).isin(age_groups_filter)].copy()
+        if df.empty:
+            raise SystemExit(f"No rows remain after --age-groups filter: {age_groups_filter}")
 
     bench_dir = Path(args.outdir)
     ensure_dir(bench_dir)
@@ -1526,11 +1740,14 @@ def main() -> int:
                 include_flupos=include_flupos,
                 include_ed=True,
                 tune_lam=tune_lam,
+                tune_per_origin=tune_per_origin,
                 lam_grid=lam_grid,
                 tune_min_train=int(args.tune_min_train),
                 tune_last_n=int(args.tune_last_n),
                 tune_warmup_ed=int(args.tune_warmup_ed),
                 exclude_last_weeks=excl,
+                ridge_preprocess=str(args.ridge_preprocess),
+                nonnegative_handling=str(args.nonnegative_handling),
                 run_ridge=(str(site) == "Overall"),
             )
             if str(site) == "Overall" and not hp_df.empty:
@@ -1539,6 +1756,9 @@ def main() -> int:
                 hp_df.insert(1, "surveillance_network", net)
                 hp_df.insert(2, "age_group", age)
                 hp_df.insert(3, "site", site)
+                hp_df["ridge_preprocess"] = str(args.ridge_preprocess)
+                hp_df["nonnegative_handling"] = str(args.nonnegative_handling)
+                hp_df["tune_per_origin"] = int(tune_per_origin)
                 all_hyperparams.append(hp_df)
             if not pred_df.empty:
                 pred_df.insert(0, "exclude_last_weeks", int(excl))
@@ -1562,6 +1782,8 @@ def main() -> int:
                         include_rsvpos=include_rsvpos,
                         include_flupos=include_flupos,
                         exclude_last_weeks=excl,
+                        ridge_preprocess=str(args.ridge_preprocess),
+                        nonnegative_handling=str(args.nonnegative_handling),
                     )
                     if not pred_t.empty:
                         pred_t.insert(0, "exclude_last_weeks", int(excl))

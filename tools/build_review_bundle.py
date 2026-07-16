@@ -29,7 +29,6 @@ DEFAULT_INCLUDE: List[str] = [
     "results/",
     "results_strata/",
     "plots/publication/",
-    "plots/publication_strata/",
     "notebooks/",
 ]
 
@@ -43,21 +42,23 @@ DEFAULT_EXCLUDE_GLOBS: List[str] = [
     ".venv/**",
     "venv/**",
     "token",
-    # Internal scaffolding (must not be in public bundle)
+    # Local planning files (must not be in public bundle)
     "openspec/**",
     "conductor/**",
     # Manuscript / planning docs (keep out of public bundle)
     "docs/**",
-    # Large / internal logs
-    "logs/openai/**",
+    # Local logs
+    "logs/**",
+    # Local review notes
+    "review_reports/**",
     # Legacy backups
     "data/legacy_backups/**",
-    # Docx conversion tooling/templates (OpenSpec pipeline requirement)
+    # Manuscript export tooling/templates
     "scripts/build_manuscript_docx.py",
     "**/*.docx",
     # Bundle outputs (avoid nesting bundle in itself)
     "docs/review_bundle/**",
-    # Submission-only directory
+    # Manuscript upload directory
     "submission/**",
 ]
 
@@ -198,11 +199,9 @@ def build_bundle(
         policy_path,
         "\n".join(
             [
-                "# Public review bundle include/exclude policy",
+                "# Public reproducibility bundle include/exclude policy",
                 "",
-                "This bundle is intended to be **the canonical public reproducibility package** used for:",
-                "- Journal supplementary material (zip upload), and",
-                "- GitHub Release assets (same zip; byte-identical).",
+                "This bundle is intended to be the public reproducibility package attached to the project release.",
                 "",
                 "## Included (high-level)",
                 "- Reproducibility entrypoints: `README.md`, `scripts/run_all.sh`",
@@ -213,12 +212,13 @@ def build_bundle(
                 "",
                 "## Excluded (high-level)",
                 "- Secrets/credentials: `token`",
-                "- Internal scaffolding: `openspec/`, `conductor/`",
-                "- Internal agent/tool logs: `logs/openai/`",
+                "- Local planning files: `openspec/`, `conductor/`",
+                "- Local logs: `logs/`",
+                "- Local review notes: `review_reports/`",
                 "- Legacy backups: `data/legacy_backups/`",
                 "- DOCX conversion tooling/templates and Word files: `scripts/build_manuscript_docx.py`, `*.docx`",
                 "- Manuscript / planning docs: `docs/`",
-                "- Submission-only artifacts: `submission/`",
+                "- Manuscript upload artifacts: `submission/`",
                 "",
                 "## How to verify integrity",
                 "- See `MANIFEST.sha256` for per-file SHA-256 checksums.",
@@ -248,12 +248,13 @@ def build_bundle(
                 "## Expected primary outputs",
                 "- `results/analysis/analysis_table.tsv`",
                 "- `results/benchmarks/forecast_eval.tsv`",
-                "- `results/benchmarks/method_benchmark.tsv`",
-                "- `results/benchmarks/paired_benchmark.tsv`",
+                "- `results/benchmarks/nested_signal_increment.tsv`",
+                "- `results/benchmarks/model_specification.tsv`",
+                "- `results/benchmarks/prediction_validity.tsv`",
                 "- `plots/publication/`",
                 "",
                 "## Notes",
-                "- The bundle excludes manuscript/submission materials and Word (`.docx`) files by policy.",
+                "- The bundle excludes manuscript upload materials and Word (`.docx`) files by policy.",
                 "",
             ]
         )
@@ -304,7 +305,7 @@ def build_bundle(
 
 
 def main(argv: Sequence[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Build a sanitized public review bundle zip for GitHub release / journal supplement.")
+    parser = argparse.ArgumentParser(description="Build a public reproducibility bundle zip for a GitHub release.")
     parser.add_argument("--outdir", default="release/review_bundle", help="Output directory (default: release/review_bundle).")
     parser.add_argument("--name", default="", help="Bundle zip filename (default: auto).")
     parser.add_argument("--no-logs", action="store_true", help="Exclude logs/ entirely.")

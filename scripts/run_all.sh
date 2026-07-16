@@ -8,10 +8,16 @@ mkdir -p logs
 RUN_ID="$(date -u +"%Y-%m-%dT%H%M%SZ")"
 LOG="logs/run_${RUN_ID}.log"
 COHORT_PROFILE="${COHORT_PROFILE:-older_adult_65plus}"
+SITES="${SITES:-Overall}"
+AGE_GROUPS="${AGE_GROUPS:-65+ yr}"
+TUNE_PER_ORIGIN="${TUNE_PER_ORIGIN:-1}"
 
 {
   echo "[run_all] run_id=${RUN_ID}"
   echo "[run_all] cohort_profile=${COHORT_PROFILE}"
+  echo "[run_all] sites=${SITES}"
+  echo "[run_all] age_groups=${AGE_GROUPS}"
+  echo "[run_all] tune_per_origin=${TUNE_PER_ORIGIN}"
   if [[ "${SKIP_FETCH:-0}" == "1" ]]; then
     echo "[run_all] step=fetch_* (skipped; using latest existing snapshots)"
   else
@@ -48,13 +54,26 @@ COHORT_PROFILE="${COHORT_PROFILE:-older_adult_65plus}"
   python3 scripts/report_data_quality.py
 
   echo "[run_all] step=evaluate"
-  python3 scripts/evaluate_forecasts.py --outdir results/benchmarks --cohort-profile "${COHORT_PROFILE}"
+  python3 scripts/evaluate_forecasts.py \
+    --outdir results/benchmarks \
+    --cohort-profile "${COHORT_PROFILE}" \
+    --sites "${SITES}" \
+    --age-groups "${AGE_GROUPS}" \
+    --ridge-preprocess standardized_intercept \
+    --nonnegative-handling truncate \
+    --tune-per-origin "${TUNE_PER_ORIGIN}"
+
+  echo "[run_all] step=q1_reporting_metadata"
+  python3 scripts/write_reporting_metadata.py \
+    --ridge-preprocess standardized_intercept \
+    --nonnegative-handling truncate \
+    --tune-per-origin "${TUNE_PER_ORIGIN}"
+
+  echo "[run_all] step=nested_signal_increment_audit"
+  python3 scripts/audit_nested_signal_increment.py
 
   echo "[run_all] step=mdes"
   python3 scripts/compute_paired_mdes.py --cohort-profile "${COHORT_PROFILE}"
-
-  echo "[run_all] step=multiplicity"
-  python3 scripts/paired_benchmark_multiplicity.py
 
   echo "[run_all] step=era_stratified_supplement"
   python3 scripts/era_stratified_analysis.py
@@ -80,9 +99,6 @@ COHORT_PROFILE="${COHORT_PROFILE:-older_adult_65plus}"
 
   echo "[run_all] step=publication_plots"
   python3 scripts/plot_publication_figures.py --cohort-profile "${COHORT_PROFILE}"
-
-  echo "[run_all] step=refresh_key_results"
-  python3 scripts/refresh_key_results.py --cohort-profile "${COHORT_PROFILE}"
 
   echo "[run_all] done"
 } | tee "$LOG"

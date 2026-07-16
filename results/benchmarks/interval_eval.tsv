@@ -1,163 +1,235 @@
 exclude_last_weeks	surveillance_network	age_group	site	train_scope	method	horizon_weeks	interval_level	alpha	n	coverage	mean_width	mean_interval_score	mean_wis
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.5	0.5	46	0.3695652173913043	2.4186255203583706	23.333931403336717	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.9	0.1	46	0.6956521739130435	18.556485157968268	74.30038380891328	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1			46				5.057040656694398
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.5	0.5	44	0.22727272727272727	1.8511804038307957	33.041462486936084	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.9	0.1	44	0.6590909090909091	24.541162644500506	101.25398742018334	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2			44				7.04527961828631
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.5	0.5	42	0.21428571428571427	2.5083937496322952	41.68381043915021	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.9	0.1	42	0.6666666666666666	29.581137673234295	107.00765770169485	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3			42				8.481713171548378
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.5	0.5	40	0.175	3.3574336530337234	47.02414628355016	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.9	0.1	40	0.65	35.77464590606401	109.40791860251538	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4			40				9.375706234630497
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.5	0.5	32	0.1875	1.2234818736156197	23.206924524590086	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.9	0.1	32	0.8125	28.957630839284153	60.20227104167208	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	1			32				4.732817605636742
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.5	0.5	30	0.3	1.8750611202219292	31.366600785519733	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.9	0.1	30	0.8333333333333334	39.44475224736356	76.67517684013497	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	2			30				6.295037695930704
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1	0.5	0.5	46	0.21739130434782608	1.6896595753709116	22.65911468164934	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1	0.9	0.1	46	0.6739130434782609	17.693675282017495	73.78557008240132	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1			46				4.939350634841475
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2	0.5	0.5	44	0.22727272727272727	3.1159451568446204	32.01472028608969	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2	0.9	0.1	44	0.7045454545454546	21.434201359531457	99.5591999709111	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2			44				6.90897360889017
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3	0.5	0.5	42	0.2619047619047619	3.814621562881514	39.18206516180874	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3	0.9	0.1	42	0.6904761904761905	29.40938803032563	103.79592255543773	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3			42				8.099208352052447
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4	0.5	0.5	40	0.35	4.263216550237511	42.730525326139364	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4	0.9	0.1	40	0.675	34.46088583526902	110.11198263240051	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4			40				8.746928307805689
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	1	0.5	0.5	32	0.4375	4.290315044753438	20.887473408743876	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	1	0.9	0.1	32	0.84375	29.045490560584028	48.358731458060475	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	1			32				4.207973789412452
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	2	0.5	0.5	30	0.5333333333333333	7.256478073436555	27.552846636006294	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	2	0.9	0.1	30	0.8666666666666667	37.946064712494845	65.53434255238906	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	2			30				5.608825790136039
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	0.5	0.5	46	0.34782608695652173	3.284914699965441	22.940919514611767	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	0.9	0.1	46	0.6739130434782609	18.338254120497183	67.49851173618944	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1			46				4.898072750360786
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	0.5	0.5	44	0.38636363636363635	5.846222650981769	31.831835540339945	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	0.9	0.1	44	0.7272727272727273	25.3506469986532	92.62703305756804	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2			44				6.818239262456987
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	0.5	0.5	42	0.35714285714285715	7.660801410230936	37.0056059732542	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	0.9	0.1	42	0.7142857142857143	26.34462302716586	102.66878526217612	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3			42				7.850476998654616
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	0.5	0.5	40	0.4	8.657350527390463	39.612679965936536	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	0.9	0.1	40	0.7	33.94747363185699	106.99666794120363	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4			40				8.301108107875901
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	0.5	0.5	32	0.4375	4.115299701382369	20.637487679446146	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	0.9	0.1	32	0.875	29.03705258384485	46.803235567454756	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1			32				4.145134667177098
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	0.5	0.5	30	0.5333333333333333	7.2439878523046435	27.582267227255045	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	0.9	0.1	30	0.8666666666666667	39.80641798244462	65.09907909582063	
-0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2			30				5.599554147440411
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.5	0.5	160	0.4875	0.4509350733155104	2.004996064465472	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.9	0.1	160	0.86875	3.3254393676831584	5.218374021986376	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1			160				0.4161147988933253
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.5	0.5	159	0.4779874213836478	0.5807305548187075	2.526055994537246	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.9	0.1	159	0.8930817610062893	3.9147936768873	6.418516714969085	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2			159				0.5219368895640204
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.5	0.5	158	0.5569620253164557	0.8467121116791089	3.0742585906428714	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.9	0.1	158	0.8924050632911392	4.771826293779006	7.813685230296489	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3			158				0.6346440589025154
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.5	0.5	157	0.5605095541401274	0.8308015775168951	3.8044381001455183	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.9	0.1	157	0.8980891719745223	6.073765198980479	9.619469904835633	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4			157				0.7767059979962206
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.5	0.5	78	0.48717948717948717	0.7103516188668295	2.260289932136954	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.9	0.1	78	0.8589743589743589	2.3116638109216336	6.298305828368457	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1			78				0.4859390794884277
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.5	0.5	77	0.45454545454545453	0.9569972748299791	2.980007270894377	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.9	0.1	77	0.8181818181818182	3.03820279407063	7.57446546836473	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2			77				0.6254734694777897
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.5	0.5	76	0.4605263157894737	1.2513255910530379	3.4856751041222838	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.9	0.1	76	0.8157894736842105	3.5207290643536844	8.721294213625967	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3			76				0.7324912678260735
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.5	0.5	75	0.4533333333333333	1.53212154479814	3.91057794991786	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.9	0.1	75	0.84	4.215521482666533	9.083709917663676	
-0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4			75				0.8098479152059707
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.5	0.5	160	0.575	0.7462500000000001	3.397500000000001	
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.9	0.1	160	0.90625	5.407250000000001	7.923499999999999	
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1			160				0.6777200000000001
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.5	0.5	159	0.5786163522012578	0.7547169811320755	3.4150943396226414	
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.9	0.1	159	0.9056603773584906	5.4318238993710715	7.94	
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2			159				0.6801836477987421
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.5	0.5	158	0.5759493670886076	0.7455696202531646	3.430379746835443	
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.9	0.1	158	0.9050632911392406	5.456708860759495	7.955443037974685	
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3			158				0.6824
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4	0.5	0.5	157	0.5732484076433121	0.7547770700636942	3.449044585987262	
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4	0.9	0.1	157	0.9044585987261147	5.481783439490448	7.9709554140127405	
-0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4			157				0.6850878980891721
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.5	0.5	42	0.38095238095238093	2.3852007193739073	25.091255372914787	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.9	0.1	42	0.6666666666666666	17.597236006645332	78.65007738625178	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1			42				5.402437084477485
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.5	0.5	40	0.25	1.7970739680351557	35.78613236856404	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.9	0.1	40	0.625	23.2971236774083	107.68123093065942	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2			40				7.5799617966153106
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.5	0.5	38	0.21052631578947367	2.431246565171895	45.466448753380945	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.9	0.1	38	0.631578947368421	28.464551306812048	114.04123133826842	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3			38				9.186626447868042
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.5	0.5	36	0.16666666666666666	3.299477049886607	50.78057458284115	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.9	0.1	36	0.6111111111111112	34.85147193112013	116.66621937162164	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4			36				10.084670964312506
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1	0.5	0.5	42	0.23809523809523808	1.64485412132446	24.03575793419489	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1	0.9	0.1	42	0.6428571428571429	16.563045579322928	77.99702559879093	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1			42				5.2259587272228245
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2	0.5	0.5	40	0.25	3.079056578942332	34.18042462220664	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2	0.9	0.1	40	0.675	20.016525214614852	105.95402368713246	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2			40				7.355859735608651
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3	0.5	0.5	38	0.2631578947368421	3.72284016509871	42.238935739244035	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3	0.9	0.1	38	0.6578947368421053	28.464888605081978	110.68158465915322	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3			38				8.69803320463039
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4	0.5	0.5	36	0.3611111111111111	4.1994829852515085	45.575459558809804	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4	0.9	0.1	36	0.6388888888888888	33.25754775432208	117.31432197335708	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4			36				9.317874745732986
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	0.5	0.5	42	0.35714285714285715	3.248916784857609	23.98637419933238	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	0.9	0.1	42	0.6428571428571429	17.23297303582143	71.07515994824628	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1			42				5.119812376102719
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	0.5	0.5	40	0.4	5.842156143939328	33.458728984442985	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	0.9	0.1	40	0.7	24.330203195160077	98.3342278599664	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2			40				7.168212971352969
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	0.5	0.5	38	0.3684210526315789	7.592111982468276	39.3882393584718	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	0.9	0.1	38	0.6842105263157895	25.516792252855737	109.87507682839339	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3			38				8.335705246052047
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	0.5	0.5	36	0.4444444444444444	8.592205928938398	42.37469137059258	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	0.9	0.1	36	0.6666666666666666	32.85539872981323	114.02117018464284	
-4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4			36				8.828909881052915
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.5	0.5	156	0.5	0.4503214646218945	1.9445895962476054	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.9	0.1	156	0.8717948717948718	3.3147941829824115	5.221504231741346	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1			156				0.4067896281933204
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.5	0.5	155	0.4838709677419355	0.5799384048012335	2.4585827451720124	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.9	0.1	155	0.896774193548387	3.9107745942844496	6.459013708667076	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2			155				0.5122633261625673
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.5	0.5	154	0.5714285714285714	0.8475904373826678	2.992790157072747	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.9	0.1	154	0.8961038961038961	4.7676413847220855	7.808605167763341	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3			154				0.621714055917517
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.5	0.5	153	0.5751633986928104	0.8326849599187397	3.7104997695791444	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.9	0.1	153	0.8954248366013072	6.070691570542009	9.709094438641744	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4			153				0.763772778952625
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.5	0.5	74	0.5135135135135135	0.7083584097262623	2.165323757410352	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.9	0.1	74	0.8648648648648649	2.305214359416111	6.212132442760945	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1			74				0.46908247874037645
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.5	0.5	73	0.4657534246575342	0.9547352796703773	2.8739469800672977	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.9	0.1	73	0.821917808219178	3.005314844005563	7.67442470802582	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2			73				0.6107899160189947
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.5	0.5	72	0.4722222222222222	1.2503081027429257	3.3438452442070012	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.9	0.1	72	0.8194444444444444	3.5020025299485535	8.655856863021986	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3			72				0.708633886233413
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.5	0.5	71	0.4788732394366197	1.5299527081618252	3.7422919696395573	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.9	0.1	71	0.8591549295774648	4.193939413044704	8.893097802829983	
-4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4			71				0.778711429648418
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.5	0.5	156	0.5833333333333334	0.7480769230769231	3.4198717948717947	
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.9	0.1	156	0.9038461538461539	5.402307692307693	7.983076923076924	
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1			156				0.6820333333333333
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.5	0.5	155	0.5870967741935483	0.7554838709677419	3.4393548387096775	
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.9	0.1	155	0.9032258064516129	5.427483870967744	8.000387096774194	
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2			155				0.6847174193548385
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.5	0.5	154	0.5844155844155844	0.7474025974025974	3.4538961038961045	
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.9	0.1	154	0.9025974025974026	5.4529870129870135	8.016623376623377	
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3			154				0.6868909090909091
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4	0.5	0.5	153	0.5816993464052288	0.7555555555555555	3.4745098039215687	
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4	0.9	0.1	153	0.9019607843137255	5.478692810457517	8.03294117647059	
-4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4			153				0.6898091503267975
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.5	0.5	62	0.3387096774193548	1.8760335045134253	17.874539028688286	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.9	0.1	62	0.7419354838709677	19.966695176548345	62.55675670781015	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1			62				3.98311626754577
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.5	0.5	60	0.36666666666666664	2.7622446048420244	23.77010378652236	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.9	0.1	60	0.7833333333333333	23.739128812965678	78.98250292435497	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2			60				5.199194627383621
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.5	0.5	58	0.3620689655172414	3.616383117043085	28.512047530374556	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.9	0.1	58	0.7586206896551724	30.013653521456877	80.40030760315965	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3			58				5.947784730773611
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.5	0.5	56	0.44642857142857145	3.887137784345643	29.992892006473998	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.9	0.1	56	0.7678571428571429	34.04510052470836	82.77195023380453	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4			56				6.2212412429957125
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.5	0.5	48	0.7291666666666666	5.468248168715498	15.544777841986516	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.9	0.1	48	0.8958333333333334	29.2156582136294	49.14499834667885	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	1			48				3.297299134222447
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.5	0.5	46	0.7391304347826086	9.268038210793128	21.144058616936015	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.9	0.1	46	0.9130434782608695	37.11608679726942	61.63826431624551	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	2			46				4.392089295191508
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.5	0.5	44	0.7727272727272727	10.81487915904582	22.463046368118754	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.9	0.1	44	0.9318181818181818	46.71516139539636	61.598525913283815	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	3			44				4.634399476780448
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.5	0.5	42	0.7619047619047619	13.5959118350422	22.12048296223008	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.9	0.1	42	0.9523809523809523	49.18373735856966	58.57366835043751	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	4			42				4.528481330939411
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1	0.5	0.5	62	0.3870967741935484	1.374291108883419	16.713096571234917	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1	0.9	0.1	62	0.7419354838709677	20.12219288052452	59.645890161025676	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1			62				3.7395370118878506
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2	0.5	0.5	60	0.4	2.3616572762704116	23.294957094528908	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2	0.9	0.1	60	0.7666666666666667	23.748375842850162	78.8385986205856	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2			60				5.125205268034846
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3	0.5	0.5	58	0.39655172413793105	3.535884851398268	28.49221405624198	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3	0.9	0.1	58	0.7758620689655172	29.277988875011896	83.99460147093603	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3			58				6.019298823952062
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4	0.5	0.5	56	0.4107142857142857	3.7496061413070882	29.855602564327537	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4	0.9	0.1	56	0.7678571428571429	33.25800626896678	86.49172230264948	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4			56				6.265333670936511
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	1	0.5	0.5	48	0.5	1.5678141257740645	14.712874088302478	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	1	0.9	0.1	48	0.8958333333333334	32.50038300979758	43.653337755682	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	1			48				3.1121889877269364
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	2	0.5	0.5	46	0.5652173913043478	3.3491177669918635	17.871248980339544	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	2	0.9	0.1	46	0.9347826086956522	40.39019035215585	56.324899734150975	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	2			46				3.8471493620424706
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	3	0.5	0.5	44	0.6136363636363636	5.823708987152326	20.1336299996393	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	3	0.9	0.1	44	0.9090909090909091	52.187861028318984	63.126489675437895	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	3			44				4.341513371628292
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	4	0.5	0.5	42	0.7142857142857143	8.747524009975525	21.39325748994609	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	4	0.9	0.1	42	0.9285714285714286	55.29232277870325	64.2389038472985	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	4			42				4.5528474075847996
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	0.5	0.5	62	0.3709677419354839	2.1931244748472114	16.046865946369216	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	0.9	0.1	62	0.8225806451612904	18.055606953212045	50.503301845915125	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1			62				3.477792018984022
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	0.5	0.5	60	0.38333333333333336	2.830393617404374	26.125242023521846	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	0.9	0.1	60	0.7666666666666667	28.82440727226355	78.02781178456975	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2			60				5.549165044832042
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	0.5	0.5	58	0.46551724137931033	6.186132579999054	30.736308100173353	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	0.9	0.1	58	0.7758620689655172	32.022057753989095	91.49502340223522	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3			58				6.554892117372152
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	0.5	0.5	56	0.42857142857142855	5.300936627605019	32.75894957834141	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	0.9	0.1	56	0.7857142857142857	38.50064196500458	94.97858265115103	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4			56				6.9202528608164595
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	0.5	0.5	48	0.5416666666666666	2.631705058629574	12.509237637673467	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	0.9	0.1	48	0.9375	27.107225638050448	34.95662871668552	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1			48				2.6322327398675305
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	0.5	0.5	46	0.5217391304347826	3.034832799611171	16.703793443258984	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	0.9	0.1	46	0.9130434782608695	37.653251391958854	49.323765228632325	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2			46				3.5465400336303095
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	0.5	0.5	44	0.6590909090909091	7.888329377577065	21.12321769470492	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	0.9	0.1	44	0.9318181818181818	47.463060517059944	61.3473178122501	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3			44				4.436146942961083
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	0.5	0.5	42	0.7619047619047619	9.259023562098387	19.56295492283913	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	0.9	0.1	42	0.9523809523809523	48.65664710630419	60.03554416251164	
+0	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4			42				4.130050426141033
+0	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.5	0.5	34	0.5	5.4676470588235295	30.16176470588235	
+0	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.9	0.1	34	0.8529411764705882	42.34176470588236	59.95941176470588	
+0	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	1			34				5.782423529411766
+0	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.5	0.5	32	0.5	5.8968750000000005	31.596875	
+0	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.9	0.1	32	0.84375	43.34812500000001	60.82312499999999	
+0	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	2			32				6.0374
+0	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.5	0.5	30	0.4666666666666667	6.706666666666669	33.24666666666666	
+0	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.9	0.1	30	0.8333333333333334	44.384000000000015	61.583999999999996	
+0	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	3			30				6.3270133333333325
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.5	0.5	176	0.45454545454545453	0.46524938517137465	1.8537340261225188	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.9	0.1	176	0.8920454545454546	3.188099616940967	4.881988951044985	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1			176				0.38669150970736044
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.5	0.5	175	0.44571428571428573	0.5164595760789306	2.3340017510156694	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.9	0.1	175	0.9085714285714286	4.318751014562521	6.0070542384985774	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2			175				0.48323100703311994
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.5	0.5	174	0.45977011494252873	0.6379030763757247	2.7704690464065513	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.9	0.1	174	0.9137931034482759	5.059029654795677	7.058165291454161	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3			174				0.5701057480752326
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.5	0.5	173	0.4682080924855491	0.7546074442857416	3.1816151385040987	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.9	0.1	173	0.9017341040462428	5.142383951195792	7.93055970279756	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4			173				0.6512987953463836
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.5	0.5	94	0.44680851063829785	0.7295125753690034	2.118555305357504	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.9	0.1	94	0.8404255319148937	2.2933178523065068	5.152825813855056	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1			94				0.44098985187735884
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.5	0.5	93	0.45161290322580644	0.8037093780287575	2.748476710754094	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.9	0.1	93	0.7741935483870968	3.0154959319513717	6.320471036445737	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2			93				0.5569268848667235
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.5	0.5	92	0.45652173913043476	0.9158790135065717	3.2962546957475594	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.9	0.1	92	0.782608695652174	3.487230163793723	6.861296040469301	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3			92				0.6504581787942572
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.5	0.5	91	0.4725274725274725	1.276286266908507	3.837370048246398	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.9	0.1	91	0.8351648351648352	4.227284746786619	7.081954514856028	
+0	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4			91				0.737614606361545
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.5	0.5	176	0.5454545454545454	0.7676136363636363	3.4119318181818183	
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.9	0.1	176	0.9147727272727273	5.435000000000001	7.6475	
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1			176				0.675734090909091
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.5	0.5	175	0.5428571428571428	0.7742857142857142	3.426857142857143	
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.9	0.1	175	0.9142857142857143	5.46217142857143	7.662171428571429	
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2			175				0.6778719999999998
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.5	0.5	174	0.5402298850574713	0.7672413793103449	3.441954022988506	
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.9	0.1	174	0.9137931034482759	5.4895402298850575	7.679195402298852	
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3			174				0.6800781609195402
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4	0.5	0.5	173	0.5375722543352601	0.775722543352601	3.458959537572255	
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4	0.9	0.1	173	0.9132947976878613	5.517572254335262	7.694450867052022	
+0	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4			173				0.6825595375722544
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.5	0.5	58	0.29310344827586204	1.8631092888080503	18.964960021546695	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.9	0.1	58	0.7241379310344828	19.60906795188038	65.13637510598782	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	1			58				4.205442267934526
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.5	0.5	56	0.32142857142857145	2.7412237455460713	25.249644297346432	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.9	0.1	56	0.7678571428571429	23.40722243290711	82.59655183796706	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	2			56				5.504610670327147
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.5	0.5	54	0.3148148148148148	3.578926758775261	30.318714461983138	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.9	0.1	54	0.7407407407407407	29.6571262969478	83.77612512544339	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	3			54				6.302528798504067
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.5	0.5	52	0.40384615384615385	3.8691587212592475	31.983047883551322	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.9	0.1	52	0.75	33.9182664327816	86.39333535026975	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_univariate	4			52				6.60933938208446
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.5	0.5	44	0.7045454545454546	5.601227878469547	16.59380570385611	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.9	0.1	44	0.8863636363636364	29.21150811247993	50.95260643944296	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	1			44				3.502892389818346
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.5	0.5	42	0.7142857142857143	9.362521243306094	22.369591211938783	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.9	0.1	42	0.9047619047619048	37.58808520504671	64.44570820202051	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	2			42				4.6655455416618565
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.5	0.5	40	0.75	10.967450905802005	23.780434835782234	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.9	0.1	40	0.925	46.848151920934995	63.21985289061122	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	3			40				4.909177295263634
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.5	0.5	38	0.7368421052631579	13.834887216759569	23.25678162049354	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.9	0.1	38	0.9473684210526315	49.923190775706594	60.30153555619213	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_ed	4			38				4.7919274532711285
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1	0.5	0.5	58	0.3448275862068966	1.363798471137229	17.76045258606469	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1	0.9	0.1	58	0.7241379310344828	19.874174788891438	62.12364429563406	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	1			58				3.950745596169468
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2	0.5	0.5	56	0.35714285714285715	2.3549082074599093	24.783443727022583	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2	0.9	0.1	56	0.75	23.411274118718925	82.43651280914976	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	2			56				5.4295077569248
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3	0.5	0.5	54	0.35185185185185186	3.5162472235848035	30.321193406565094	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3	0.9	0.1	54	0.7592592592592593	28.947799428914195	87.71749443935123	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	3			54				6.383335017531132
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4	0.5	0.5	52	0.36538461538461536	3.7247864685293877	31.83893646255141	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4	0.9	0.1	52	0.75	33.0213353267821	90.34995259382501	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals	4			52				6.656211587232468
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	1	0.5	0.5	44	0.45454545454545453	1.5743672484462594	15.91443266211362	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	1	0.9	0.1	44	0.8863636363636364	32.524546240004575	44.69140596278759	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	1			44				3.3183639205031663
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	2	0.5	0.5	42	0.5238095238095238	3.435503337419072	19.340694666323675	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	2	0.9	0.1	42	0.9285714285714286	40.65747537859304	58.10977613030199	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	2			42				4.113936836594903
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	3	0.5	0.5	40	0.575	5.913225795721971	21.654138909457643	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	3	0.9	0.1	40	0.9	52.322681330612326	64.35517284244312	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	3			40				4.61969998376579
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	4	0.5	0.5	38	0.6842105263157895	8.878706261290143	22.85556958125761	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	4	0.9	0.1	38	0.9210526315789473	55.45936568162245	65.34769212585934	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_ed	4			38				4.8348063382497175
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	0.5	0.5	58	0.3275862068965517	2.181481056998149	16.99065297483202	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1	0.9	0.1	58	0.8103448275862069	17.920932103142082	52.60639905741089	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	1			58				3.671107082588536
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	0.5	0.5	56	0.3392857142857143	2.812169554792144	27.77093570420372	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2	0.9	0.1	56	0.75	28.56082689302979	81.27876029907215	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	2			56				5.873473712246597
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	0.5	0.5	54	0.42592592592592593	6.180170753855975	32.548877794043186	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3	0.9	0.1	54	0.7592592592592593	31.840323143124216	95.71869365420338	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	3			54				6.939241813228875
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	0.5	0.5	52	0.38461538461538464	5.284682220250044	34.85485001335077	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4	0.9	0.1	52	0.7692307692307693	38.118897932498705	98.94129559450259	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos	4			52				7.339465336258218
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	0.5	0.5	44	0.5	2.6297766941216225	13.405266780351326	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1	0.9	0.1	44	0.9318181818181818	27.21444015773685	35.77742533442966	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	1			44				2.7957221684689695
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	0.5	0.5	42	0.47619047619047616	3.0649549969066565	18.035721416139975	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2	0.9	0.1	42	0.9047619047619048	37.69577297274687	50.477764317674946	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	2			42				3.782782849340382
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	0.5	0.5	40	0.625	8.036109419694577	22.594486568535217	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3	0.9	0.1	40	0.925	47.72528968806127	62.997972712770434	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	3			40				4.720974810079079
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	0.5	0.5	38	0.7368421052631579	9.449573382844548	20.838129097347476	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4	0.9	0.1	38	0.9473684210526315	49.00511487157698	61.58179056527993	
+4	FluSurv-NET	65+ yr	Overall	within_site	ridge_with_signals_plus_flu_pos_plus_ed	4			38				4.385655303290064
+4	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.5	0.5	34	0.5	5.4676470588235295	30.16176470588235	
+4	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.9	0.1	34	0.8529411764705882	42.34176470588236	59.95941176470588	
+4	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	1			34				5.782423529411766
+4	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.5	0.5	32	0.5	5.8968750000000005	31.596875	
+4	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.9	0.1	32	0.84375	43.34812500000001	60.82312499999999	
+4	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	2			32				6.0374
+4	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.5	0.5	30	0.4666666666666667	6.706666666666669	33.24666666666666	
+4	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.9	0.1	30	0.8333333333333334	44.384000000000015	61.583999999999996	
+4	FluSurv-NET	65+ yr	Overall	within_site	seasonal_naive	3			30				6.3270133333333325
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.5	0.5	172	0.4418604651162791	0.4638493261433508	1.884624307581731	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1	0.9	0.1	172	0.8895348837209303	3.1862275877225894	4.91950969703833	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	1			172				0.3926320610457621
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.5	0.5	171	0.4327485380116959	0.5146351759381163	2.374692957306124	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2	0.9	0.1	171	0.9064327485380117	4.319209941993564	6.04700563900415	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	2			171				0.49052076904870723
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.5	0.5	170	0.4470588235294118	0.6356032594495414	2.8183472523046227	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3	0.9	0.1	170	0.9117647058823529	5.062675358699835	7.108849480926755	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	3			170				0.5786164988930977
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.5	0.5	169	0.4556213017751479	0.7508123889573166	3.2352640522695983	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4	0.9	0.1	169	0.8994082840236687	5.143814712270063	7.99798278935353	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_univariate	4			169				0.6615298722598681
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.5	0.5	90	0.4222222222222222	0.7272769779798414	2.1780549404122747	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1	0.9	0.1	90	0.8333333333333334	2.2954870364467235	5.282084240730764	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	1			90				0.4537981492286087
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.5	0.5	89	0.42696629213483145	0.8024620594346591	2.8346346655409094	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2	0.9	0.1	89	0.7640449438202247	3.012563969058858	6.466077280496791	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	2			89				0.5740672142458442
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.5	0.5	88	0.4318181818181818	0.9118663818294173	3.4004409587177222	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3	0.9	0.1	88	0.7727272727272727	3.4885687805422765	7.016001287975836	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	3			88				0.6707257640600456
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.5	0.5	87	0.4482758620689655	1.2735146464042224	3.9523494061944295	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4	0.9	0.1	87	0.8275862068965517	4.227785949052044	7.213704901860277	
+4	RSV-NET	65+ yr	Overall	within_site	ridge_with_ed	4			87				0.759896446964929
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.5	0.5	172	0.5348837209302325	0.7668604651162789	3.472674418604651	
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1	0.9	0.1	172	0.9127906976744186	5.441627906976746	7.705581395348838	
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	1			172				0.686960465116279
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.5	0.5	171	0.5321637426900585	0.7736842105263159	3.4883040935672516	
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2	0.9	0.1	171	0.9122807017543859	5.469005847953217	7.72046783625731	
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	2			171				0.689204678362573
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.5	0.5	170	0.5294117647058824	0.7664705882352942	3.504117647058824	
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3	0.9	0.1	170	0.9117647058823529	5.496470588235295	7.73764705882353	
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	3			170				0.6915176470588235
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4	0.5	0.5	169	0.5266272189349113	0.7751479289940828	3.5218934911242608	
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4	0.9	0.1	169	0.9112426035502958	5.524497041420119	7.752899408284023	
+4	RSV-NET	65+ yr	Overall	within_site	seasonal_naive	4			169				0.6941112426035503

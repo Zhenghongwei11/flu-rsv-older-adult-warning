@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it."
-title: "Public surveillance early warning for older-adult influenza/RSV hospitalization burden"
+title: "Public surveillance forecasting of older-adult influenza/RSV hospitalization rates"
 type: software
-doi: 10.5281/zenodo.19567967
+doi: 10.5281/zenodo.19562183
 authors:
   - family-names: "Zheng"
     given-names: "Hongwei"
@@ -16,7 +16,7 @@ authors:
     given-names: "Shaomei"
     email: "lsm2060@163.com"
     affiliation: "Quanzhou Medical College, Quanzhou, Fujian, China"
-date-released: "2026-04-14"
+date-released: "2026-07-16"
 license: "MIT"
 repository-code: "https://github.com/Zhenghongwei11/flu-rsv-older-adult-warning"
 keywords:
@@ -25,4 +25,4 @@ keywords:
   - influenza
   - RSV
   - forecasting
-  - decision analysis
+  - public surveillance

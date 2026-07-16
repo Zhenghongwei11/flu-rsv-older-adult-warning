@@ -1,7 +1,7 @@
 {
-  "title": "Older-Adult Influenza/RSV Hospital Burden Early Warning (Public Data)",
+  "title": "Public surveillance forecasting of older-adult influenza/RSV hospitalization rates",
   "upload_type": "software",
-  "description": "Reproducible, audit-ready pipeline that forecasts older-adult (65+) hospitalization burden for influenza (FluSurv-NET) and RSV (RSV-NET) using publicly available U.S. surveillance data, and translates forecasts into decision-relevant alerts (utility, expected cost, lead time).",
+  "description": "Reproducible public-data pipeline for forecasting U.S. older-adult influenza and RSV hospitalization rates, benchmarking public surveillance signal layers against autoregressive and seasonal structure, and generating the study figures and tables from frozen public data snapshots.",
   "creators": [
     {
       "name": "Zheng, Hongwei",
@@ -23,6 +23,6 @@
     "influenza",
     "RSV",
     "forecasting",
-    "decision analysis"
+    "public surveillance"
   ]
 }

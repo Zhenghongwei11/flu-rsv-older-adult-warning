@@ -59,15 +59,4 @@ python3 scripts/plot_publication_figures.py \
   --expected-cost "${OUT_ROOT}/benchmarks/expected_cost.tsv" \
   --alert-lead-time "${OUT_ROOT}/benchmarks/alert_lead_time.tsv"
 
-echo "[run_secondary_strata] step=refresh_key_results"
-python3 scripts/refresh_key_results.py \
-  --cohort-profile "${COHORT_PROFILE}" \
-  --paired-benchmark "${OUT_ROOT}/benchmarks/paired_benchmark.tsv" \
-  --expected-cost "${OUT_ROOT}/benchmarks/expected_cost.tsv" \
-  --alert-utility "${OUT_ROOT}/benchmarks/alert_utility.tsv" \
-  --pseudo-prospective "${OUT_ROOT}/benchmarks/pseudo_prospective_episode_summary.tsv" \
-  --missingness "${OUT_ROOT}/analysis/missingness_report.tsv" \
-  --site-trend "${OUT_ROOT}/benchmarks/site_trend_correlation.tsv" \
-  --out "results_strata/KEY_RESULTS_LOCK_STRATA.md"
-
 echo "[run_secondary_strata] done"

@@ -22,7 +22,50 @@ def latest_snapshot(glob_pattern: str) -> Path:
 def load_latest_respnet() -> pd.DataFrame:
     path = latest_snapshot("cdc_kvib-3txy/*.csv.gz")
     df = pd.read_csv(path, compression="gzip")
-    return df
+    return normalize_respnet_schema(df)
+
+
+def _mmwr_year_week_from_week_ending(value: object) -> tuple[int | None, int | None]:
+    d = pd.to_datetime(value, errors="coerce")
+    if pd.isna(d):
+        return (None, None)
+    # For CDC week-ending Saturdays in this dataset, ISO year/week matches the MMWR
+    # week-year convention at year boundaries while avoiding an extra dependency.
+    iso = d.date().isocalendar()
+    return (int(iso.year), int(iso.week))
+
+
+def normalize_respnet_schema(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Normalize CDC RESP-NET snapshots across the older project-export schema and the
+    current raw Socrata schema.
+    """
+    out = df.copy()
+    if "age_group" in out.columns and "week_ending_date" in out.columns and "weekly_rate" in out.columns:
+        return out
+
+    rename = {
+        "age_category": "age_group",
+        "state": "site",
+        "date": "week_ending_date",
+        "estimate": "weekly_rate",
+    }
+    out = out.rename(columns={k: v for k, v in rename.items() if k in out.columns})
+    if "data_type" in out.columns:
+        out = out[out["data_type"].astype(str).str.lower() == "weekly rate"]
+    if "date_type" in out.columns:
+        out = out[out["date_type"].astype(str).str.lower() == "week ending date"]
+    if "race" in out.columns:
+        out = out[out["race"].astype(str).str.lower().isin(["all", "overall"])]
+    if "race_ethnicity" in out.columns:
+        out = out[out["race_ethnicity"].astype(str).str.lower().isin(["all", "overall"])]
+    if "sex" in out.columns:
+        out = out[out["sex"].astype(str).str.lower().isin(["all", "overall"])]
+    if "mmwr_year" not in out.columns or "mmwr_week" not in out.columns:
+        pairs = out["week_ending_date"].map(_mmwr_year_week_from_week_ending)
+        out["mmwr_year"] = pairs.map(lambda x: x[0])
+        out["mmwr_week"] = pairs.map(lambda x: x[1])
+    return out
 
 
 def load_latest_nrevss_rsv() -> pd.DataFrame:
