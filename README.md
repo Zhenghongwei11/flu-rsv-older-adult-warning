@@ -59,7 +59,7 @@ See `CITATION.cff`.
 
 ## Archive
 - Concept DOI: 10.5281/zenodo.19562183
-- Latest version DOI: see the current GitHub release and Zenodo record.
+- Version DOI (v0.4.0): 10.5281/zenodo.21390296
 
 ## Reproducibility bundle
 To build the public reproducibility bundle used as the release asset, run:
