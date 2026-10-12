@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it."
 title: "Public surveillance forecasting of older-adult influenza/RSV hospitalization rates"
 type: software
+version: "0.5.0"
+doi: 10.5281/zenodo.23319750
 authors:
   - family-names: "Zheng"
     given-names: "Hongwei"

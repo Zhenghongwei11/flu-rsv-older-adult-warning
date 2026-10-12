@@ -38,3 +38,7 @@ The full computation fits models separately at one- to four-week leads, compares
 Table 1 describes the sources and Table S2 defines the models. Other numbered tables are generated from the numerical outputs; source-publication information is metadata. Positive MAE improvement favors the model with added indicators. Training-history comparisons and alternative seasonal curves answer distinct questions and are identified in the tables.
 
 The frozen inputs and numerical outputs define the study version. Minor floating-point differences can occur across numerical libraries; figure typography can vary if Arial or Helvetica is unavailable. The previous public version remains available in the repository history and its archived release.
+
+## Cite this version
+
+Version v0.5.0 is archived at Zenodo: [10.5281/zenodo.23319750](https://doi.org/10.5281/zenodo.23319750). The corresponding [GitHub release](https://github.com/Zhenghongwei11/flu-rsv-older-adult-warning/releases/tag/v0.5.0) preserves the frozen inputs, analyses and figure/table generators.
