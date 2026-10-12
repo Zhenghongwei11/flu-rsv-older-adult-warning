@@ -1,34 +1,4 @@
-.DS_Store
 __pycache__/
 *.pyc
 .venv/
-venv/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.ipynb_checkpoints/
-
-# Local credentials / secrets (do not commit)
-token
-
-# Local logs (do not commit)
-logs/
-
-# Large legacy backups (do not commit)
-data/legacy_backups/
-
-# Generated review bundle artifacts (release assets, not source)
-docs/review_bundle/
-release/
-
-# Manuscript upload artifacts (keep local; do not track)
-submission/
-docs/manuscript/*.docx
-
-# Local planning files (keep local; do not track)
-openspec/
-conductor/
-
-# Docs/manuscript scaffolding (do not track)
-docs/
-review_reports/
+.DS_Store

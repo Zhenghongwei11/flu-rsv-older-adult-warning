@@ -1,0 +1,19 @@
+Outcome	Contrast	Lead (weeks)	Block 2 CI	Block 4 CI	Block 8 CI	Block 13 CI	Unsegmented block 4 CI
+FluSurv-NET	AR → AR + ED	1	−0.463 to 0.398	−0.462 to 0.454	−0.375 to 0.397	−0.392 to 0.350	−0.478 to 0.411
+FluSurv-NET	AR → AR + wILI + laboratory + ED	1	−0.045 to 1.481	−0.173 to 1.613	−0.314 to 1.698	−0.361 to 1.736	−0.217 to 1.622
+FluSurv-NET	AR → AR + laboratory	1	−0.040 to 1.947	−0.143 to 2.157	−0.033 to 2.215	0.004 to 2.136	−0.096 to 2.115
+FluSurv-NET	AR → AR + wILI	1	0.059 to 0.496	0.064 to 0.567	0.098 to 0.511	0.175 to 0.504	0.069 to 0.554
+FluSurv-NET	AR → AR + wILI + ED	1	−0.436 to 0.848	−0.642 to 0.925	−0.906 to 1.083	−0.997 to 1.046	−0.650 to 0.938
+FluSurv-NET	AR → AR + wILI + laboratory	1	0.060 to 1.927	−0.081 to 2.177	−0.132 to 2.144	−0.150 to 2.220	−0.073 to 2.102
+FluSurv-NET	AR + laboratory → AR + wILI + laboratory + ED	1	−0.721 to 0.254	−0.921 to 0.311	−0.991 to 0.321	−1.088 to 0.339	−0.907 to 0.311
+FluSurv-NET	AR + wILI → AR + wILI + ED	1	−0.429 to 0.702	−0.511 to 0.703	−0.434 to 0.757	−0.508 to 0.576	−0.501 to 0.743
+FluSurv-NET	AR + wILI → AR + wILI + laboratory	1	0.071 to 1.651	−0.059 to 1.977	−0.175 to 2.376	−0.194 to 2.322	−0.035 to 1.975
+FluSurv-NET	AR + wILI + laboratory → AR + wILI + laboratory + ED	1	−0.485 to −0.010	−0.538 to −0.006	−0.594 to −0.057	−0.575 to −0.093	−0.555 to 0.010
+FluSurv-NET	AR → AR + laboratory	2	0.068 to 1.977	0.354 to 1.794	0.450 to 1.810	0.587 to 1.842	0.233 to 1.827
+FluSurv-NET	AR + wILI → AR + wILI + laboratory	2	0.126 to 1.554	0.290 to 1.529	0.288 to 1.639	0.267 to 1.758	0.275 to 1.595
+FluSurv-NET	AR → AR + ED	3	−0.098 to 0.974	0.027 to 0.989	0.162 to 0.949	0.136 to 0.809	−0.059 to 0.933
+RSV-NET	AR → AR + ED	1	−0.036 to 0.024	−0.036 to 0.031	−0.031 to 0.026	−0.029 to 0.015	−0.036 to 0.031
+RSV-NET	AR → AR + laboratory	1	0.076 to 0.232	0.062 to 0.248	0.066 to 0.250	0.066 to 0.256	0.062 to 0.248
+RSV-NET	AR → AR + laboratory + ED	1	0.064 to 0.212	0.059 to 0.226	0.053 to 0.235	0.059 to 0.237	0.059 to 0.226
+RSV-NET	AR + ED → AR + laboratory + ED	1	0.071 to 0.215	0.063 to 0.233	0.062 to 0.243	0.070 to 0.239	0.063 to 0.233
+RSV-NET	AR + laboratory → AR + laboratory + ED	1	−0.048 to 0.029	−0.044 to 0.027	−0.035 to 0.020	−0.033 to 0.010	−0.044 to 0.027

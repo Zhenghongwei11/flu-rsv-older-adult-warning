@@ -1,0 +1,12 @@
+Outcome	Model	n	RMSE	Mean bias	Calibration intercept	Calibration slope
+FluSurv-NET	AR	74	7.891	−0.521	1.799	0.851
+FluSurv-NET	AR + ED	74	8.359	0.346	1.401	0.815
+FluSurv-NET	AR + wILI + laboratory + ED	74	6.783	−0.515	0.969	0.947
+FluSurv-NET	AR + laboratory	74	5.977	−0.052	0.260	0.977
+FluSurv-NET	AR + wILI	74	7.640	−0.663	1.720	0.875
+FluSurv-NET	AR + wILI + ED	74	8.600	−0.632	2.452	0.785
+FluSurv-NET	AR + wILI + laboratory	74	6.397	−0.479	0.773	0.966
+RSV-NET	AR	120	0.845	−0.075	0.028	1.028
+RSV-NET	AR + ED	120	0.831	0.002	−0.051	1.028
+RSV-NET	AR + laboratory	120	0.760	−0.113	−0.008	1.074
+RSV-NET	AR + laboratory + ED	120	0.760	−0.111	0.025	1.053

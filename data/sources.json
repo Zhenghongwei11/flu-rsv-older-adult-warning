@@ -1,0 +1,30 @@
+{
+  "retrieved": "2026-07-15 to 2026-07-16",
+  "last_outcome_week": "2026-07-04",
+  "scope": "Weekly aggregate rates in adults aged65years or older; laboratory positivity and wILI include all ages.",
+  "systems": [
+    {
+      "name": "RESP-NET:FluSurv-NET and RSV-NET",
+      "dataset": "kvib-3txy",
+      "url": "https://data.cdc.gov/d/kvib-3txy"
+    },
+    {
+      "name": "NSSP demographic ED visits",
+      "dataset": "7xva-uux8",
+      "url": "https://data.cdc.gov/d/7xva-uux8"
+    },
+    {
+      "name": "Clinical laboratory influenza and NREVSS RSV positivity",
+      "dataset": "seuz-s2cv",
+      "url": "https://data.cdc.gov/d/seuz-s2cv"
+    },
+    {
+      "name": "ILINet national weighted ILI, Delphi FluView",
+      "url": "https://cmu-delphi.github.io/delphi-epidata/api/fluview.html"
+    }
+  ],
+  "inputs": {
+    "weekly_analysis.tsv": "Frozen aligned hospitalization outcomes and predictor values; CDC MMWR weeks ending Saturday. No outcome interpolation.",
+    "surveillance_sources.tsv": "Observed indicator histories before matching to outcome weeks; used for coverage figures and source spans."
+  }
+}

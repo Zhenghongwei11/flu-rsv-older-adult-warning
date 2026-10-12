@@ -1,0 +1,1650 @@
+signal	week_ending_date	value	source
+wILI	2010-01-09	1.90711760430302	signal_wili.tsv
+wILI	2010-01-16	1.86737529968374	signal_wili.tsv
+wILI	2010-01-23	1.88072330631514	signal_wili.tsv
+wILI	2010-01-30	1.96908433236079	signal_wili.tsv
+wILI	2010-02-06	2.11386811062075	signal_wili.tsv
+wILI	2010-02-13	2.09694583121344	signal_wili.tsv
+wILI	2010-02-20	1.90294345645018	signal_wili.tsv
+wILI	2010-02-27	1.96951462278194	signal_wili.tsv
+wILI	2010-03-06	1.92331036712421	signal_wili.tsv
+wILI	2010-03-13	1.89658616483482	signal_wili.tsv
+wILI	2010-03-20	1.75180555050134	signal_wili.tsv
+wILI	2010-03-27	1.52631922263178	signal_wili.tsv
+wILI	2010-04-03	1.49571988362904	signal_wili.tsv
+wILI	2010-04-10	1.22313021684613	signal_wili.tsv
+wILI	2010-04-17	1.17754240902	signal_wili.tsv
+wILI	2010-04-24	1.09111851417293	signal_wili.tsv
+wILI	2010-05-01	1.11957937083649	signal_wili.tsv
+wILI	2010-05-08	1.08168511952067	signal_wili.tsv
+wILI	2010-05-15	1.12497482672273	signal_wili.tsv
+wILI	2010-05-22	1.0619697897527	signal_wili.tsv
+wILI	2010-05-29	1.08908766932167	signal_wili.tsv
+wILI	2010-06-05	1.17760142013009	signal_wili.tsv
+wILI	2010-06-12	0.974930395182935	signal_wili.tsv
+wILI	2010-06-19	0.987131780132296	signal_wili.tsv
+wILI	2010-06-26	0.99599053755025	signal_wili.tsv
+wILI	2010-07-03	0.904726272396402	signal_wili.tsv
+wILI	2010-07-10	0.941927007840111	signal_wili.tsv
+wILI	2010-07-17	0.880415229455867	signal_wili.tsv
+wILI	2010-07-24	0.842614661882896	signal_wili.tsv
+wILI	2010-07-31	0.858382365250436	signal_wili.tsv
+wILI	2010-08-07	0.833830394847588	signal_wili.tsv
+wILI	2010-08-14	0.847436542815637	signal_wili.tsv
+wILI	2010-08-21	0.888273269260976	signal_wili.tsv
+wILI	2010-08-28	0.76537228790335	signal_wili.tsv
+wILI	2010-09-04	0.91858044292525	signal_wili.tsv
+wILI	2010-09-11	1.01431787184839	signal_wili.tsv
+wILI	2010-09-18	1.01232561233888	signal_wili.tsv
+wILI	2010-09-25	1.11803281725652	signal_wili.tsv
+wILI	2010-10-02	1.11805942184768	signal_wili.tsv
+wILI	2010-10-09	1.10939	signal_wili.tsv
+wILI	2010-10-16	1.24341	signal_wili.tsv
+wILI	2010-10-23	1.25726	signal_wili.tsv
+wILI	2010-10-30	1.25734	signal_wili.tsv
+wILI	2010-11-06	1.43414	signal_wili.tsv
+wILI	2010-11-13	1.51838	signal_wili.tsv
+wILI	2010-11-20	1.61617	signal_wili.tsv
+wILI	2010-11-27	1.84378	signal_wili.tsv
+wILI	2010-12-04	1.72535	signal_wili.tsv
+wILI	2010-12-11	1.87923	signal_wili.tsv
+wILI	2010-12-18	2.3371	signal_wili.tsv
+wILI	2010-12-25	3.03533	signal_wili.tsv
+wILI	2011-01-01	3.136	signal_wili.tsv
+wILI	2011-01-08	2.53336	signal_wili.tsv
+wILI	2011-01-15	2.91288	signal_wili.tsv
+wILI	2011-01-22	3.44497	signal_wili.tsv
+wILI	2011-01-29	4.16185	signal_wili.tsv
+wILI	2011-02-05	4.55159	signal_wili.tsv
+wILI	2011-02-12	4.46504	signal_wili.tsv
+wILI	2011-02-19	4.55124	signal_wili.tsv
+wILI	2011-02-26	4.0822	signal_wili.tsv
+wILI	2011-03-05	3.38812	signal_wili.tsv
+wILI	2011-03-12	2.99142	signal_wili.tsv
+wILI	2011-03-19	2.61542	signal_wili.tsv
+wILI	2011-03-26	2.09065	signal_wili.tsv
+wILI	2011-04-02	1.86146	signal_wili.tsv
+wILI	2011-04-09	1.61377	signal_wili.tsv
+wILI	2011-04-16	1.42199	signal_wili.tsv
+wILI	2011-04-23	1.3382	signal_wili.tsv
+wILI	2011-04-30	1.19995	signal_wili.tsv
+wILI	2011-05-07	1.14889	signal_wili.tsv
+wILI	2011-05-14	1.12194	signal_wili.tsv
+wILI	2011-05-21	1.06712	signal_wili.tsv
+wILI	2011-05-28	1.05058	signal_wili.tsv
+wILI	2011-06-04	1.15203	signal_wili.tsv
+wILI	2011-06-11	0.970975	signal_wili.tsv
+wILI	2011-06-18	0.894683	signal_wili.tsv
+wILI	2011-06-25	0.843568	signal_wili.tsv
+wILI	2011-07-02	0.815409	signal_wili.tsv
+wILI	2011-07-09	0.823052	signal_wili.tsv
+wILI	2011-07-16	0.674635	signal_wili.tsv
+wILI	2011-07-23	0.631883	signal_wili.tsv
+wILI	2011-07-30	0.641513	signal_wili.tsv
+wILI	2011-08-06	0.529813	signal_wili.tsv
+wILI	2011-08-13	0.644089	signal_wili.tsv
+wILI	2011-08-20	0.667718	signal_wili.tsv
+wILI	2011-08-27	0.705668	signal_wili.tsv
+wILI	2011-09-03	0.804155	signal_wili.tsv
+wILI	2011-09-10	0.907804	signal_wili.tsv
+wILI	2011-09-17	1.00555	signal_wili.tsv
+wILI	2011-09-24	1.03601	signal_wili.tsv
+wILI	2011-10-01	1.07583	signal_wili.tsv
+wILI	2011-10-08	1.16092	signal_wili.tsv
+wILI	2011-10-15	1.19785	signal_wili.tsv
+wILI	2011-10-22	1.27926	signal_wili.tsv
+wILI	2011-10-29	1.29194	signal_wili.tsv
+wILI	2011-11-05	1.42824	signal_wili.tsv
+wILI	2011-11-12	1.39803	signal_wili.tsv
+wILI	2011-11-19	1.45831	signal_wili.tsv
+wILI	2011-11-26	1.56548	signal_wili.tsv
+wILI	2011-12-03	1.34313	signal_wili.tsv
+wILI	2011-12-10	1.48139	signal_wili.tsv
+wILI	2011-12-17	1.63398	signal_wili.tsv
+wILI	2011-12-24	1.83126	signal_wili.tsv
+wILI	2011-12-31	2.10451	signal_wili.tsv
+wILI	2012-01-07	1.73625	signal_wili.tsv
+wILI	2012-01-14	1.55066	signal_wili.tsv
+wILI	2012-01-21	1.62891	signal_wili.tsv
+wILI	2012-01-28	1.76038	signal_wili.tsv
+wILI	2012-02-04	1.92728	signal_wili.tsv
+wILI	2012-02-11	1.91994	signal_wili.tsv
+wILI	2012-02-18	2.09951	signal_wili.tsv
+wILI	2012-02-25	2.23973	signal_wili.tsv
+wILI	2012-03-03	2.21921	signal_wili.tsv
+wILI	2012-03-10	2.16693	signal_wili.tsv
+wILI	2012-03-17	2.38913	signal_wili.tsv
+wILI	2012-03-24	1.96466	signal_wili.tsv
+wILI	2012-03-31	1.84229	signal_wili.tsv
+wILI	2012-04-07	1.68674	signal_wili.tsv
+wILI	2012-04-14	1.53136	signal_wili.tsv
+wILI	2012-04-21	1.37912	signal_wili.tsv
+wILI	2012-04-28	1.29515	signal_wili.tsv
+wILI	2012-05-05	1.39521	signal_wili.tsv
+wILI	2012-05-12	1.32522	signal_wili.tsv
+wILI	2012-05-19	1.23059	signal_wili.tsv
+wILI	2012-05-26	1.23028	signal_wili.tsv
+wILI	2012-06-02	1.26877	signal_wili.tsv
+wILI	2012-06-09	1.10782	signal_wili.tsv
+wILI	2012-06-16	1.09559	signal_wili.tsv
+wILI	2012-06-23	1.11031	signal_wili.tsv
+wILI	2012-06-30	1.10616	signal_wili.tsv
+wILI	2012-07-07	1.10816	signal_wili.tsv
+wILI	2012-07-14	0.999444	signal_wili.tsv
+wILI	2012-07-21	0.924199	signal_wili.tsv
+wILI	2012-07-28	0.949257	signal_wili.tsv
+wILI	2012-08-04	0.978903	signal_wili.tsv
+wILI	2012-08-11	0.925024	signal_wili.tsv
+wILI	2012-08-18	0.848456	signal_wili.tsv
+wILI	2012-08-25	1.04451	signal_wili.tsv
+wILI	2012-09-01	1.0986	signal_wili.tsv
+wILI	2012-09-08	1.22071	signal_wili.tsv
+wILI	2012-09-15	1.24976	signal_wili.tsv
+wILI	2012-09-22	1.22892	signal_wili.tsv
+wILI	2012-09-29	1.29393	signal_wili.tsv
+wILI	2012-10-06	1.23034	signal_wili.tsv
+wILI	2012-10-13	1.3278	signal_wili.tsv
+wILI	2012-10-20	1.33995	signal_wili.tsv
+wILI	2012-10-27	1.37842	signal_wili.tsv
+wILI	2012-11-03	1.50085	signal_wili.tsv
+wILI	2012-11-10	1.65163	signal_wili.tsv
+wILI	2012-11-17	1.76746	signal_wili.tsv
+wILI	2012-11-24	2.30609	signal_wili.tsv
+wILI	2012-12-01	2.16324	signal_wili.tsv
+wILI	2012-12-08	2.83038	signal_wili.tsv
+wILI	2012-12-15	3.43761	signal_wili.tsv
+wILI	2012-12-22	4.30554	signal_wili.tsv
+wILI	2012-12-29	6.06082	signal_wili.tsv
+wILI	2013-01-05	4.64931	signal_wili.tsv
+wILI	2013-01-12	4.32584	signal_wili.tsv
+wILI	2013-01-19	4.51113	signal_wili.tsv
+wILI	2013-01-26	4.2171	signal_wili.tsv
+wILI	2013-02-02	3.78956	signal_wili.tsv
+wILI	2013-02-09	3.29206	signal_wili.tsv
+wILI	2013-02-16	3.0197	signal_wili.tsv
+wILI	2013-02-23	2.71499	signal_wili.tsv
+wILI	2013-03-02	2.4845	signal_wili.tsv
+wILI	2013-03-09	2.57808	signal_wili.tsv
+wILI	2013-03-16	2.39237	signal_wili.tsv
+wILI	2013-03-23	2.06778	signal_wili.tsv
+wILI	2013-03-30	1.90281	signal_wili.tsv
+wILI	2013-04-06	1.65902	signal_wili.tsv
+wILI	2013-04-13	1.43006	signal_wili.tsv
+wILI	2013-04-20	1.27757	signal_wili.tsv
+wILI	2013-04-27	1.19009	signal_wili.tsv
+wILI	2013-05-04	1.09556	signal_wili.tsv
+wILI	2013-05-11	1.08589	signal_wili.tsv
+wILI	2013-05-18	1.07343	signal_wili.tsv
+wILI	2013-05-25	1.01677	signal_wili.tsv
+wILI	2013-06-01	1.04847	signal_wili.tsv
+wILI	2013-06-08	0.920349	signal_wili.tsv
+wILI	2013-06-15	0.920779	signal_wili.tsv
+wILI	2013-06-22	0.904333	signal_wili.tsv
+wILI	2013-06-29	0.83057	signal_wili.tsv
+wILI	2013-07-06	0.862837	signal_wili.tsv
+wILI	2013-07-13	0.732182	signal_wili.tsv
+wILI	2013-07-20	0.724558	signal_wili.tsv
+wILI	2013-07-27	0.740848	signal_wili.tsv
+wILI	2013-08-03	0.726037	signal_wili.tsv
+wILI	2013-08-10	0.755639	signal_wili.tsv
+wILI	2013-08-17	0.761847	signal_wili.tsv
+wILI	2013-08-24	0.779896	signal_wili.tsv
+wILI	2013-08-31	0.899138	signal_wili.tsv
+wILI	2013-09-07	0.999524	signal_wili.tsv
+wILI	2013-09-14	1.0558	signal_wili.tsv
+wILI	2013-09-21	1.0967	signal_wili.tsv
+wILI	2013-09-28	1.24709	signal_wili.tsv
+wILI	2013-10-05	1.15746	signal_wili.tsv
+wILI	2013-10-12	1.27184	signal_wili.tsv
+wILI	2013-10-19	1.31623	signal_wili.tsv
+wILI	2013-10-26	1.37444	signal_wili.tsv
+wILI	2013-11-02	1.46781	signal_wili.tsv
+wILI	2013-11-09	1.5834	signal_wili.tsv
+wILI	2013-11-16	1.60253	signal_wili.tsv
+wILI	2013-11-23	1.72344	signal_wili.tsv
+wILI	2013-11-30	2.11076	signal_wili.tsv
+wILI	2013-12-07	2.1708	signal_wili.tsv
+wILI	2013-12-14	2.36971	signal_wili.tsv
+wILI	2013-12-21	3.15997	signal_wili.tsv
+wILI	2013-12-28	4.59053	signal_wili.tsv
+wILI	2014-01-04	4.28195	signal_wili.tsv
+wILI	2014-01-11	3.56288	signal_wili.tsv
+wILI	2014-01-18	3.36378	signal_wili.tsv
+wILI	2014-01-25	3.39659	signal_wili.tsv
+wILI	2014-02-01	3.11922	signal_wili.tsv
+wILI	2014-02-08	2.83572	signal_wili.tsv
+wILI	2014-02-15	2.48484	signal_wili.tsv
+wILI	2014-02-22	2.2741	signal_wili.tsv
+wILI	2014-03-01	2.07244	signal_wili.tsv
+wILI	2014-03-08	1.98207	signal_wili.tsv
+wILI	2014-03-15	1.82441	signal_wili.tsv
+wILI	2014-03-22	1.82036	signal_wili.tsv
+wILI	2014-03-29	1.75391	signal_wili.tsv
+wILI	2014-04-05	1.74542	signal_wili.tsv
+wILI	2014-04-12	1.67236	signal_wili.tsv
+wILI	2014-04-19	1.51659	signal_wili.tsv
+wILI	2014-04-26	1.44778	signal_wili.tsv
+wILI	2014-05-03	1.29028	signal_wili.tsv
+wILI	2014-05-10	1.37388	signal_wili.tsv
+wILI	2014-05-17	1.34208	signal_wili.tsv
+wILI	2014-05-24	1.34563	signal_wili.tsv
+wILI	2014-05-31	1.21291	signal_wili.tsv
+wILI	2014-06-07	1.19291	signal_wili.tsv
+wILI	2014-06-14	1.14146	signal_wili.tsv
+wILI	2014-06-21	1.06503	signal_wili.tsv
+wILI	2014-06-28	1.12669	signal_wili.tsv
+wILI	2014-07-05	0.947353	signal_wili.tsv
+wILI	2014-07-12	0.944187	signal_wili.tsv
+wILI	2014-07-19	0.934822	signal_wili.tsv
+wILI	2014-07-26	0.81736	signal_wili.tsv
+wILI	2014-08-02	0.852792	signal_wili.tsv
+wILI	2014-08-09	0.746994	signal_wili.tsv
+wILI	2014-08-16	0.761098	signal_wili.tsv
+wILI	2014-08-23	0.767627	signal_wili.tsv
+wILI	2014-08-30	0.862176	signal_wili.tsv
+wILI	2014-09-06	0.984907	signal_wili.tsv
+wILI	2014-09-13	1.16287	signal_wili.tsv
+wILI	2014-09-20	1.22731	signal_wili.tsv
+wILI	2014-09-27	1.2071	signal_wili.tsv
+wILI	2014-10-04	1.16191	signal_wili.tsv
+wILI	2014-10-11	1.30905	signal_wili.tsv
+wILI	2014-10-18	1.37072	signal_wili.tsv
+wILI	2014-10-25	1.43373	signal_wili.tsv
+wILI	2014-11-01	1.42791	signal_wili.tsv
+wILI	2014-11-08	1.61605	signal_wili.tsv
+wILI	2014-11-15	1.65976	signal_wili.tsv
+wILI	2014-11-22	2.05459	signal_wili.tsv
+wILI	2014-11-29	2.53541	signal_wili.tsv
+wILI	2014-12-06	2.54253	signal_wili.tsv
+wILI	2014-12-13	3.60563	signal_wili.tsv
+wILI	2014-12-20	4.90976	signal_wili.tsv
+wILI	2014-12-27	5.98221	signal_wili.tsv
+wILI	2015-01-03	5.47421	signal_wili.tsv
+wILI	2015-01-10	4.21374	signal_wili.tsv
+wILI	2015-01-17	4.21022	signal_wili.tsv
+wILI	2015-01-24	4.25968	signal_wili.tsv
+wILI	2015-01-31	3.97761	signal_wili.tsv
+wILI	2015-02-07	3.63443	signal_wili.tsv
+wILI	2015-02-14	3.26527	signal_wili.tsv
+wILI	2015-02-21	2.93083	signal_wili.tsv
+wILI	2015-02-28	2.54474	signal_wili.tsv
+wILI	2015-03-07	2.47227	signal_wili.tsv
+wILI	2015-03-14	2.35665	signal_wili.tsv
+wILI	2015-03-21	2.17008	signal_wili.tsv
+wILI	2015-03-28	2.04297	signal_wili.tsv
+wILI	2015-04-04	1.954	signal_wili.tsv
+wILI	2015-04-11	1.72287	signal_wili.tsv
+wILI	2015-04-18	1.53694	signal_wili.tsv
+wILI	2015-04-25	1.38283	signal_wili.tsv
+wILI	2015-05-02	1.46265	signal_wili.tsv
+wILI	2015-05-09	1.38934	signal_wili.tsv
+wILI	2015-05-16	1.3468	signal_wili.tsv
+wILI	2015-05-23	1.25452	signal_wili.tsv
+wILI	2015-05-30	1.21636	signal_wili.tsv
+wILI	2015-06-06	1.16734	signal_wili.tsv
+wILI	2015-06-13	1.04654	signal_wili.tsv
+wILI	2015-06-20	0.943661	signal_wili.tsv
+wILI	2015-06-27	0.935046	signal_wili.tsv
+wILI	2015-07-04	0.934726	signal_wili.tsv
+wILI	2015-07-11	0.864118	signal_wili.tsv
+wILI	2015-07-18	0.806535	signal_wili.tsv
+wILI	2015-07-25	0.742747	signal_wili.tsv
+wILI	2015-08-01	0.737859	signal_wili.tsv
+wILI	2015-08-08	0.743224	signal_wili.tsv
+wILI	2015-08-15	0.805251	signal_wili.tsv
+wILI	2015-08-22	0.816943	signal_wili.tsv
+wILI	2015-08-29	0.814518	signal_wili.tsv
+wILI	2015-09-05	0.86067	signal_wili.tsv
+wILI	2015-09-12	0.886704	signal_wili.tsv
+wILI	2015-09-19	1.00845	signal_wili.tsv
+wILI	2015-09-26	1.06625	signal_wili.tsv
+wILI	2015-10-03	1.05995	signal_wili.tsv
+wILI	2015-10-10	1.22559	signal_wili.tsv
+wILI	2015-10-17	1.31066	signal_wili.tsv
+wILI	2015-10-24	1.3711	signal_wili.tsv
+wILI	2015-10-31	1.39171	signal_wili.tsv
+wILI	2015-11-07	1.43712	signal_wili.tsv
+wILI	2015-11-14	1.50165	signal_wili.tsv
+wILI	2015-11-21	1.59805	signal_wili.tsv
+wILI	2015-11-28	1.89668	signal_wili.tsv
+wILI	2015-12-05	1.67728	signal_wili.tsv
+wILI	2015-12-12	1.78296	signal_wili.tsv
+wILI	2015-12-19	1.87336	signal_wili.tsv
+wILI	2015-12-26	2.32148	signal_wili.tsv
+wILI	2016-01-02	2.40991	signal_wili.tsv
+wILI	2016-01-09	1.94328	signal_wili.tsv
+wILI	2016-01-16	1.99796	signal_wili.tsv
+wILI	2016-01-23	2.11829	signal_wili.tsv
+wILI	2016-01-30	2.25112	signal_wili.tsv
+wILI	2016-02-06	2.37116	signal_wili.tsv
+wILI	2016-02-13	2.80035	signal_wili.tsv
+wILI	2016-02-20	3.16475	signal_wili.tsv
+wILI	2016-02-27	3.15183	signal_wili.tsv
+wILI	2016-03-05	3.3321	signal_wili.tsv
+wILI	2016-03-12	3.56024	signal_wili.tsv
+wILI	2016-03-19	3.05479	signal_wili.tsv
+wILI	2016-03-26	2.76732	signal_wili.tsv
+wILI	2016-04-02	2.44161	signal_wili.tsv
+wILI	2016-04-09	2.03348	signal_wili.tsv
+wILI	2016-04-16	1.98593	signal_wili.tsv
+wILI	2016-04-23	1.91514	signal_wili.tsv
+wILI	2016-04-30	1.69968	signal_wili.tsv
+wILI	2016-05-07	1.57635	signal_wili.tsv
+wILI	2016-05-14	1.3935	signal_wili.tsv
+wILI	2016-05-21	1.29941	signal_wili.tsv
+wILI	2016-05-28	1.18379	signal_wili.tsv
+wILI	2016-06-04	1.13723	signal_wili.tsv
+wILI	2016-06-11	1.04118	signal_wili.tsv
+wILI	2016-06-18	0.971814	signal_wili.tsv
+wILI	2016-06-25	0.863306	signal_wili.tsv
+wILI	2016-07-02	0.833797	signal_wili.tsv
+wILI	2016-07-09	0.784516	signal_wili.tsv
+wILI	2016-07-16	0.734327	signal_wili.tsv
+wILI	2016-07-23	0.698845	signal_wili.tsv
+wILI	2016-07-30	0.723099	signal_wili.tsv
+wILI	2016-08-06	0.663501	signal_wili.tsv
+wILI	2016-08-13	0.69276	signal_wili.tsv
+wILI	2016-08-20	0.710029	signal_wili.tsv
+wILI	2016-08-27	0.834232	signal_wili.tsv
+wILI	2016-09-03	0.992621	signal_wili.tsv
+wILI	2016-09-10	1.01605	signal_wili.tsv
+wILI	2016-09-17	1.07169	signal_wili.tsv
+wILI	2016-09-24	1.10163	signal_wili.tsv
+wILI	2016-10-01	1.18841	signal_wili.tsv
+wILI	2016-10-08	1.19763	signal_wili.tsv
+wILI	2016-10-15	1.22887	signal_wili.tsv
+wILI	2016-10-22	1.26723	signal_wili.tsv
+wILI	2016-10-29	1.36226	signal_wili.tsv
+wILI	2016-11-05	1.48468	signal_wili.tsv
+wILI	2016-11-12	1.55838	signal_wili.tsv
+wILI	2016-11-19	1.64639	signal_wili.tsv
+wILI	2016-11-26	1.91196	signal_wili.tsv
+wILI	2016-12-03	1.81129	signal_wili.tsv
+wILI	2016-12-10	1.91669	signal_wili.tsv
+wILI	2016-12-17	2.20671	signal_wili.tsv
+wILI	2016-12-24	2.73096	signal_wili.tsv
+wILI	2016-12-31	3.36152	signal_wili.tsv
+wILI	2017-01-07	3.09232	signal_wili.tsv
+wILI	2017-01-14	3.07623	signal_wili.tsv
+wILI	2017-01-21	3.50708	signal_wili.tsv
+wILI	2017-01-28	3.79872	signal_wili.tsv
+wILI	2017-02-04	4.43601	signal_wili.tsv
+wILI	2017-02-11	5.06094	signal_wili.tsv
+wILI	2017-02-18	4.85988	signal_wili.tsv
+wILI	2017-02-25	4.57809	signal_wili.tsv
+wILI	2017-03-04	3.55555	signal_wili.tsv
+wILI	2017-03-11	3.50492	signal_wili.tsv
+wILI	2017-03-18	3.21406	signal_wili.tsv
+wILI	2017-03-25	3.09854	signal_wili.tsv
+wILI	2017-04-01	2.79765	signal_wili.tsv
+wILI	2017-04-08	2.38646	signal_wili.tsv
+wILI	2017-04-15	1.96699	signal_wili.tsv
+wILI	2017-04-22	1.73523	signal_wili.tsv
+wILI	2017-04-29	1.5635	signal_wili.tsv
+wILI	2017-05-06	1.4041	signal_wili.tsv
+wILI	2017-05-13	1.27729	signal_wili.tsv
+wILI	2017-05-20	1.28245	signal_wili.tsv
+wILI	2017-05-27	1.16589	signal_wili.tsv
+wILI	2017-06-03	1.10922	signal_wili.tsv
+wILI	2017-06-10	1.04387	signal_wili.tsv
+wILI	2017-06-17	0.905089	signal_wili.tsv
+wILI	2017-06-24	0.900337	signal_wili.tsv
+wILI	2017-07-01	0.859539	signal_wili.tsv
+wILI	2017-07-08	0.818831	signal_wili.tsv
+wILI	2017-07-15	0.752503	signal_wili.tsv
+wILI	2017-07-22	0.7372	signal_wili.tsv
+wILI	2017-07-29	0.733096	signal_wili.tsv
+wILI	2017-08-05	0.73102	signal_wili.tsv
+wILI	2017-08-12	0.688338	signal_wili.tsv
+wILI	2017-08-19	0.732049	signal_wili.tsv
+wILI	2017-08-26	0.911641	signal_wili.tsv
+wILI	2017-09-02	1.02105	signal_wili.tsv
+wILI	2017-09-09	1.09335	signal_wili.tsv
+wILI	2017-09-16	1.09515	signal_wili.tsv
+wILI	2017-09-23	1.09699	signal_wili.tsv
+wILI	2017-09-30	1.18823	signal_wili.tsv
+wILI	2017-10-07	1.26589	signal_wili.tsv
+wILI	2017-10-14	1.30479	signal_wili.tsv
+wILI	2017-10-21	1.34075	signal_wili.tsv
+wILI	2017-10-28	1.51674	signal_wili.tsv
+wILI	2017-11-04	1.74583	signal_wili.tsv
+wILI	2017-11-11	1.88708	signal_wili.tsv
+wILI	2017-11-18	2.05923	signal_wili.tsv
+wILI	2017-11-25	2.27971	signal_wili.tsv
+wILI	2017-12-02	2.28379	signal_wili.tsv
+wILI	2017-12-09	2.58278	signal_wili.tsv
+wILI	2017-12-16	3.36558	signal_wili.tsv
+wILI	2017-12-23	4.73117	signal_wili.tsv
+wILI	2017-12-30	5.70943	signal_wili.tsv
+wILI	2018-01-06	5.74658	signal_wili.tsv
+wILI	2018-01-13	5.89207	signal_wili.tsv
+wILI	2018-01-20	6.51759	signal_wili.tsv
+wILI	2018-01-27	7.16338	signal_wili.tsv
+wILI	2018-02-03	7.52133	signal_wili.tsv
+wILI	2018-02-10	7.38748	signal_wili.tsv
+wILI	2018-02-17	6.44688	signal_wili.tsv
+wILI	2018-02-24	4.95881	signal_wili.tsv
+wILI	2018-03-03	3.68612	signal_wili.tsv
+wILI	2018-03-10	3.18626	signal_wili.tsv
+wILI	2018-03-17	2.76894	signal_wili.tsv
+wILI	2018-03-24	2.48706	signal_wili.tsv
+wILI	2018-03-31	2.40802	signal_wili.tsv
+wILI	2018-04-07	2.07483	signal_wili.tsv
+wILI	2018-04-14	1.77898	signal_wili.tsv
+wILI	2018-04-21	1.61487	signal_wili.tsv
+wILI	2018-04-28	1.5385	signal_wili.tsv
+wILI	2018-05-05	1.52612	signal_wili.tsv
+wILI	2018-05-12	1.28847	signal_wili.tsv
+wILI	2018-05-19	1.18344	signal_wili.tsv
+wILI	2018-05-26	1.24919	signal_wili.tsv
+wILI	2018-06-02	1.14131	signal_wili.tsv
+wILI	2018-06-09	0.9878	signal_wili.tsv
+wILI	2018-06-16	0.895565	signal_wili.tsv
+wILI	2018-06-23	0.892204	signal_wili.tsv
+wILI	2018-06-30	0.877184	signal_wili.tsv
+wILI	2018-07-07	0.780203	signal_wili.tsv
+wILI	2018-07-14	0.725075	signal_wili.tsv
+wILI	2018-07-21	0.68247	signal_wili.tsv
+wILI	2018-07-28	0.640393	signal_wili.tsv
+wILI	2018-08-04	0.639127	signal_wili.tsv
+wILI	2018-08-11	0.705637	signal_wili.tsv
+wILI	2018-08-18	0.707801	signal_wili.tsv
+wILI	2018-08-25	0.822659	signal_wili.tsv
+wILI	2018-09-01	0.859864	signal_wili.tsv
+wILI	2018-09-08	1.10083	signal_wili.tsv
+wILI	2018-09-15	1.15323	signal_wili.tsv
+wILI	2018-09-22	1.20178	signal_wili.tsv
+wILI	2018-09-29	1.2498	signal_wili.tsv
+wILI	2018-10-06	1.41876	signal_wili.tsv
+wILI	2018-10-13	1.40077	signal_wili.tsv
+wILI	2018-10-20	1.47139	signal_wili.tsv
+wILI	2018-10-27	1.63634	signal_wili.tsv
+wILI	2018-11-03	1.79125	signal_wili.tsv
+wILI	2018-11-10	1.86871	signal_wili.tsv
+wILI	2018-11-17	1.98121	signal_wili.tsv
+wILI	2018-11-24	2.23487	signal_wili.tsv
+wILI	2018-12-01	2.14572	signal_wili.tsv
+wILI	2018-12-08	2.25134	signal_wili.tsv
+wILI	2018-12-15	2.6411	signal_wili.tsv
+wILI	2018-12-22	3.13478	signal_wili.tsv
+wILI	2018-12-29	3.96538	signal_wili.tsv
+wILI	2019-01-05	3.45972	signal_wili.tsv
+wILI	2019-01-12	3.07558	signal_wili.tsv
+wILI	2019-01-19	3.3258	signal_wili.tsv
+wILI	2019-01-26	3.79773	signal_wili.tsv
+wILI	2019-02-02	4.34227	signal_wili.tsv
+wILI	2019-02-09	4.86953	signal_wili.tsv
+wILI	2019-02-16	5.03689	signal_wili.tsv
+wILI	2019-02-23	4.8812	signal_wili.tsv
+wILI	2019-03-02	4.54791	signal_wili.tsv
+wILI	2019-03-09	4.3762	signal_wili.tsv
+wILI	2019-03-16	4.22692	signal_wili.tsv
+wILI	2019-03-23	3.68251	signal_wili.tsv
+wILI	2019-03-30	3.08559	signal_wili.tsv
+wILI	2019-04-06	2.69831	signal_wili.tsv
+wILI	2019-04-13	2.28676	signal_wili.tsv
+wILI	2019-04-20	2.01217	signal_wili.tsv
+wILI	2019-04-27	1.71323	signal_wili.tsv
+wILI	2019-05-04	1.56678	signal_wili.tsv
+wILI	2019-05-11	1.49827	signal_wili.tsv
+wILI	2019-05-18	1.49961	signal_wili.tsv
+wILI	2019-05-25	1.42123	signal_wili.tsv
+wILI	2019-06-01	1.39258	signal_wili.tsv
+wILI	2019-06-08	1.21697	signal_wili.tsv
+wILI	2019-06-15	1.11266	signal_wili.tsv
+wILI	2019-06-22	0.991888	signal_wili.tsv
+wILI	2019-06-29	0.946401	signal_wili.tsv
+wILI	2019-07-06	0.874695	signal_wili.tsv
+wILI	2019-07-13	0.809169	signal_wili.tsv
+wILI	2019-07-20	0.75452	signal_wili.tsv
+wILI	2019-07-27	0.732983	signal_wili.tsv
+wILI	2019-08-03	0.725811	signal_wili.tsv
+wILI	2019-08-10	0.754209	signal_wili.tsv
+wILI	2019-08-17	0.729672	signal_wili.tsv
+wILI	2019-08-24	0.839875	signal_wili.tsv
+wILI	2019-08-31	0.989358	signal_wili.tsv
+wILI	2019-09-07	1.1354	signal_wili.tsv
+wILI	2019-09-14	1.23124	signal_wili.tsv
+wILI	2019-09-21	1.24448	signal_wili.tsv
+wILI	2019-09-28	1.3379	signal_wili.tsv
+wILI	2019-10-05	1.49002	signal_wili.tsv
+wILI	2019-10-12	1.59192	signal_wili.tsv
+wILI	2019-10-19	1.72572	signal_wili.tsv
+wILI	2019-10-26	1.83419	signal_wili.tsv
+wILI	2019-11-02	2.04008	signal_wili.tsv
+wILI	2019-11-09	2.39351	signal_wili.tsv
+wILI	2019-11-16	2.63251	signal_wili.tsv
+wILI	2019-11-23	2.89941	signal_wili.tsv
+wILI	2019-11-30	3.41501	signal_wili.tsv
+wILI	2019-12-07	3.2579	signal_wili.tsv
+wILI	2019-12-14	3.94308	signal_wili.tsv
+wILI	2019-12-21	5.06435	signal_wili.tsv
+wILI	2019-12-28	7.06161	signal_wili.tsv
+wILI	2020-01-04	5.90066	signal_wili.tsv
+wILI	2020-01-11	4.9402	signal_wili.tsv
+wILI	2020-01-18	5.33135	signal_wili.tsv
+wILI	2020-01-25	6.07822	signal_wili.tsv
+wILI	2020-02-01	6.74724	signal_wili.tsv
+wILI	2020-02-08	6.80157	signal_wili.tsv
+wILI	2020-02-15	6.11292	signal_wili.tsv
+wILI	2020-02-22	5.52513	signal_wili.tsv
+wILI	2020-02-29	5.12333	signal_wili.tsv
+wILI	2020-03-07	5.26652	signal_wili.tsv
+wILI	2020-03-14	5.66932	signal_wili.tsv
+wILI	2020-03-21	6.38029	signal_wili.tsv
+wILI	2020-03-28	4.91692	signal_wili.tsv
+wILI	2020-04-04	3.78625	signal_wili.tsv
+wILI	2020-04-11	2.80122	signal_wili.tsv
+wILI	2020-04-18	2.12907	signal_wili.tsv
+wILI	2020-04-25	1.73315	signal_wili.tsv
+wILI	2020-05-02	1.40939	signal_wili.tsv
+wILI	2020-05-09	1.18657	signal_wili.tsv
+wILI	2020-05-16	1.11444	signal_wili.tsv
+wILI	2020-05-23	1.00711	signal_wili.tsv
+wILI	2020-05-30	0.889878	signal_wili.tsv
+wILI	2020-06-06	0.815858	signal_wili.tsv
+wILI	2020-06-13	0.837779	signal_wili.tsv
+wILI	2020-06-20	0.929189	signal_wili.tsv
+wILI	2020-06-27	1.13871	signal_wili.tsv
+wILI	2020-07-04	1.27591	signal_wili.tsv
+wILI	2020-07-11	1.34978	signal_wili.tsv
+wILI	2020-07-18	1.34436	signal_wili.tsv
+wILI	2020-07-25	1.22126	signal_wili.tsv
+wILI	2020-08-01	1.15381	signal_wili.tsv
+wILI	2020-08-08	1.0649	signal_wili.tsv
+wILI	2020-08-15	0.979173	signal_wili.tsv
+wILI	2020-08-22	0.967664	signal_wili.tsv
+wILI	2020-08-29	1.00158	signal_wili.tsv
+wILI	2020-09-05	0.917339	signal_wili.tsv
+wILI	2020-09-12	1.02954	signal_wili.tsv
+wILI	2020-09-19	0.975797	signal_wili.tsv
+wILI	2020-09-26	1.0586	signal_wili.tsv
+wILI	2020-10-03	1.0872	signal_wili.tsv
+wILI	2020-10-10	1.20898	signal_wili.tsv
+wILI	2020-10-17	1.10874	signal_wili.tsv
+wILI	2020-10-24	1.18588	signal_wili.tsv
+wILI	2020-10-31	1.25	signal_wili.tsv
+wILI	2020-11-07	1.43782	signal_wili.tsv
+wILI	2020-11-14	1.48426	signal_wili.tsv
+wILI	2020-11-21	1.54717	signal_wili.tsv
+wILI	2020-11-28	1.60668	signal_wili.tsv
+wILI	2020-12-05	1.56586	signal_wili.tsv
+wILI	2020-12-12	1.52073	signal_wili.tsv
+wILI	2020-12-19	1.50659	signal_wili.tsv
+wILI	2020-12-26	1.55413	signal_wili.tsv
+wILI	2021-01-02	1.5907	signal_wili.tsv
+wILI	2021-01-09	1.47569	signal_wili.tsv
+wILI	2021-01-16	1.29196	signal_wili.tsv
+wILI	2021-01-23	1.25191	signal_wili.tsv
+wILI	2021-01-30	1.10337	signal_wili.tsv
+wILI	2021-02-06	1.16554	signal_wili.tsv
+wILI	2021-02-13	1.00745	signal_wili.tsv
+wILI	2021-02-20	0.986987	signal_wili.tsv
+wILI	2021-02-27	0.862967	signal_wili.tsv
+wILI	2021-03-06	0.82875	signal_wili.tsv
+wILI	2021-03-13	0.883305	signal_wili.tsv
+wILI	2021-03-20	0.90874	signal_wili.tsv
+wILI	2021-03-27	0.948022	signal_wili.tsv
+wILI	2021-04-03	0.974936	signal_wili.tsv
+wILI	2021-04-10	1.06411	signal_wili.tsv
+wILI	2021-04-17	1.08168	signal_wili.tsv
+wILI	2021-04-24	1.10339	signal_wili.tsv
+wILI	2021-05-01	1.13164	signal_wili.tsv
+wILI	2021-05-08	1.1483	signal_wili.tsv
+wILI	2021-05-15	1.19144	signal_wili.tsv
+wILI	2021-05-22	1.24686	signal_wili.tsv
+wILI	2021-05-29	1.14576	signal_wili.tsv
+wILI	2021-06-05	1.18405	signal_wili.tsv
+wILI	2021-06-12	1.12999	signal_wili.tsv
+wILI	2021-06-19	1.19103	signal_wili.tsv
+wILI	2021-06-26	1.21258	signal_wili.tsv
+wILI	2021-07-03	1.2132	signal_wili.tsv
+wILI	2021-07-10	1.26708	signal_wili.tsv
+wILI	2021-07-17	1.38688	signal_wili.tsv
+wILI	2021-07-24	1.64767	signal_wili.tsv
+wILI	2021-07-31	1.799	signal_wili.tsv
+wILI	2021-08-07	1.94947	signal_wili.tsv
+wILI	2021-08-14	2.03512	signal_wili.tsv
+wILI	2021-08-21	2.19023	signal_wili.tsv
+wILI	2021-08-28	2.23843	signal_wili.tsv
+wILI	2021-09-04	2.26655	signal_wili.tsv
+wILI	2021-09-11	2.21303	signal_wili.tsv
+wILI	2021-09-18	2.04664	signal_wili.tsv
+wILI	2021-09-25	1.9014	signal_wili.tsv
+wILI	2021-10-02	1.84504	signal_wili.tsv
+wILI	2021-10-09	2.03726	signal_wili.tsv
+wILI	2021-10-16	1.94864	signal_wili.tsv
+wILI	2021-10-23	1.92538	signal_wili.tsv
+wILI	2021-10-30	1.9789	signal_wili.tsv
+wILI	2021-11-06	2.1334	signal_wili.tsv
+wILI	2021-11-13	2.25788	signal_wili.tsv
+wILI	2021-11-20	2.41079	signal_wili.tsv
+wILI	2021-11-27	2.51762	signal_wili.tsv
+wILI	2021-12-04	2.55244	signal_wili.tsv
+wILI	2021-12-11	2.72476	signal_wili.tsv
+wILI	2021-12-18	3.14645	signal_wili.tsv
+wILI	2021-12-25	4.00686	signal_wili.tsv
+wILI	2022-01-01	4.90468	signal_wili.tsv
+wILI	2022-01-08	4.32906	signal_wili.tsv
+wILI	2022-01-15	3.5344	signal_wili.tsv
+wILI	2022-01-22	2.82024	signal_wili.tsv
+wILI	2022-01-29	2.06558	signal_wili.tsv
+wILI	2022-02-05	1.68092	signal_wili.tsv
+wILI	2022-02-12	1.44022	signal_wili.tsv
+wILI	2022-02-19	1.48974	signal_wili.tsv
+wILI	2022-02-26	1.46266	signal_wili.tsv
+wILI	2022-03-05	1.58728	signal_wili.tsv
+wILI	2022-03-12	1.70339	signal_wili.tsv
+wILI	2022-03-19	1.83335	signal_wili.tsv
+wILI	2022-03-26	1.87057	signal_wili.tsv
+wILI	2022-04-02	1.97612	signal_wili.tsv
+wILI	2022-04-09	2.07126	signal_wili.tsv
+wILI	2022-04-16	2.16302	signal_wili.tsv
+wILI	2022-04-23	2.20418	signal_wili.tsv
+wILI	2022-04-30	2.24681	signal_wili.tsv
+wILI	2022-05-07	2.3613	signal_wili.tsv
+wILI	2022-05-14	2.48314	signal_wili.tsv
+wILI	2022-05-21	2.45354	signal_wili.tsv
+wILI	2022-05-28	2.39624	signal_wili.tsv
+wILI	2022-06-04	2.4335	signal_wili.tsv
+wILI	2022-06-11	2.16334	signal_wili.tsv
+wILI	2022-06-18	1.98842	signal_wili.tsv
+wILI	2022-06-25	1.87678	signal_wili.tsv
+wILI	2022-07-02	1.80274	signal_wili.tsv
+wILI	2022-07-09	1.81978	signal_wili.tsv
+wILI	2022-07-16	1.67886	signal_wili.tsv
+wILI	2022-07-23	1.65939	signal_wili.tsv
+wILI	2022-07-30	1.67083	signal_wili.tsv
+wILI	2022-08-06	1.52259	signal_wili.tsv
+wILI	2022-08-13	1.50755	signal_wili.tsv
+wILI	2022-08-20	1.60507	signal_wili.tsv
+wILI	2022-08-27	1.83793	signal_wili.tsv
+wILI	2022-09-03	1.96433	signal_wili.tsv
+wILI	2022-09-10	2.02422	signal_wili.tsv
+wILI	2022-09-17	2.0351	signal_wili.tsv
+wILI	2022-09-24	2.28352	signal_wili.tsv
+wILI	2022-10-01	2.36029	signal_wili.tsv
+wILI	2022-10-08	2.61257	signal_wili.tsv
+wILI	2022-10-15	3.00763	signal_wili.tsv
+wILI	2022-10-22	3.31975	signal_wili.tsv
+wILI	2022-10-29	4.3682	signal_wili.tsv
+wILI	2022-11-05	5.42144	signal_wili.tsv
+wILI	2022-11-12	5.73522	signal_wili.tsv
+wILI	2022-11-19	5.91793	signal_wili.tsv
+wILI	2022-11-26	7.42531	signal_wili.tsv
+wILI	2022-12-03	7.21822	signal_wili.tsv
+wILI	2022-12-10	6.87034	signal_wili.tsv
+wILI	2022-12-17	6.29772	signal_wili.tsv
+wILI	2022-12-24	6.00293	signal_wili.tsv
+wILI	2022-12-31	5.33838	signal_wili.tsv
+wILI	2023-01-07	3.93482	signal_wili.tsv
+wILI	2023-01-14	2.94553	signal_wili.tsv
+wILI	2023-01-21	2.63811	signal_wili.tsv
+wILI	2023-01-28	2.62522	signal_wili.tsv
+wILI	2023-02-04	2.58477	signal_wili.tsv
+wILI	2023-02-11	2.59148	signal_wili.tsv
+wILI	2023-02-18	2.5701	signal_wili.tsv
+wILI	2023-02-25	2.52707	signal_wili.tsv
+wILI	2023-03-04	2.40469	signal_wili.tsv
+wILI	2023-03-11	2.3571	signal_wili.tsv
+wILI	2023-03-18	2.3545	signal_wili.tsv
+wILI	2023-03-25	2.31096	signal_wili.tsv
+wILI	2023-04-01	2.25771	signal_wili.tsv
+wILI	2023-04-08	2.12953	signal_wili.tsv
+wILI	2023-04-15	2.01047	signal_wili.tsv
+wILI	2023-04-22	1.90776	signal_wili.tsv
+wILI	2023-04-29	1.90393	signal_wili.tsv
+wILI	2023-05-06	1.93608	signal_wili.tsv
+wILI	2023-05-13	1.90846	signal_wili.tsv
+wILI	2023-05-20	1.88236	signal_wili.tsv
+wILI	2023-05-27	1.83328	signal_wili.tsv
+wILI	2023-06-03	1.83857	signal_wili.tsv
+wILI	2023-06-10	1.57748	signal_wili.tsv
+wILI	2023-06-17	1.48614	signal_wili.tsv
+wILI	2023-06-24	1.36472	signal_wili.tsv
+wILI	2023-07-01	1.27095	signal_wili.tsv
+wILI	2023-07-08	1.22553	signal_wili.tsv
+wILI	2023-07-15	1.15793	signal_wili.tsv
+wILI	2023-07-22	1.12685	signal_wili.tsv
+wILI	2023-07-29	1.16805	signal_wili.tsv
+wILI	2023-08-05	1.20299	signal_wili.tsv
+wILI	2023-08-12	1.27357	signal_wili.tsv
+wILI	2023-08-19	1.44821	signal_wili.tsv
+wILI	2023-08-26	1.70391	signal_wili.tsv
+wILI	2023-09-02	1.93305	signal_wili.tsv
+wILI	2023-09-09	2.00204	signal_wili.tsv
+wILI	2023-09-16	1.94047	signal_wili.tsv
+wILI	2023-09-23	2.03761	signal_wili.tsv
+wILI	2023-09-30	2.08992	signal_wili.tsv
+wILI	2023-10-07	2.27908	signal_wili.tsv
+wILI	2023-10-14	2.33755	signal_wili.tsv
+wILI	2023-10-21	2.52242	signal_wili.tsv
+wILI	2023-10-28	2.71275	signal_wili.tsv
+wILI	2023-11-04	2.94538	signal_wili.tsv
+wILI	2023-11-11	3.40957	signal_wili.tsv
+wILI	2023-11-18	3.6903	signal_wili.tsv
+wILI	2023-11-25	3.92958	signal_wili.tsv
+wILI	2023-12-02	4.03334	signal_wili.tsv
+wILI	2023-12-09	4.38382	signal_wili.tsv
+wILI	2023-12-16	5.18426	signal_wili.tsv
+wILI	2023-12-23	6.23157	signal_wili.tsv
+wILI	2023-12-30	6.7962	signal_wili.tsv
+wILI	2024-01-06	5.71536	signal_wili.tsv
+wILI	2024-01-13	4.66576	signal_wili.tsv
+wILI	2024-01-20	4.32446	signal_wili.tsv
+wILI	2024-01-27	4.22972	signal_wili.tsv
+wILI	2024-02-03	4.42065	signal_wili.tsv
+wILI	2024-02-10	4.45705	signal_wili.tsv
+wILI	2024-02-17	4.35511	signal_wili.tsv
+wILI	2024-02-24	4.33545	signal_wili.tsv
+wILI	2024-03-02	4.0587	signal_wili.tsv
+wILI	2024-03-09	3.72797	signal_wili.tsv
+wILI	2024-03-16	3.39722	signal_wili.tsv
+wILI	2024-03-23	3.08528	signal_wili.tsv
+wILI	2024-03-30	2.97703	signal_wili.tsv
+wILI	2024-04-06	2.76586	signal_wili.tsv
+wILI	2024-04-13	2.53824	signal_wili.tsv
+wILI	2024-04-20	2.24747	signal_wili.tsv
+wILI	2024-04-27	2.19144	signal_wili.tsv
+wILI	2024-05-04	2.09931	signal_wili.tsv
+wILI	2024-05-11	2.00488	signal_wili.tsv
+wILI	2024-05-18	1.97657	signal_wili.tsv
+wILI	2024-05-25	1.90707	signal_wili.tsv
+wILI	2024-06-01	1.87651	signal_wili.tsv
+wILI	2024-06-08	1.66065	signal_wili.tsv
+wILI	2024-06-15	1.58178	signal_wili.tsv
+wILI	2024-06-22	1.49244	signal_wili.tsv
+wILI	2024-06-29	1.4663	signal_wili.tsv
+wILI	2024-07-06	1.37639	signal_wili.tsv
+wILI	2024-07-13	1.45548	signal_wili.tsv
+wILI	2024-07-20	1.45233	signal_wili.tsv
+wILI	2024-07-27	1.52211	signal_wili.tsv
+wILI	2024-08-03	1.53543	signal_wili.tsv
+wILI	2024-08-10	1.53984	signal_wili.tsv
+wILI	2024-08-17	1.56577	signal_wili.tsv
+wILI	2024-08-24	1.76988	signal_wili.tsv
+wILI	2024-08-31	1.93414	signal_wili.tsv
+wILI	2024-09-07	1.9202	signal_wili.tsv
+wILI	2024-09-14	1.95528	signal_wili.tsv
+wILI	2024-09-21	1.95303	signal_wili.tsv
+wILI	2024-09-28	1.93495	signal_wili.tsv
+wILI	2024-10-05	1.90509	signal_wili.tsv
+wILI	2024-10-12	2.02014	signal_wili.tsv
+wILI	2024-10-19	2.07037	signal_wili.tsv
+wILI	2024-10-26	2.22044	signal_wili.tsv
+wILI	2024-11-02	2.31725	signal_wili.tsv
+wILI	2024-11-09	2.4719	signal_wili.tsv
+wILI	2024-11-16	2.6917	signal_wili.tsv
+wILI	2024-11-23	2.88949	signal_wili.tsv
+wILI	2024-11-30	3.18283	signal_wili.tsv
+wILI	2024-12-07	3.318	signal_wili.tsv
+wILI	2024-12-14	3.78793	signal_wili.tsv
+wILI	2024-12-21	4.94489	signal_wili.tsv
+wILI	2024-12-28	6.74349	signal_wili.tsv
+wILI	2025-01-04	6.25398	signal_wili.tsv
+wILI	2025-01-11	5.30512	signal_wili.tsv
+wILI	2025-01-18	5.74558	signal_wili.tsv
+wILI	2025-01-25	6.98693	signal_wili.tsv
+wILI	2025-02-01	7.79898	signal_wili.tsv
+wILI	2025-02-08	7.84378	signal_wili.tsv
+wILI	2025-02-15	6.93692	signal_wili.tsv
+wILI	2025-02-22	5.90072	signal_wili.tsv
+wILI	2025-03-01	4.87406	signal_wili.tsv
+wILI	2025-03-08	4.26679	signal_wili.tsv
+wILI	2025-03-15	3.81006	signal_wili.tsv
+wILI	2025-03-22	3.25232	signal_wili.tsv
+wILI	2025-03-29	2.89999	signal_wili.tsv
+wILI	2025-04-05	2.56142	signal_wili.tsv
+wILI	2025-04-12	2.41066	signal_wili.tsv
+wILI	2025-04-19	2.26966	signal_wili.tsv
+wILI	2025-04-26	2.16654	signal_wili.tsv
+wILI	2025-05-03	1.99958	signal_wili.tsv
+wILI	2025-05-10	1.89657	signal_wili.tsv
+wILI	2025-05-17	1.86402	signal_wili.tsv
+wILI	2025-05-24	1.8161	signal_wili.tsv
+wILI	2025-05-31	1.82615	signal_wili.tsv
+wILI	2025-06-07	1.6042	signal_wili.tsv
+wILI	2025-06-14	1.4049	signal_wili.tsv
+wILI	2025-06-21	1.31999	signal_wili.tsv
+wILI	2025-06-28	1.17989	signal_wili.tsv
+wILI	2025-07-05	1.108	signal_wili.tsv
+wILI	2025-07-12	1.15638	signal_wili.tsv
+wILI	2025-07-19	1.05736	signal_wili.tsv
+wILI	2025-07-26	1.03242	signal_wili.tsv
+wILI	2025-08-02	1.05832	signal_wili.tsv
+wILI	2025-08-09	1.14965	signal_wili.tsv
+wILI	2025-08-16	1.21395	signal_wili.tsv
+wILI	2025-08-23	1.45765	signal_wili.tsv
+wILI	2025-08-30	1.79113	signal_wili.tsv
+wILI	2025-09-06	1.80315	signal_wili.tsv
+wILI	2025-09-13	1.75434	signal_wili.tsv
+wILI	2025-09-20	1.72128	signal_wili.tsv
+wILI	2025-09-27	1.68219	signal_wili.tsv
+wILI	2025-10-04	1.61436	signal_wili.tsv
+wILI	2025-10-11	1.63874	signal_wili.tsv
+wILI	2025-10-18	1.70106	signal_wili.tsv
+wILI	2025-10-25	1.74217	signal_wili.tsv
+wILI	2025-11-01	1.82844	signal_wili.tsv
+wILI	2025-11-08	2.12441	signal_wili.tsv
+wILI	2025-11-15	2.26611	signal_wili.tsv
+wILI	2025-11-22	2.52897	signal_wili.tsv
+wILI	2025-11-29	2.9686	signal_wili.tsv
+wILI	2025-12-06	3.29062	signal_wili.tsv
+wILI	2025-12-13	4.12648	signal_wili.tsv
+wILI	2025-12-20	6.00828	signal_wili.tsv
+wILI	2025-12-27	8.28004	signal_wili.tsv
+wILI	2026-01-03	7.16816	signal_wili.tsv
+wILI	2026-01-10	5.29488	signal_wili.tsv
+wILI	2026-01-17	4.38278	signal_wili.tsv
+wILI	2026-01-24	4.73024	signal_wili.tsv
+wILI	2026-01-31	4.42671	signal_wili.tsv
+wILI	2026-02-07	4.61317	signal_wili.tsv
+wILI	2026-02-14	4.57277	signal_wili.tsv
+wILI	2026-02-21	4.42222	signal_wili.tsv
+wILI	2026-02-28	3.87483	signal_wili.tsv
+wILI	2026-03-07	3.70659	signal_wili.tsv
+wILI	2026-03-14	3.27398	signal_wili.tsv
+wILI	2026-03-21	2.90069	signal_wili.tsv
+wILI	2026-03-28	2.65772	signal_wili.tsv
+wILI	2026-04-04	2.37308	signal_wili.tsv
+wILI	2026-04-11	2.0956	signal_wili.tsv
+wILI	2026-04-18	1.88369	signal_wili.tsv
+wILI	2026-04-25	1.82196	signal_wili.tsv
+wILI	2026-05-02	1.76445	signal_wili.tsv
+wILI	2026-05-09	1.76705	signal_wili.tsv
+wILI	2026-05-16	1.74395	signal_wili.tsv
+wILI	2026-05-23	1.58745	signal_wili.tsv
+wILI	2026-05-30	1.57028	signal_wili.tsv
+wILI	2026-06-06	1.39484	signal_wili.tsv
+wILI	2026-06-13	1.23772	signal_wili.tsv
+wILI	2026-06-20	1.12795	signal_wili.tsv
+wILI	2026-06-27	1.04511	signal_wili.tsv
+wILI	2026-07-04	0.99576	signal_wili.tsv
+ED influenza	2022-10-01	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-10-08	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-10-15	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-10-22	0.004	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-10-29	0.006	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-11-05	0.009	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-11-12	0.012	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-11-19	0.015	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-11-26	0.03	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-12-03	0.037	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-12-10	0.031	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-12-17	0.0279999999999999	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-12-24	0.0289999999999999	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2022-12-31	0.0289999999999999	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-01-07	0.017	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-01-14	0.008	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-01-21	0.005	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-01-28	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-02-04	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-02-11	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-02-18	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-02-25	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-03-04	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-03-11	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-03-18	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-03-25	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-04-01	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-04-08	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-04-15	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-04-22	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-04-29	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-05-06	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-05-13	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-05-20	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-05-27	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-06-03	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-06-10	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-06-17	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-06-24	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-07-01	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-07-08	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-07-15	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-07-22	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-07-29	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-08-05	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-08-12	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-08-19	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-08-26	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-09-02	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-09-09	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-09-16	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-09-23	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-09-30	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-10-07	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-10-14	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-10-21	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-10-28	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-11-04	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-11-11	0.004	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-11-18	0.004	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-11-25	0.006	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-12-02	0.008	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-12-09	0.01	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-12-16	0.0139999999999999	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-12-23	0.023	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2023-12-30	0.033	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-01-06	0.026	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-01-13	0.02	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-01-20	0.016	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-01-27	0.015	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-02-03	0.0139999999999999	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-02-10	0.0139999999999999	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-02-17	0.013	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-02-24	0.0139999999999999	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-03-02	0.0139999999999999	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-03-09	0.012	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-03-16	0.009	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-03-23	0.0069999999999999	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-03-30	0.0069999999999999	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-04-06	0.006	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-04-13	0.005	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-04-20	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-04-27	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-05-04	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-05-11	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-05-18	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-05-25	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-06-01	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-06-08	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-06-15	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-06-22	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-06-29	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-07-06	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-07-13	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-07-20	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-07-27	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-08-03	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-08-10	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-08-17	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-08-24	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-08-31	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-09-07	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-09-14	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-09-21	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-09-28	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-10-05	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-10-12	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-10-19	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-10-26	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-11-02	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-11-09	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-11-16	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-11-23	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-11-30	0.004	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-12-07	0.006	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-12-14	0.009	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-12-21	0.016	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2024-12-28	0.034	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-01-04	0.038	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-01-11	0.031	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-01-18	0.033	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-01-25	0.043	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-02-01	0.054	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-02-08	0.057	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-02-15	0.049	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-02-22	0.04	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-03-01	0.031	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-03-08	0.024	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-03-15	0.019	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-03-22	0.013	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-03-29	0.009	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-04-05	0.006	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-04-12	0.004	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-04-19	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-04-26	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-05-03	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-05-10	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-05-17	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-05-24	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-05-31	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-06-07	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-06-14	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-06-21	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-06-28	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-07-05	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-07-12	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-07-19	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-07-26	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-08-02	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-08-09	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-08-16	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-08-23	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-08-30	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-09-06	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-09-13	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-09-20	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-09-27	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-10-04	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-10-11	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-10-18	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-10-25	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-11-01	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-11-08	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-11-15	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-11-22	0.004	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-11-29	0.006	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-12-06	0.009	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-12-13	0.013	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-12-20	0.026	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2025-12-27	0.054	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-01-03	0.0559999999999999	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-01-10	0.035	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-01-17	0.021	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-01-24	0.019	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-01-31	0.019	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-02-07	0.018	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-02-14	0.018	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-02-21	0.015	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-02-28	0.011	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-03-07	0.009	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-03-14	0.006	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-03-21	0.005	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-03-28	0.004	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-04-04	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-04-11	0.003	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-04-18	0.002	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-04-25	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-05-02	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-05-09	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-05-16	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-05-23	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-05-30	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-06-06	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-06-13	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-06-20	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-06-27	0.001	signal_nssp_ed_visits_weekly.tsv
+ED influenza	2026-07-04	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-10-01	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-10-08	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-10-15	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-10-22	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-10-29	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-11-05	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-11-12	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-11-19	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-11-26	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-12-03	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-12-10	0.004	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-12-17	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-12-24	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2022-12-31	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-01-07	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-01-14	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-01-21	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-01-28	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-02-04	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-02-11	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-02-18	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-02-25	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-03-04	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-03-11	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-03-18	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-03-25	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-04-01	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-04-08	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-04-15	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-04-22	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-04-29	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-05-06	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-05-13	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-05-20	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-05-27	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-06-03	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-06-10	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-06-17	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-06-24	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-07-01	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-07-08	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-07-15	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-07-22	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-07-29	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-08-05	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-08-12	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-08-19	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-08-26	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-09-02	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-09-09	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-09-16	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-09-23	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-09-30	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-10-07	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-10-14	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-10-21	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-10-28	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-11-04	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-11-11	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-11-18	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-11-25	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-12-02	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-12-09	0.004	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-12-16	0.004	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-12-23	0.005	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2023-12-30	0.006	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-01-06	0.0069999999999999	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-01-13	0.005	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-01-20	0.004	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-01-27	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-02-03	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-02-10	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-02-17	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-02-24	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-03-02	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-03-09	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-03-16	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-03-23	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-03-30	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-04-06	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-04-13	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-04-20	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-04-27	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-05-04	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-05-11	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-05-18	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-05-25	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-06-01	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-06-08	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-06-15	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-06-22	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-06-29	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-07-06	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-07-13	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-07-20	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-07-27	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-08-03	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-08-10	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-08-17	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-08-24	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-08-31	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-09-07	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-09-14	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-09-21	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-09-28	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-10-05	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-10-12	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-10-19	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-10-26	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-11-02	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-11-09	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-11-16	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-11-23	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-11-30	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-12-07	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-12-14	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-12-21	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2024-12-28	0.004	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-01-04	0.005	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-01-11	0.005	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-01-18	0.004	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-01-25	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-02-01	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-02-08	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-02-15	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-02-22	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-03-01	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-03-08	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-03-15	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-03-22	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-03-29	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-04-05	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-04-12	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-04-19	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-04-26	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-05-03	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-05-10	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-05-17	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-05-24	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-05-31	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-06-07	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-06-14	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-06-21	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-06-28	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-07-05	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-07-12	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-07-19	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-07-26	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-08-02	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-08-09	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-08-16	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-08-23	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-08-30	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-09-06	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-09-13	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-09-20	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-09-27	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-10-04	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-10-11	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-10-18	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-10-25	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-11-01	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-11-08	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-11-15	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-11-22	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-11-29	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-12-06	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-12-13	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-12-20	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2025-12-27	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-01-03	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-01-10	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-01-17	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-01-24	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-01-31	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-02-07	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-02-14	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-02-21	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-02-28	0.004	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-03-07	0.004	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-03-14	0.004	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-03-21	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-03-28	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-04-04	0.003	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-04-11	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-04-18	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-04-25	0.002	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-05-02	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-05-09	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-05-16	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-05-23	0.001	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-05-30	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-06-06	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-06-13	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-06-20	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-06-27	0.0	signal_nssp_ed_visits_weekly.tsv
+ED RSV	2026-07-04	0.0	signal_nssp_ed_visits_weekly.tsv
+Laboratory Influenza	2022-10-01	0.02	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-10-01	0.1009999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-10-08	0.027	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-10-08	0.124	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-10-15	0.035	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-10-15	0.145	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-10-22	0.054	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-10-22	0.165	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-10-29	0.084	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-10-29	0.182	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-11-05	0.128	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-11-05	0.19	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-11-12	0.149	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-11-12	0.1939999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-11-19	0.183	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-11-19	0.166	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-11-26	0.258	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-11-26	0.135	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-12-03	0.256	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-12-03	0.104	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-12-10	0.263	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-12-10	0.079	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-12-17	0.245	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-12-17	0.067	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-12-24	0.208	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-12-24	0.0559999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2022-12-31	0.149	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2022-12-31	0.051	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-01-07	0.086	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-01-07	0.048	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-01-14	0.046	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-01-14	0.04	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-01-21	0.0289999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-01-21	0.033	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-01-28	0.021	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-01-28	0.025	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-02-04	0.017	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-02-04	0.022	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-02-11	0.0139999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-02-11	0.018	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-02-18	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-02-18	0.016	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-02-25	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-02-25	0.0139999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-03-04	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-03-04	0.012	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-03-11	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-03-11	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-03-18	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-03-18	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-03-25	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-03-25	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-04-01	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-04-01	0.0069999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-04-08	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-04-08	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-04-15	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-04-15	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-04-22	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-04-22	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-04-29	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-04-29	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-05-06	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-05-06	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-05-13	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-05-13	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-05-20	0.012	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-05-20	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-05-27	0.012	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-05-27	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-06-03	0.013	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-06-03	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-06-10	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-06-10	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-06-17	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-06-17	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-06-24	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-06-24	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-07-01	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-07-01	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-07-08	0.012	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-07-08	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-07-15	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-07-15	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-07-22	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-07-22	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-07-29	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-07-29	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-08-05	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-08-05	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-08-12	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-08-12	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-08-19	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-08-19	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-08-26	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-08-26	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-09-02	0.0069999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-09-02	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-09-09	0.0069999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-09-09	0.013	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-09-16	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-09-16	0.0139999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-09-23	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-09-23	0.021	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-09-30	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-09-30	0.0289999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-10-07	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-10-07	0.037	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-10-14	0.013	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-10-14	0.048	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-10-21	0.015	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-10-21	0.059	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-10-28	0.018	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-10-28	0.076	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-11-04	0.026	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-11-04	0.091	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-11-11	0.04	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-11-11	0.106	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-11-18	0.049	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-11-18	0.118	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-11-25	0.059	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-11-25	0.127	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-12-02	0.07	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-12-02	0.119	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-12-09	0.098	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-12-09	0.12	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-12-16	0.134	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-12-16	0.122	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-12-23	0.173	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-12-23	0.1119999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2023-12-30	0.182	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2023-12-30	0.104	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-01-06	0.138	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-01-06	0.099	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-01-13	0.139	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-01-13	0.084	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-01-20	0.149	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-01-20	0.072	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-01-27	0.161	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-01-27	0.061	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-02-03	0.163	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-02-03	0.055	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-02-10	0.159	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-02-10	0.049	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-02-17	0.156	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-02-17	0.042	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-02-24	0.155	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-02-24	0.036	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-03-02	0.149	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-03-02	0.031	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-03-09	0.142	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-03-09	0.0279999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-03-16	0.119	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-03-16	0.024	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-03-23	0.104	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-03-23	0.02	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-03-30	0.092	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-03-30	0.016	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-04-06	0.075	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-04-06	0.013	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-04-13	0.0579999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-04-13	0.012	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-04-20	0.048	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-04-20	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-04-27	0.038	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-04-27	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-05-04	0.032	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-05-04	0.0069999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-05-11	0.023	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-05-11	0.0069999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-05-18	0.018	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-05-18	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-05-25	0.016	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-05-25	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-06-01	0.016	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-06-01	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-06-08	0.015	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-06-08	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-06-15	0.013	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-06-15	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-06-22	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-06-22	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-06-29	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-06-29	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-07-06	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-07-06	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-07-13	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-07-13	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-07-20	0.0069999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-07-20	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-07-27	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-07-27	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-08-03	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-08-03	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-08-10	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-08-10	0.002	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-08-17	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-08-17	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-08-24	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-08-24	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-08-31	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-08-31	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-09-07	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-09-07	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-09-14	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-09-14	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-09-21	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-09-21	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-09-28	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-09-28	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-10-05	0.0069999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-10-05	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-10-12	0.0069999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-10-12	0.012	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-10-19	0.0069999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-10-19	0.019	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-10-26	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-10-26	0.021	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-11-02	0.012	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-11-02	0.0289999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-11-09	0.015	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-11-09	0.036	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-11-16	0.021	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-11-16	0.055	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-11-23	0.0279999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-11-23	0.061	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-11-30	0.039	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-11-30	0.084	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-12-07	0.052	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-12-07	0.084	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-12-14	0.086	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-12-14	0.0969999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-12-21	0.142	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-12-21	0.11	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2024-12-28	0.182	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2024-12-28	0.109	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-01-04	0.182	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-01-04	0.108	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-01-11	0.184	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-01-11	0.089	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-01-18	0.238	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-01-18	0.081	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-01-25	0.287	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-01-25	0.078	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-02-01	0.316	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-02-01	0.068	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-02-08	0.314	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-02-08	0.067	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-02-15	0.278	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-02-15	0.063	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-02-22	0.239	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-02-22	0.064	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-03-01	0.195	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-03-01	0.061	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-03-08	0.159	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-03-08	0.0559999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-03-15	0.133	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-03-15	0.05	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-03-22	0.107	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-03-22	0.043	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-03-29	0.092	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-03-29	0.038	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-04-05	0.076	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-04-05	0.0289999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-04-12	0.062	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-04-12	0.024	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-04-19	0.053	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-04-19	0.018	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-04-26	0.044	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-04-26	0.015	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-05-03	0.033	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-05-03	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-05-10	0.026	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-05-10	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-05-17	0.021	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-05-17	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-05-24	0.019	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-05-24	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-05-31	0.019	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-05-31	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-06-07	0.016	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-06-07	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-06-14	0.012	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-06-14	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-06-21	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-06-21	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-06-28	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-06-28	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-07-05	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-07-05	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-07-12	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-07-12	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-07-19	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-07-19	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-07-26	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-07-26	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-08-02	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-08-02	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-08-09	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-08-09	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-08-16	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-08-16	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-08-23	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-08-23	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-08-30	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-08-30	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-09-06	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-09-06	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-09-13	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-09-13	0.003	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-09-20	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-09-20	0.004	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-09-27	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-09-27	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-10-04	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-10-04	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-10-11	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-10-11	0.0069999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-10-18	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-10-18	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-10-25	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-10-25	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-11-01	0.011	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-11-01	0.013	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-11-08	0.019	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-11-08	0.016	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-11-15	0.033	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-11-15	0.02	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-11-22	0.055	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-11-22	0.025	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-11-29	0.08	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-11-29	0.032	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-12-06	0.09	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-12-06	0.032	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-12-13	0.155	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-12-13	0.037	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-12-20	0.256	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-12-20	0.044	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2025-12-27	0.317	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2025-12-27	0.046	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-01-03	0.247	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-01-03	0.049	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-01-10	0.186	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-01-10	0.049	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-01-17	0.17	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-01-17	0.0559999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-01-24	0.175	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-01-24	0.068	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-01-31	0.174	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-01-31	0.073	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-02-07	0.18	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-02-07	0.076	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-02-14	0.183	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-02-14	0.0819999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-02-21	0.18	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-02-21	0.086	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-02-28	0.157	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-02-28	0.088	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-03-07	0.153	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-03-07	0.085	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-03-14	0.138	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-03-14	0.087	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-03-21	0.1119999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-03-21	0.078	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-03-28	0.096	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-03-28	0.068	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-04-04	0.078	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-04-04	0.0579999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-04-11	0.059	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-04-11	0.05	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-04-18	0.045	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-04-18	0.04	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-04-25	0.034	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-04-25	0.033	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-05-02	0.03	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-05-02	0.026	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-05-09	0.025	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-05-09	0.021	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-05-16	0.019	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-05-16	0.016	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-05-23	0.015	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-05-23	0.015	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-05-30	0.013	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-05-30	0.012	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-06-06	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-06-06	0.01	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-06-13	0.008	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-06-13	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-06-20	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-06-20	0.009	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-06-27	0.005	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-06-27	0.0069999999999999	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory Influenza	2026-07-04	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz
+Laboratory RSV	2026-07-04	0.006	data/snapshots/cdc_seuz-s2cv/2026-07-15T160605Z.csv.gz

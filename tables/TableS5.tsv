@@ -1,0 +1,10 @@
+Outcome	Contrast	Improvement	Block 2 CI	Block 4 CI	Block 8 CI	Block 13 CI	Unsegmented block 4 CI
+FluSurv-NET	AR → AR + ED	−0.496	−0.967 to −0.017	−1.041 to 0.132	−1.014 to 0.158	−1.103 to 0.154	−1.050 to 0.089
+FluSurv-NET	AR → AR + wILI	0.266	0.059 to 0.496	0.064 to 0.567	0.098 to 0.511	0.175 to 0.504	0.069 to 0.554
+FluSurv-NET	AR → AR + laboratory	0.372	−0.508 to 1.544	−0.660 to 1.703	−0.691 to 1.870	−0.764 to 1.921	−0.656 to 1.779
+FluSurv-NET	AR + wILI → AR + wILI + laboratory	0.138	−0.709 to 0.988	−0.850 to 1.346	−0.908 to 1.578	−0.843 to 1.464	−0.814 to 1.393
+FluSurv-NET	AR + wILI + laboratory → AR + wILI + laboratory + ED	−0.222	−0.485 to −0.010	−0.538 to −0.006	−0.594 to −0.057	−0.575 to −0.093	−0.555 to 0.010
+RSV-NET	AR → AR + ED	−0.059	−0.105 to −0.007	−0.119 to 0.005	−0.134 to 0.011	−0.141 to 0.005	−0.119 to 0.005
+RSV-NET	AR → AR + laboratory	0.096	0.044 to 0.157	0.039 to 0.159	0.041 to 0.158	0.044 to 0.151	0.039 to 0.159
+RSV-NET	AR → AR + laboratory + ED	0.086	0.042 to 0.137	0.040 to 0.137	0.037 to 0.135	0.040 to 0.129	0.040 to 0.137
+RSV-NET	AR + laboratory → AR + laboratory + ED	−0.010	−0.048 to 0.029	−0.044 to 0.027	−0.035 to 0.020	−0.033 to 0.010	−0.044 to 0.027

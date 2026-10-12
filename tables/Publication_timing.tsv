@@ -1,0 +1,5 @@
+Source	Date used	Historical publication information	Handling in this study
+RESP-NET	CDC week-ending date	Weekly public updates; recent and historical values may be revised	Retrieved snapshot; original values at each forecast date not reconstructed
+NSSP ED	CDC week-ending Saturday	Metadata specify weekly Friday updates; current public export	Earlier-week indicator values from retrieved snapshot
+CDC laboratory positivity	CDC week_end	Provisional laboratory percentages subject to revision	Earlier-week indicator values from retrieved snapshot
+ILINet wILI via Delphi	MMWR epidemiologic week	Retrieved FluView values may incorporate revisions	MMWR-calendar join; earlier-week values from snapshot

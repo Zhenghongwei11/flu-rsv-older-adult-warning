@@ -1,0 +1,11 @@
+Pathogen	Model label	Predictors added to AR
+Influenza and RSV	AR	None; AR includes y(t−1), y(t−2), sin52 and cos52
+Influenza	AR + ED	Influenza ED percentage among adults aged ≥65 years at t−1 and t−2
+Influenza	AR + wILI	All-age national wILI at t−1 and t−2
+Influenza	AR + laboratory	All-age influenza laboratory positivity at t−1 and t−2
+Influenza	AR + wILI + laboratory	Both wILI and influenza laboratory positivity at t−1 and t−2
+Influenza	AR + wILI + ED	Both wILI and influenza ED percentage at t−1 and t−2
+Influenza	AR + wILI + laboratory + ED	All three named indicators at t−1 and t−2
+RSV	AR + ED	RSV ED percentage among adults aged ≥65 years at t−1 and t−2
+RSV	AR + laboratory	All-age RSV laboratory positivity at t−1 and t−2
+RSV	AR + laboratory + ED	Both RSV laboratory positivity and RSV ED percentage at t−1 and t−2

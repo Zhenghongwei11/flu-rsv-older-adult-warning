@@ -1,0 +1,7 @@
+Outcome	Indicator	Observed source span	Observed outcome overlap	Observed/full outcome weeks	Outside source span	Missing/overlap weeks
+FluSurv-NET	wILI	2010-01-09–2026-07-04	2018-10-06–2026-07-04	252/252 (100.0%)	0	0/252
+FluSurv-NET	Laboratory Influenza	2022-10-01–2026-07-04	2022-10-08–2026-07-04	154/252 (61.1%)	98	0/154
+FluSurv-NET	ED influenza	2022-10-01–2026-07-04	2022-10-08–2026-07-04	154/252 (61.1%)	98	0/154
+RSV-NET	wILI	2010-01-09–2026-07-04	2018-10-06–2026-07-04	363/363 (100.0%)	0	0/363
+RSV-NET	Laboratory RSV	2022-10-01–2026-07-04	2022-10-01–2026-07-04	197/363 (54.3%)	166	0/197
+RSV-NET	ED RSV	2022-10-01–2026-07-04	2022-10-01–2026-07-04	197/363 (54.3%)	166	0/197

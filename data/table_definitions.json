@@ -1,0 +1,218 @@
+{
+  "title": "Incremental predictive value of public surveillance indicators for RSV and influenza hospitalizations in older adults",
+  "tables": {
+    "1": {
+      "title": "Observed source availability and overlap with hospitalization outcomes",
+      "notes": [
+        "Availability is calculated before filling. Source dates describe the retrieved records used in this study. Structural unavailability means an observed outcome week falls outside the indicator's source period; within-overlap missingness means the outcome is observed inside that period but the indicator is missing. Full-outcome availability divides observed outcome–indicator intersections by all observed outcome weeks. The two outcomes have different observed-week denominators, so the same wILI source gives different counts."
+      ]
+    },
+    "2": {
+      "title": "Complete model definitions",
+      "notes": [
+        "All regressions use within-training standardization, an unpenalized intercept, nested penalty selection, and truncation of negative forecasts to zero. All candidate labels explicitly state the included indicator combinations."
+      ]
+    },
+    "3": {
+      "title": "Common-week MAE comparisons at one- to four-week leads",
+      "notes": [
+        "Positive improvements favor the candidate model over AR. Each pathogen, lead, and end-exclusion setting uses one common set of forecast origins for all models. The one-week, four-observation-exclusion rows also appear in main Table 2. All rates and MAE differences are in hospitalizations per 100,000 adults aged ≥65 years per week."
+      ]
+    },
+    "4": {
+      "title": "Conditional indicator comparisons",
+      "notes": [
+        "Improvement is MAE(reference model) minus MAE(model with the additional indicator). The named reference need not be AR. Comparisons use the same common forecast weeks as Table S3; therefore adding laboratory positivity to wILI can be assessed separately from adding ED to an existing laboratory model. CIs use calendar-segmented four-week blocks."
+      ]
+    },
+    "5": {
+      "title": "Block-length and calendar-segmentation sensitivity",
+      "notes": [
+        "Point estimates are unchanged across resampling choices for a given comparison. Interval limits depend on block length and whether resampling respects gaps in observed evaluation weeks. Primary CIs use four-week blocks sampled within calendar segments."
+      ]
+    },
+    "6": {
+      "title": "One-week forecast comparisons retaining the final four outcome observations",
+      "notes": [
+        "These comparisons retain the final four observed outcome weeks. Each model uses all its eligible historical training observations. The corresponding comparisons with those weeks excluded are in Tables 2 and S3–S4. CIs use four-week blocks sampled within contiguous calendar segments; all rates and differences are per 100,000 adults aged ≥65 years per week."
+      ]
+    },
+    "7": {
+      "title": "Descriptive calibration on common one-week evaluation weeks",
+      "notes": [
+        "RMSE is root mean squared error. Mean bias is predicted minus observed hospitalization rate. Calibration intercept and slope were obtained by regressing observed rates on predicted rates on these evaluation weeks; ideal values are 0 and 1, respectively. These descriptive summaries do not assess prediction-interval coverage and have no uncertainty intervals. All rate-scale measures are per 100,000 adults aged ≥65 years per week. The last four observed outcome weeks are excluded."
+      ]
+    },
+    "8": {
+      "title": "Training-matched forecast comparisons at one- to four-week leads",
+      "notes": [
+        "Within each contrast, reference and candidate use the same complete historical training pairs at every forecast origin and during penalty selection. Evaluation weeks match the main analysis; four terminal outcome observations are excluded. Positive improvements favor the candidate. Reference MAEs can differ between rows because eligibility is defined by the candidate: for example, the wILI comparison retains earlier history that is unavailable to laboratory or ED models. The AR+laboratory to AR+wILI+laboratory+ED contrast adds both wILI and ED. Rate-scale measures are hospitalizations per 100,000 adults aged ≥65 years per week. CIs use calendar-segmented four-week blocks."
+      ]
+    },
+    "9": {
+      "title": "Training-matched one-week comparisons retaining the final four observations",
+      "notes": [
+        "These one-week comparisons retain the four terminal outcome observations and match training pairs between the models in each contrast. Other rules are as in Table S8. Complete one- to four-week results for both end-exclusion settings are included in the accompanying analytical tables."
+      ]
+    },
+    "10": {
+      "title": "Block-length sensitivity for training-matched comparisons",
+      "notes": [
+        "All one-week contrasts and the longer-lead influenza contrasts highlighted in the main text are shown. Lead time is measured in weeks. Point estimates are in Table S8 and do not change with resampling. The final four observed outcome weeks are excluded. Calendar-segmented blocks are primary; the unsegmented variant is a sensitivity analysis. Interval limits are per 100,000 adults aged ≥65 years per week. Full uncertainty outputs are provided with the analytical tables."
+      ]
+    },
+    "11": {
+      "title": "Seasonal-form sensitivity of one-week comparisons, final four observations excluded",
+      "notes": [
+        "The final four observed outcome rows are excluded. All seasonal forms use the same common one-week forecast dates within each pathogen. Annual harmonic denotes the primary sine and cosine terms; periodic spline uses six equally spaced annual phase nodes. AR retains the two hospitalization lags under every seasonal form. Full history uses each model's eligible historical observations; matched training uses the candidate's complete observations for both fitting and inner validation. Improvements are reference MAE minus candidate MAE, in hospitalizations per 100,000 adults aged ≥65 years per week. CIs use four-week calendar-segmented block resampling. Complete MAEs, paired forecasts and alternative resampling intervals are provided in the reproducibility materials."
+      ]
+    },
+    "12": {
+      "title": "Seasonal-form sensitivity of one-week comparisons, final four observations retained",
+      "notes": [
+        "The final four observed outcome rows are retained. All seasonal forms use the same common one-week forecast dates within each pathogen. Annual harmonic denotes the primary sine and cosine terms; periodic spline uses six equally spaced annual phase nodes. AR retains the two hospitalization lags under every seasonal form. Full history uses each model's eligible historical observations; matched training uses the candidate's complete observations for both fitting and inner validation. Improvements are reference MAE minus candidate MAE, in hospitalizations per 100,000 adults aged ≥65 years per week. CIs use four-week calendar-segmented block resampling. Complete MAEs, paired forecasts and alternative resampling intervals are provided in the reproducibility materials."
+      ]
+    }
+  },
+  "abbreviations": "AR, autoregressive seasonal model; CI, confidence interval; ED, emergency department; ILINet, U.S. Outpatient Influenza-like Illness Surveillance Network; MAE, mean absolute error; MMWR, Morbidity and Mortality Weekly Report; NREVSS, National Respiratory and Enteric Virus Surveillance System; NSSP, National Syndromic Surveillance Program; RESP-NET, Respiratory Virus Hospitalization Surveillance Network; RMSE, root mean squared error; RSV, respiratory syncytial virus; wILI, weighted influenza-like illness.",
+  "Table1": [
+    [
+      "Measure and role",
+      "Exact source",
+      "Population and geographic scope",
+      "Definition and denominator",
+      "Observed source period used"
+    ],
+    [
+      "Influenza hospitalization outcome",
+      "RESP-NET *Rates and Clinical Data*, FluSurv-NET; CDC `kvib-3txy` [19–20]",
+      "Adults aged ≥65 years; overall participating network catchments",
+      "Laboratory-confirmed influenza-associated hospitalizations per 100,000 residents aged ≥65 years",
+      "October 6, 2018–July 4, 2026; 252 observed weeks"
+    ],
+    [
+      "RSV hospitalization outcome",
+      "Same RESP-NET export, RSV-NET; CDC `kvib-3txy` [19]",
+      "Adults aged ≥65 years; overall participating network catchments",
+      "Laboratory-confirmed RSV-associated hospitalizations per 100,000 residents aged ≥65 years",
+      "October 6, 2018–July 4, 2026; 363 observed weeks"
+    ],
+    [
+      "Pathogen-specific ED indicator",
+      "NSSP *Emergency Department Visits – COVID-19, Flu, RSV, Combined – by Demographic Category*; CDC `7xva-uux8` [24]",
+      "Adults aged ≥65 years; U.S. aggregate of participating EDs",
+      "Visits associated with the respective pathogen divided by all ED visits in this age group, ×100",
+      "October 1, 2022–July 4, 2026; 197 weeks per pathogen"
+    ],
+    [
+      "Outpatient ILI indicator",
+      "CDC ILINet, national wILI via Delphi Epidata FluView [21–22]",
+      "All ages; national population-weighted outpatient indicator",
+      "Percentage of reported outpatient visits meeting the ILI definition, weighted by population",
+      "January 9, 2010–July 4, 2026; 861 weeks; outcome-period overlap October 6, 2018–July 4, 2026"
+    ],
+    [
+      "Influenza laboratory indicator",
+      "CDC *Percent of Tests Positive for Viral Respiratory Pathogens*; `seuz-s2cv` [23]",
+      "All ages; nationally aggregated clinical laboratory reports",
+      "Influenza-positive tests divided by all influenza tests, ×100; CDC-calculated percentage",
+      "October 1, 2022–July 4, 2026; 197 weeks"
+    ],
+    [
+      "RSV laboratory indicator",
+      "Same viral pathogen export; `seuz-s2cv`, NREVSS [23]",
+      "All ages; nationally aggregated laboratory reports",
+      "RSV-positive nucleic acid amplification tests divided by all such RSV tests, ×100; CDC-calculated percentage",
+      "October 1, 2022–July 4, 2026; 197 weeks"
+    ]
+  ],
+  "TableS2": [
+    [
+      "Pathogen",
+      "Model label",
+      "Predictors added to AR"
+    ],
+    [
+      "Influenza and RSV",
+      "AR",
+      "None; AR includes y(t−1), y(t−2), sin52 and cos52"
+    ],
+    [
+      "Influenza",
+      "AR + ED",
+      "Influenza ED percentage among adults aged ≥65 years at t−1 and t−2"
+    ],
+    [
+      "Influenza",
+      "AR + wILI",
+      "All-age national wILI at t−1 and t−2"
+    ],
+    [
+      "Influenza",
+      "AR + laboratory",
+      "All-age influenza laboratory positivity at t−1 and t−2"
+    ],
+    [
+      "Influenza",
+      "AR + wILI + laboratory",
+      "Both wILI and influenza laboratory positivity at t−1 and t−2"
+    ],
+    [
+      "Influenza",
+      "AR + wILI + ED",
+      "Both wILI and influenza ED percentage at t−1 and t−2"
+    ],
+    [
+      "Influenza",
+      "AR + wILI + laboratory + ED",
+      "All three named indicators at t−1 and t−2"
+    ],
+    [
+      "RSV",
+      "AR + ED",
+      "RSV ED percentage among adults aged ≥65 years at t−1 and t−2"
+    ],
+    [
+      "RSV",
+      "AR + laboratory",
+      "All-age RSV laboratory positivity at t−1 and t−2"
+    ],
+    [
+      "RSV",
+      "AR + laboratory + ED",
+      "Both RSV laboratory positivity and RSV ED percentage at t−1 and t−2"
+    ]
+  ],
+  "Publication_timing": [
+    [
+      "Source",
+      "Date used",
+      "Historical publication information",
+      "Handling in this study"
+    ],
+    [
+      "RESP-NET",
+      "CDC week-ending date",
+      "Weekly public updates; recent and historical values may be revised",
+      "Retrieved snapshot; original values at each forecast date not reconstructed"
+    ],
+    [
+      "NSSP ED",
+      "CDC week-ending Saturday",
+      "Metadata specify weekly Friday updates; current public export",
+      "Earlier-week indicator values from retrieved snapshot"
+    ],
+    [
+      "CDC laboratory positivity",
+      "CDC week_end",
+      "Provisional laboratory percentages subject to revision",
+      "Earlier-week indicator values from retrieved snapshot"
+    ],
+    [
+      "ILINet wILI via Delphi",
+      "MMWR epidemiologic week",
+      "Retrieved FluView values may incorporate revisions",
+      "MMWR-calendar join; earlier-week values from snapshot"
+    ]
+  ]
+}

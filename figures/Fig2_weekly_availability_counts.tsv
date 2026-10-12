@@ -1,0 +1,9 @@
+outcome	signal	n_source_in_display_window	n_overlap	outcome_n
+Influenza	hospitalization	252	252	252
+Influenza	ed_influenza_pct_65p	197	154	252
+Influenza	flu_positivity	197	154	252
+Influenza	wili	405	252	252
+RSV	hospitalization	363	363	363
+RSV	ed_rsv_pct_65p	197	197	363
+RSV	rsv_positivity	197	197	363
+RSV	wili	405	363	363
